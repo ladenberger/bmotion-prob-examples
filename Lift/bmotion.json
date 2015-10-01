@@ -1,0 +1,14 @@
+{
+  "views": [
+    {
+      "id": "lift",
+      "name": "Lift environment",
+      "template": "lift.html",
+      "autoOpen": [
+        "CurrentTrace",
+        "Events"
+      ]
+    }
+  ],
+  "model": "model/m3.bcm"
+}

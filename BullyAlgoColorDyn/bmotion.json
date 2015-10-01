@@ -1,0 +1,18 @@
+{
+
+  "name": "bully",
+  "model": "model/bully.csp",
+  "tool": "CSPAnimation",
+  "views": [
+    {
+      "id": "bully",
+      "name": "Bully visualization",
+      "template": "bully.html",
+      "autoOpen": [
+        "CurrentTrace",
+        "Events"
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,10 @@
+{
+  "name": "phils",
+  "template": "phils.html",
+  "model": "model/phils.csp",
+  "tool": "CSPAnimation",
+  "autoOpen": [
+    "CurrentTrace",
+    "Events"
+  ]
+}

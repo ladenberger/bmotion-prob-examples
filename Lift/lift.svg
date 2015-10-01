@@ -1,0 +1,23 @@
+<svg width="363" height="412" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="414" width="365" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <g id="lift">
+   <rect fill="#ffffff" stroke="#000000" x="70" y="33" width="192" height="331" id="svg_1"/>
+   <line fill="#ffffff" stroke="#000000" stroke-dasharray="2,2" x1="31" y1="263" x2="301" y2="263" id="svg_2"/>
+   <line fill="#ffffff" stroke="#000000" stroke-dasharray="2,2" x1="31" y1="153" x2="301" y2="153" id="svg_4"/>
+   <rect fill="#ffffff" stroke="#000000" id="door" height="80" width="64" y="272" x="133"/>
+   <g id="request">
+   <text data-floor="2" fill="#000000" stroke="#ffffff" stroke-width="0" stroke-dasharray="2,2" font-family="Monospace" text-anchor="middle" x="311" y="93" font-size="14" xml:space="preserve" font-weight="bold" id="label_floor_1">Floor 2</text>
+   <text data-floor="1" fill="#000000" stroke="#ffffff" stroke-width="0" stroke-dasharray="2,2" font-family="Monospace" text-anchor="middle" x="311" y="215" font-size="14" xml:space="preserve" font-weight="bold" id="label_floor_0">Floor 1</text>
+   <text data-floor="0" fill="#000000" stroke="#ffffff" stroke-width="0" stroke-dasharray="2,2" font-family="Monospace" text-anchor="middle" x="311" y="320" font-size="14" xml:space="preserve" font-weight="bold" id="label_floor_-1">Floor 0</text>
+   </g>
+   <text fill="#000000" stroke="#ffffff" stroke-width="0" font-family="'Helvetica, Arial, sans-serif'" xml:space="preserve" text-anchor="left" font-size="15px" id="txt_floor" y="384.38983" x="74.14407" font-style="italic">CUR_FLOOR</text>
+  </g>
+  <text font-weight="bold" fill="#000000" stroke="#000000" stroke-width="0" font-family="'Courier New', Courier, monospace" xml:space="preserve" text-anchor="left" font-size="15px" id="txt_direction" y="400.23264" x="75.52907">DIRECTION</text>
+ </g>
+</svg>
