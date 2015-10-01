@@ -1,1 +1,1 @@
-# bmotion-prob-examples
+# BMotion Studio for ProB Examples
