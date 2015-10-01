@@ -1,0 +1,14 @@
+{
+  "views": [
+    {
+      "id": "performance",
+      "name": "performance",
+      "template": "performance.html",
+      "autoOpen": [
+        "CurrentTrace",
+        "Events"
+      ]
+    }
+  ],
+  "model": "model/performance.bcm"
+}

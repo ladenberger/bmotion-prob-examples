@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poIdentifier name="x" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#EVTALLHYPy"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(λy⦂ℤ·y∈1 ‥ 500 ∣ TRUE)∈1 ‥ 500 → BOOL" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTy" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poIdentifier name="x'" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPy" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#EVTIDENTy" org.eventb.core.poStamp="3"/>
+<org.eventb.core.poSequent name="change_FALSE/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#EVTALLHYPz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(λy⦂ℤ·y∈1 ‥ 500 ∣ FALSE)∈1 ‥ 500 → BOOL" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.event#_qHpGUNhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poSequent#change_FALSE\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTz" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="12">
+<org.eventb.core.poIdentifier name="x'" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPz" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#EVTIDENTz" org.eventb.core.poStamp="12"/>
+<org.eventb.core.poSequent name="change_TRUE/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#EVTALLHYP{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(λy⦂ℤ·y∈1 ‥ 500 ∣ TRUE)∈1 ‥ 500 → BOOL" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.event#_dF7jgNhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poSequent#change_TRUE\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENT{" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="12">
+<org.eventb.core.poIdentifier name="x'" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYP{" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#EVTIDENT{" org.eventb.core.poStamp="12"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/performance/performance.bpo|org.eventb.core.poFile#performance|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="x∈1 ‥ 500 → BOOL" org.eventb.core.source="/performance/performance.bum|org.eventb.core.machineFile#performance|org.eventb.core.invariant#_HmaG4NhLEeS6auz2-GcuNg"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

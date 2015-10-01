@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.texttools.text_lastmodified="1427888770988" org.eventb.texttools.text_representation="machine performance&#10;&#10;variables x&#10;&#10;invariants&#10;&#9;@inv1 x ∈ 1‥500 →  BOOL&#10;&#10;events&#10;  event INITIALISATION&#10;  &#9;then&#10;  &#9;&#9;@act1 x ≔ (λ y · y ∈ 1‥500 ∣ TRUE)&#10;  end&#10;&#10;  event change_FALSE&#10;  &#9;then&#10;  &#9;&#9;@act1 x ≔ (λ y · y ∈ 1‥500 ∣ FALSE )&#10;  end&#10;&#10;  event change_TRUE&#10;  &#9;then&#10;  &#9;&#9;@act1 x ≔ (λ y · y ∈ 1‥500 ∣ TRUE )&#10;  end&#10;&#10;end&#10;" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="_Wx4LgNhLEeS6auz2-GcuNg" org.eventb.core.assignment="x ≔ (λ y · y ∈ 1‥500 ∣ TRUE)" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="_HmZf0dhLEeS6auz2-GcuNg" org.eventb.core.identifier="x"/>
+<org.eventb.core.invariant name="_HmaG4NhLEeS6auz2-GcuNg" org.eventb.core.label="inv1" org.eventb.core.predicate="x ∈ 1‥500 →  BOOL"/>
+<org.eventb.core.event name="_qHpGUNhLEeS6auz2-GcuNg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="change_FALSE">
+<org.eventb.core.action name="_qHptYNhLEeS6auz2-GcuNg" org.eventb.core.assignment="x ≔ (λ y · y ∈ 1‥500 ∣ FALSE )" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_dF7jgNhLEeS6auz2-GcuNg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="change_TRUE">
+<org.eventb.core.action name="_dF8KkNhLEeS6auz2-GcuNg" org.eventb.core.assignment="x ≔ (λ y · y ∈ 1‥500 ∣ TRUE )" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>
