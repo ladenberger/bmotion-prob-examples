@@ -1,7 +1,7 @@
-requirejs(['../../../app/bmotion.config'], function () {
+requirejs(['../../bmotion-prob-frontend/app/bmotion.config'], function () {
 
     requirejs.config({
-        baseUrl: "../../../app/"
+        baseUrl: "../../bmotion-prob-frontend/app/"
     });
 
     requirejs(['bmotion.template'], function (bms) {
