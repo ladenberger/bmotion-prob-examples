@@ -7,6 +7,7 @@
       "id": "crossing",
       "name": "Crossing visualization",
       "template": "crossing.html",
+      "observers": "views/crossing.observers.json",
       "autoOpen": [
         "CurrentTrace",
         "Events"
