@@ -1,14 +1,16 @@
 {
+  "model": "model/m3.bcm",
   "views": [
     {
       "id": "lift",
       "name": "Lift environment",
       "template": "lift.html",
+      "observers": "views/lift.observers.json",
+      "events": "views/lift.events.json",
       "autoOpen": [
         "CurrentTrace",
         "Events"
       ]
     }
-  ],
-  "model": "model/m3.bcm"
+  ]
 }

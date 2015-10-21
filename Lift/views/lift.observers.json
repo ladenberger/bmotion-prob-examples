@@ -1,0 +1,48 @@
+{
+    "observers": [
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "floor"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text('Current Floor: ' + values[0]);",
+                "selector": "#txt_floor"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "move"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text('Moving: ' + values[0]);",
+                "selector": "#txt_direction"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "floor"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "switch (values[0]) {\n  case \"0\":\n    origin.attr(\"y\", \"250\");\n    break;\n  case \"1\":\n    origin.attr(\"y\", \"145\");\n    break;\n  case \"2\":\n    origin.attr(\"y\", \"30\");\n    break;\n}",
+                "selector": "#door"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "door"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if (values[0] === \"open\") {\n  return {\"fill\": \"white\"};\n} else {\n  return {\"fill\": \"lightgray\"};\n}",
+                "selector": "#door"
+            }
+        }
+    ]
+}

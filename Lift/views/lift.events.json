@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "type": "executeEvent",
+            "data": {
+                "selector": "#txt_direction",
+                "events": [
+                    {
+                        "name": "switch_move_up"
+                    },
+                    {
+                        "name": "switch_move_dn"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "selector": "#door",
+                "events": [
+                    {
+                        "name": "close_door",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "open_door",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "move_serve",
+                        "predicate": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
