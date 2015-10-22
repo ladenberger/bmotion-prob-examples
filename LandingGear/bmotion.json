@@ -1,0 +1,23 @@
+{
+  "model": "model/R8Vis_VisualisationRefinement.bcm",
+  "views": [
+    {
+      "id": "landing",
+      "name": "ABZ 2014 Case Study: Landing Gear System (Hydraulic Architecture)",
+      "template": "landinggear.html",
+      "autoOpen": [
+        "CurrentTrace",
+        "Events"
+      ],
+      "width": 1100,
+      "height": 825
+    },
+    {
+      "id": "env",
+      "name": "ABZ 2014 Case Study: Landing Gear System (Environment)",
+      "template": "landinggear_env.html",
+      "width": 500,
+      "height": 500
+    }
+  ]
+}
