@@ -3,7 +3,6 @@
         {
             "type": "executeEvent",
             "data": {
-                "selector": "#txt_direction",
                 "events": [
                     {
                         "name": "switch_move_up"
@@ -11,13 +10,15 @@
                     {
                         "name": "switch_move_dn"
                     }
-                ]
+                ],
+                "tooltip": true,
+                "label": "\n                            var predicateStr = event.predicate ? '(' + event.predicate + ')' : '';\n                            return '<span aria-hidden=\"true\"> ' + event.name + predicateStr + '</span>';\n                        ",
+                "selector": "#txt_direction"
             }
         },
         {
             "type": "executeEvent",
             "data": {
-                "selector": "#door",
                 "events": [
                     {
                         "name": "close_door",
@@ -31,7 +32,10 @@
                         "name": "move_serve",
                         "predicate": ""
                     }
-                ]
+                ],
+                "tooltip": true,
+                "label": "\n                            var predicateStr = event.predicate ? '(' + event.predicate + ')' : '';\n                            return '<span aria-hidden=\"true\"> ' + event.name + predicateStr + '</span>';\n                        ",
+                "selector": "#door"
             }
         }
     ]

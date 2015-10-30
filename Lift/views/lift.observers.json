@@ -29,8 +29,8 @@
                     "floor"
                 ],
                 "cause": "AnimationChanged",
-                "trigger": "switch (values[0]) {\n  case \"0\":\n    origin.attr(\"y\", \"250\");\n    break;\n  case \"1\":\n    origin.attr(\"y\", \"145\");\n    break;\n  case \"2\":\n    origin.attr(\"y\", \"30\");\n    break;\n}",
-                "selector": "#door"
+                "trigger": "var lift = origin.find(\"#door\")\nswitch (values[0]) {\n  case \"0\":\n    lift.attr(\"y\", \"250\");\n    break;\n  case \"1\":\n    lift.attr(\"y\", \"145\");\n    break;\n  case \"2\":\n    lift.attr(\"y\", \"30\");\n    break;\n}",
+                "selector": "#lift"
             }
         },
         {
