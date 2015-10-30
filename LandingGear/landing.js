@@ -44,37 +44,37 @@ requirejs(['bmotion.template'], function (bms) {
     // -----------------------------------
     ["front", "left", "right"].forEach(function (v) {
 
-        bms.observe('formula', {
-            selector: "#" + v + "_gear_cylinder_l",
-            formulas: ["(gears(" + v + ") = gear_moving & valve_extend_gear = valve_open) or (gears(" + v + ") = extended & valve_extend_gear = valve_open) or (gears(" + v + ") = retracted & valve_retract_gear = valve_open)"],
-            trigger: function (origin, r) {
-                origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-            }
-        });
+        /*bms.observe('formula', {
+         selector: "#" + v + "_gear_cylinder_l",
+         formulas: ["(gears(" + v + ") = gear_moving & valve_extend_gear = valve_open) or (gears(" + v + ") = extended & valve_extend_gear = valve_open) or (gears(" + v + ") = retracted & valve_retract_gear = valve_open)"],
+         trigger: function (origin, r) {
+         origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
+         }
+         });
 
-        bms.observe('formula', {
-            selector: "#" + v + "_gear_cylinder_r",
-            formulas: ["(gears(" + v + ") = gear_moving & valve_extend_gear = valve_open) or (gears(" + v + ") = extended & valve_extend_gear = valve_open) or (gears(" + v + ") = retracted & valve_retract_gear = valve_open)"],
-            trigger: function (origin, r) {
-                origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-            }
-        });
+         bms.observe('formula', {
+         selector: "#" + v + "_gear_cylinder_r",
+         formulas: ["(gears(" + v + ") = gear_moving & valve_extend_gear = valve_open) or (gears(" + v + ") = extended & valve_extend_gear = valve_open) or (gears(" + v + ") = retracted & valve_retract_gear = valve_open)"],
+         trigger: function (origin, r) {
+         origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
+         }
+         });
 
-        bms.observe('formula', {
-            selector: "#" + v + "_door_cylinder_l",
-            formulas: ["(doors(" + v + ") = door_moving & valve_open_door = valve_open) or (doors(" + v + ") = open & valve_open_door = valve_open) or (doors(" + v + ") = closed & valve_close_door = valve_open)"],
-            trigger: function (origin, r) {
-                origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-            }
-        });
+         bms.observe('formula', {
+         selector: "#" + v + "_door_cylinder_l",
+         formulas: ["(doors(" + v + ") = door_moving & valve_open_door = valve_open) or (doors(" + v + ") = open & valve_open_door = valve_open) or (doors(" + v + ") = closed & valve_close_door = valve_open)"],
+         trigger: function (origin, r) {
+         origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
+         }
+         });
 
-        bms.observe('formula', {
-            selector: "#" + v + "_door_cylinder_r",
-            formulas: ["(doors(" + v + ") = door_moving & valve_close_door = valve_open) or (doors(" + v + ") = open & valve_open_door = valve_open) or (doors(" + v + ") = closed & valve_close_door = valve_open)"],
-            trigger: function (origin, r) {
-                origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-            }
-        });
+         bms.observe('formula', {
+         selector: "#" + v + "_door_cylinder_r",
+         formulas: ["(doors(" + v + ") = door_moving & valve_close_door = valve_open) or (doors(" + v + ") = open & valve_open_door = valve_open) or (doors(" + v + ") = closed & valve_close_door = valve_open)"],
+         trigger: function (origin, r) {
+         origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
+         }
+         });*/
 
         bms.observe('formula', {
             selector: "#" + v + "_door_cylinder",
