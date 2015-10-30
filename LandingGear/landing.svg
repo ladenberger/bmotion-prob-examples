@@ -61,7 +61,7 @@
                         width="0.25"
                         height="0"
                         id="svg_26"/>
-                <g data-refinement="Ref1_Valve">
+                <g data-refinement="R4GearsDoorsHandleValves">
                     <text
            stroke="#ff0000"
            xml:space="preserve"
@@ -932,7 +932,7 @@
                     </g>
                 </g>
                 <g
-                        id="lights" data-refinement="Ref6_CockpitLights">
+                        id="lights" data-refinement="R7GearsDoorsHandleValvesControllerSwitchLights">
                     <rect
                             id="svg_22"
                             stroke="#1c93a5"
@@ -1034,7 +1034,26 @@
                             fill="#ffc9c9"/>
                 </g>
                 <g
-                        id="sensors" data-refinement="Ref3_ControllerSensors">
+                        id="sensors" data-refinement="R8GearsDoorsHandleValvesControllerSwitchLightsSensors">
+                             <path
+                                         fill="none"
+                                         stroke-dasharray="null"
+                                         stroke-linejoin="null"
+                                         stroke-linecap="null"
+                                         d="m208.5,46l-96.25,0l0,26.5"
+                                         id="sensor_handle"
+                                         marker-end="url(#se_marker_end_svg_45)"
+                                         stroke="#ff0000"/>
+                                 <rect
+                                         id="svg_5-6"
+                                         height="2.5"
+                                         width="2.5"
+                                         y="72.249992"
+                                         x="111.125"
+                                         stroke-linecap="null"
+                                         stroke-linejoin="null"
+                                         style="fill:#88d2f7;stroke:#1c93a5;stroke-dasharray:none"/>
+
                     <rect
                             id="svg_92"
                             height="2.5"
@@ -1425,7 +1444,7 @@
                     </g>
                 </g>
                 <g
-                        id="svg_28" data-refinement="Ref2_ControllerOutputs">
+                        id="svg_28" data-refinement="R5GearsDoorsHandleValvesController">
                     <text
            transform="rotate(-90 24.726600646972717,447.7269897460938) "
            xml:space="preserve"
@@ -1763,7 +1782,7 @@
                     </g>
                 </g>
                 <g
-                        id="svg_29" data-refinement="Ref5_Switch">
+                        id="svg_29" data-refinement="R6GearsDoorsHandleValvesControllerSwitch">
                     <rect
                             id="con_stimulate_general_valve"
                             stroke="#1c93a5"
@@ -2087,25 +2106,7 @@
                     </g>
                 </g>
                 <g
-                        id="svg_30" data-refinement="Ref4_ControllerHandle">
-                    <path
-                            fill="none"
-                            stroke-dasharray="null"
-                            stroke-linejoin="null"
-                            stroke-linecap="null"
-                            d="m208.5,46l-96.25,0l0,26.5"
-                            id="sensor_handle"
-                            marker-end="url(#se_marker_end_svg_45)"
-                            stroke="#ff0000"/>
-                    <rect
-                            id="svg_5-6"
-                            height="2.5"
-                            width="2.5"
-                            y="72.249992"
-                            x="111.125"
-                            stroke-linecap="null"
-                            stroke-linejoin="null"
-                            style="fill:#88d2f7;stroke:#1c93a5;stroke-dasharray:none"/>
+                        id="svg_30" data-refinement="R2GearDoorHandle">
                     <image
                             xlink:href="img/handle_down.png"
                             id="ev_handle"

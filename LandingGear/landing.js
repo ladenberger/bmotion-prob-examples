@@ -12,6 +12,7 @@ requirejs(['bmotion.template'], function (bms) {
             bms.observe('formula', {
                 selector: v.element,
                 formulas: [v.formula],
+                refinement: "R5GearsDoorsHandleValvesController",
                 trigger: function (origin, res) {
                     origin.attr("class", "o_" + res[0]);
                 }
@@ -31,6 +32,7 @@ requirejs(['bmotion.template'], function (bms) {
             bms.observe('formula', {
                 selector: v.element,
                 formulas: [v.formula],
+                refinement: "R6GearsDoorsHandleValvesControllerSwitch",
                 trigger: function (origin, res) {
                     origin.attr("class", "circuit_" + res[0]);
                 }
@@ -140,29 +142,38 @@ requirejs(['bmotion.template'], function (bms) {
 
     });
 
+    // -----------------------------------
+    // Observe output orders to general electro valves
+    // -----------------------------------
     bms.observe('formula', {
         selector: "#oev_general",
         formulas: ["general_EV",
             "general_EV = TRUE & analogical_switch = switch_closed"],
+        refinement: "R6GearsDoorsHandleValvesControllerSwitch",
         trigger: function (origin, r) {
             origin.find("#ge-order-1").attr("class", "o_" + r[0]);
             origin.find("#ge-order-2").attr("class", "o_" + r[1]);
         }
     });
 
-    bms.observe('formula', {
-        selector: "#electro-valves",
-        formulas: ["valve_open_door = valve_open",
-            "valve_close_door = valve_open",
-            "valve_extend_gear = valve_open",
-            "valve_retract_gear = valve_open"],
-        trigger: function (origin, r) {
-            origin.find("#ev_open_doors").attr("class", "ev_" + r[0]);
-            origin.find("#ev_close_doors").attr("class", "ev_" + r[1]);
-            origin.find("#ev_extended_gears").attr("class", "ev_" + r[2]);
-            origin.find("#ev_retraction_gears").attr("class", "ev_" + r[3]);
-        }
-    });
+    // -----------------------------------
+    // Observe electro valves
+    // -----------------------------------
+    [
+        {formula: "valve_open_door", element: "#ev_open_doors"},
+        {formula: "valve_close_door", element: "#ev_close_doors"},
+        {formula: "valve_extend_gear", element: "#ev_extended_gears"},
+        {formula: "valve_retract_gear", element: "#ev_retraction_gears"}
+    ].forEach(function (v) {
+            bms.observe("formula", {
+                selector: v.element,
+                formulas: [v.formula],
+                refinement: "R4GearsDoorsHandleValves",
+                trigger: function (origin, res) {
+                    origin.attr("class", "ev_" + res[0]);
+                }
+            });
+        });
 
     bms.observe('formula', {
         selector: "#ev_general",
@@ -179,6 +190,7 @@ requirejs(['bmotion.template'], function (bms) {
         selector: "#analogical_switch",
         formulas: ["general_EV = TRUE & analogical_switch = switch_closed",
             "analogical_switch"],
+        refinement: "R6GearsDoorsHandleValvesControllerSwitch",
         trigger: function (origin, r) {
             var ss = r[1];
             origin.attr("class", "switch_" + r[0]);
@@ -190,6 +202,9 @@ requirejs(['bmotion.template'], function (bms) {
         }
     });
 
+    // -----------------------------------
+    // Observe input signals
+    // -----------------------------------
     bms.observe('formula', {
         selector: "#sensors",
         formulas: [
@@ -208,6 +223,7 @@ requirejs(['bmotion.template'], function (bms) {
             "ran(sensors_handle) = {up}",
             "ran(sensors_shock_absorber) = {ground}"
         ],
+        refinement: "R8GearsDoorsHandleValvesControllerSwitchLightsSensors",
         trigger: function (origin, r) {
             var elems = [
                 "#gear_extended_front",
@@ -225,7 +241,7 @@ requirejs(['bmotion.template'], function (bms) {
                 "#sensor_handle",
                 "#sensor_shock_absorber"
             ];
-            elems.forEach(function(i, v) {
+            elems.forEach(function (i, v) {
                 origin.find(v).css("stroke", r[i] === "TRUE" ? "green" : "red");
             });
         }
@@ -237,6 +253,7 @@ requirejs(['bmotion.template'], function (bms) {
     bms.observe('formula', {
         selector: "#green_light",
         formulas: ["green_light"],
+        refinement: "R7GearsDoorsHandleValvesControllerSwitchLights",
         trigger: function (origin, r) {
             origin.css("fill", r[0] === "on" ? "green" : "#cfffa0");
         }
@@ -245,6 +262,7 @@ requirejs(['bmotion.template'], function (bms) {
     bms.observe('formula', {
         selector: "#orange_light",
         formulas: ["orange_light"],
+        refinement: "R7GearsDoorsHandleValvesControllerSwitchLights",
         trigger: function (origin, r) {
             origin.css("fill", r[0] === "on" ? "orange" : "#ffe7ad");
         }
@@ -253,6 +271,7 @@ requirejs(['bmotion.template'], function (bms) {
     bms.observe('formula', {
         selector: "#red_light",
         formulas: ["red_light"],
+        refinement: "R7GearsDoorsHandleValvesControllerSwitchLights",
         trigger: function (origin, r) {
             origin.css("fill", r[0] === "on" ? "red" : "#ffc9c9");
         }
@@ -264,6 +283,7 @@ requirejs(['bmotion.template'], function (bms) {
     bms.observe('formula', {
         selector: "#ev_handle",
         formulas: ["handle"],
+        refinement: "R2GearDoorHandle",
         trigger: function (origin, r) {
             if (r[0] !== undefined) {
                 origin.attr("xlink:href", "img/handle_" + r[0] + ".png")
@@ -273,11 +293,13 @@ requirejs(['bmotion.template'], function (bms) {
 
     bms.executeEvent({
         selector: "#green_light",
+        refinement: "R7GearsDoorsHandleValvesControllerSwitchLights",
         events: [{name: "env_turn_on_green_light"}, {name: "env_turn_off_green_light"}]
     });
 
     bms.executeEvent({
         selector: "#orange_light",
+        refinement: "R7GearsDoorsHandleValvesControllerSwitchLights",
         events: [{name: "env_turn_on_orange_light"}, {name: "env_turn_off_orange_light"}]
     });
 
@@ -288,11 +310,13 @@ requirejs(['bmotion.template'], function (bms) {
 
     bms.executeEvent({
         selector: "#ev_handle",
+        refinement: "R2GearDoorHandle",
         events: [{name: "toggle_handle_down"}, {name: "toggle_handle_up"}]
     });
 
     bms.executeEvent({
         selector: "#ev_general",
+        refinement: "R6GearsDoorsHandleValvesControllerSwitch",
         events: [{name: "evn_open_general_valve"}, {name: "evn_close_general_valve"}]
     });
 
@@ -318,35 +342,55 @@ requirejs(['bmotion.template'], function (bms) {
 
     bms.executeEvent({
         selector: "#signal_close_door",
+        refinement: "R5GearsDoorsHandleValvesController",
         events: [{name: "con_stimulate_close_door_valve"}, {name: "con_stop_stimulate_close_door_valve"}]
     });
 
     bms.executeEvent({
         selector: "#signal_open_door",
+        refinement: "R5GearsDoorsHandleValvesController",
         events: [{name: "con_stimulate_open_door_valve"}, {name: "con_stop_stimulate_open_door_valve"}]
     });
 
     bms.executeEvent({
         selector: "#signal_retract_gears",
+        refinement: "R5GearsDoorsHandleValvesController",
         events: [{name: "con_stimulate_retract_gear_valve"}, {name: "con_stop_stimulate_retract_gear_valve"}]
     });
 
     bms.executeEvent({
         selector: "#signal_extend_gears",
+        refinement: "R5GearsDoorsHandleValvesController",
         events: [{name: "con_stimulate_extend_gear_valve"}, {name: "con_stop_stimulate_extend_gear_valve"}]
     });
 
     bms.executeEvent({
         selector: "#con_stimulate_general_valve",
+        refinement: "R5GearsDoorsHandleValvesController",
         events: [{name: "con_stimulate_general_valve"}]
     });
 
     bms.executeEvent({
         selector: "#switch",
+        refinement: "R6GearsDoorsHandleValvesControllerSwitch",
         events: [
             {name: "env_close_analogical_switch"},
             {name: "env_open_analogical_switch"}
         ]
     });
+
+    bms.observe("refinement", {
+        selector: "g[data-refinement]",
+        refinements: function (origin) {
+            return origin.attr("data-refinement");
+        },
+        enable: {
+            opacity: "1"
+        },
+        disable: {
+            opacity: "0.1"
+        }
+    })
+
 
 });
