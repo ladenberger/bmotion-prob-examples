@@ -16,11 +16,11 @@
     fill: red;
 }
 
-.ev_TRUE path {
+.ev_valve_open path {
     fill: #88d2f7;
 }
 
-.ev_FALSE path {
+.ev_valve_closed path {
     fill: #cccccc;
 }
 
@@ -32,15 +32,4 @@
 .circuit_valve_closed line {
     stroke-width: 1;
     stroke: #cccccc;
-}
-
-#devices {
-    width: 600px;
-}
-
-#devices .panel {
-    float:left;
-    width:150px;
-    margin: 5px;
-    text-align:center;
 }
