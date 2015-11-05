@@ -33,3 +33,15 @@
     stroke-width: 1;
     stroke: #cccccc;
 }
+
+
+#devices {
+    width: 600px;
+}
+
+#devices .panel {
+    float:left;
+    width:150px;
+    margin: 5px;
+    text-align:center;
+}

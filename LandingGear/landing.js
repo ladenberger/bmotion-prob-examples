@@ -177,7 +177,7 @@ requirejs(['bmotion.template'], function (bms) {
 
     bms.observe('formula', {
         selector: "#ev_general",
-        formulas: ["general_valve = valve_open"],
+        formulas: ["general_valve"],
         trigger: function (origin, r) {
             origin.attr("class", "ev_" + r[0]);
         }
