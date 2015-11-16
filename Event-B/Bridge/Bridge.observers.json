@@ -1,0 +1,48 @@
+{
+    "observers": [
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "n"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(\"Number of cars=\"+values[0])",
+                "selector": "#value_n"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "a"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(\"a=\"+values[0])",
+                "selector": "#value_a"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "b"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(\"b=\"+values[0])",
+                "selector": "#value_b"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "c"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(\"c=\"+values[0])",
+                "selector": "#value_c"
+            }
+        }
+    ]
+}

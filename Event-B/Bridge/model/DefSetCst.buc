@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" org.eventb.texttools.text_lastmodified="1415024827465" org.eventb.texttools.text_representation="context DefSetCst&#10;&#10;sets LIGHT PHASE&#10;&#10;constants d green red p1 p2&#10;&#10;axioms&#10;  @axm1 d ∈ ℕ1 ∧ d=3&#10;  @axm2 LIGHT = {green, red}&#10;  @axm3 green ≠ red&#10;  theorem @tt2  partition(LIGHT,{green},{red})&#10;  @axm4 PHASE = {p1,p2}&#10;  theorem @thm1 p1 ≠ p2 // can be false !&#10;end&#10;" version="3">
+<org.eventb.core.carrierSet name="_r2_eMFBlEeOH8cnegPmrEg" org.eventb.core.identifier="LIGHT"/>
+<org.eventb.core.carrierSet name="_r2_eMVBlEeOH8cnegPmrEg" org.eventb.core.identifier="PHASE"/>
+<org.eventb.core.constant name="_r2_eMlBlEeOH8cnegPmrEg" org.eventb.core.identifier="d"/>
+<org.eventb.core.constant name="_r2_eM1BlEeOH8cnegPmrEg" org.eventb.core.identifier="green"/>
+<org.eventb.core.constant name="_r2_eNFBlEeOH8cnegPmrEg" org.eventb.core.identifier="red"/>
+<org.eventb.core.constant name="_r2_eNVBlEeOH8cnegPmrEg" org.eventb.core.identifier="p1"/>
+<org.eventb.core.constant name="_r3AFQFBlEeOH8cnegPmrEg" org.eventb.core.identifier="p2"/>
+<org.eventb.core.axiom name="_r3AFQVBlEeOH8cnegPmrEg" org.eventb.core.label="axm1" org.eventb.core.predicate="d ∈ ℕ1 ∧ d=3"/>
+<org.eventb.core.axiom name="_r3AFQlBlEeOH8cnegPmrEg" org.eventb.core.label="axm2" org.eventb.core.predicate="LIGHT = {green, red}"/>
+<org.eventb.core.axiom name="_r3AFQ1BlEeOH8cnegPmrEg" org.eventb.core.label="axm3" org.eventb.core.predicate="green ≠ red"/>
+<org.eventb.core.axiom name="_fWq3cGNlEeSKw_GS40GKmw" org.eventb.core.label="tt2" org.eventb.core.predicate="partition(LIGHT,{green},{red})" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="_r3AFRFBlEeOH8cnegPmrEg" org.eventb.core.label="axm4" org.eventb.core.predicate="PHASE = {p1,p2}"/>
+<org.eventb.core.axiom name="_urdJ4FBlEeOH8cnegPmrEg" org.eventb.core.comment="can be false !" org.eventb.core.label="thm1" org.eventb.core.predicate="p1 ≠ p2" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

@@ -1,0 +1,20 @@
+<svg width="765" height="555" xmlns="http://www.w3.org/2000/svg" id="carsonbridge">
+ <g>
+  <title>background</title>
+  <rect id="canvas_background" x="-1" y="-1" fill="none" width="767" height="557"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <rect stroke-dasharray="2,2" fill="#fff" stroke="#000" stroke-width="1.5" x="311.5" y="202.5" width="279" height="68" id="bridge"/>
+  <ellipse stroke="#000" fill="#e2ffc6" stroke-width="1.5" cx="682.50001" cy="274.00002" id="ML" rx="166.00001" ry="326.49999"/>
+  <ellipse fill="#fffcd3" stroke-width="1.5" cx="183.5" cy="235.50001" id="IL" rx="164.00001" ry="146.00001" stroke="#000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_n" y="39.5" x="27" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%n</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_b" y="237.5" x="40" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%b</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_a" y="181.5" x="471" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%a</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_c" y="304.5" x="356" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%c</text>
+ </g>
+</svg>

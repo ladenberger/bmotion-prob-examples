@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="LIGHT" org.eventb.core.type="ℙ(LIGHT)"/>
+<org.eventb.core.poIdentifier name="PHASE" org.eventb.core.type="ℙ(PHASE)"/>
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="green" org.eventb.core.type="LIGHT"/>
+<org.eventb.core.poIdentifier name="p1" org.eventb.core.type="PHASE"/>
+<org.eventb.core.poIdentifier name="p2" org.eventb.core.type="PHASE"/>
+<org.eventb.core.poIdentifier name="red" org.eventb.core.type="LIGHT"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="tt2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#HYP)"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition(LIGHT,{green},{red})" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_fWq3cGNlEeSKw_GS40GKmw"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_fWq3cGNlEeSKw_GS40GKmw"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#HYP)"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="thm1/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#HYP+"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="p1≠p2" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_urdJ4FBlEeOH8cnegPmrEg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_urdJ4FBlEeOH8cnegPmrEg"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#HYP+"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYP)" org.eventb.core.parentSet="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="d∈ℕ1∧d=3" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFQVBlEeOH8cnegPmrEg"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="LIGHT={green,red}" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFQlBlEeOH8cnegPmrEg"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="green≠red" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFQ1BlEeOH8cnegPmrEg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP+" org.eventb.core.parentSet="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#HYP)" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="partition(LIGHT,{green},{red})" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_fWq3cGNlEeSKw_GS40GKmw"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="PHASE={p1,p2}" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFRFBlEeOH8cnegPmrEg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Bridge/DefSetCst.bpo|org.eventb.core.poFile#DefSetCst|org.eventb.core.poPredicateSet#HYP+" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="p1≠p2" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_urdJ4FBlEeOH8cnegPmrEg"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

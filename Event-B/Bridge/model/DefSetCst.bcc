@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="d∈ℕ1∧d=3" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFQVBlEeOH8cnegPmrEg" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="LIGHT={green,red}" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFQlBlEeOH8cnegPmrEg" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="green≠red" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFQ1BlEeOH8cnegPmrEg" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="*" org.eventb.core.label="tt2" org.eventb.core.predicate="partition(LIGHT,{green},{red})" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_fWq3cGNlEeSKw_GS40GKmw" org.eventb.core.theorem="true"/>
+<org.eventb.core.scAxiom name="+" org.eventb.core.label="axm4" org.eventb.core.predicate="PHASE={p1,p2}" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_r3AFRFBlEeOH8cnegPmrEg" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="," org.eventb.core.label="thm1" org.eventb.core.predicate="p1≠p2" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.axiom#_urdJ4FBlEeOH8cnegPmrEg" org.eventb.core.theorem="true"/>
+<org.eventb.core.scCarrierSet name="LIGHT" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.carrierSet#_r2_eMFBlEeOH8cnegPmrEg" org.eventb.core.type="ℙ(LIGHT)"/>
+<org.eventb.core.scCarrierSet name="PHASE" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.carrierSet#_r2_eMVBlEeOH8cnegPmrEg" org.eventb.core.type="ℙ(PHASE)"/>
+<org.eventb.core.scConstant name="d" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.constant#_r2_eMlBlEeOH8cnegPmrEg" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scConstant name="green" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.constant#_r2_eM1BlEeOH8cnegPmrEg" org.eventb.core.type="LIGHT"/>
+<org.eventb.core.scConstant name="p1" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.constant#_r2_eNVBlEeOH8cnegPmrEg" org.eventb.core.type="PHASE"/>
+<org.eventb.core.scConstant name="p2" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.constant#_r3AFQFBlEeOH8cnegPmrEg" org.eventb.core.type="PHASE"/>
+<org.eventb.core.scConstant name="red" org.eventb.core.source="/Bridge/DefSetCst.buc|org.eventb.core.contextFile#DefSetCst|org.eventb.core.constant#_r2_eNFBlEeOH8cnegPmrEg" org.eventb.core.type="LIGHT"/>
+</org.eventb.core.scContextFile>

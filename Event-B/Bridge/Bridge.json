@@ -1,0 +1,14 @@
+{
+    "views": [
+        {
+            "id": "Bridge",
+            "name": "BridgeVis",
+            "template": "index.html",
+	    "autoOpen": [
+	      "CurrentTrace",
+	      "Events"
+	    ]
+        }
+    ],
+    "model" : "model/m1_bridge.bcm"
+}
