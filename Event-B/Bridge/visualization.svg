@@ -1,13 +1,21 @@
-<svg width="765" height="555" xmlns="http://www.w3.org/2000/svg" id="carsonbridge">
- <g>
+<svg width="765.0000000000001" height="555" xmlns="http://www.w3.org/2000/svg" id="carsonbridge" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata3426">image/svg+xml</metadata>
+ <defs>
+  <linearGradient id="linearGradient5682">
+   <stop offset="0" id="stop5684" stop-color="#4887d0"/>
+   <stop offset="1" id="stop5686" stop-opacity="0" stop-color="#4887d0"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient5682" id="linearGradient5688" x1="-0.00079" y1="0.5" x2="1.00079" y2="0.5"/>
+ </defs>
+ <g id="g3402">
   <title>background</title>
   <rect id="canvas_background" x="-1" y="-1" fill="none" width="767" height="557"/>
  </g>
-
  <g>
-  <title>Layer 1</title>
+  <title>Layer 3</title>
+  <rect id="rect3428" width="630.12891" height="590.09137" x="-3.69577" y="-15.67732" stroke-width="1px" stroke="#2397c0" fill-rule="evenodd" fill="url(#linearGradient5688)"/>
  </g>
- <g>
+ <g id="g3411">
   <title>Layer 2</title>
   <rect stroke-dasharray="2,2" fill="#fff" stroke="#000" stroke-width="1.5" x="311.5" y="202.5" width="279" height="68" id="bridge"/>
   <ellipse stroke="#000" fill="#e2ffc6" stroke-width="1.5" cx="682.50001" cy="274.00002" id="ML" rx="166.00001" ry="326.49999"/>
@@ -16,5 +24,11 @@
   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_b" y="237.5" x="40" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%b</text>
   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_a" y="181.5" x="471" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%a</text>
   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_c" y="304.5" x="356" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%c</text>
+  <ellipse ry="14.5" rx="14.5" id="ml_tl" cy="139.5" cx="490" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="14.5" rx="14.5" id="il_tl" cy="329.5" cx="371" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="il_in_sr" height="10" width="28.66667" y="210.66667" x="323.33333" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#DDDDDD"/>
+  <rect id="il_out_sr" height="10" width="28.66667" y="244" x="341.33333" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#DDDDDD"/>
+  <rect id="ml_in_sr" height="10" width="28.66667" y="210.66666" x="514.66667" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#DDDDDD"/>
+  <rect id="ml_out_sr" height="10" width="28.66667" y="244" x="492.00001" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#dddddd"/>
  </g>
 </svg>

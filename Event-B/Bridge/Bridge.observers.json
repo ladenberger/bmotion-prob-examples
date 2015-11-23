@@ -43,6 +43,76 @@
                 "trigger": "origin.text(\"c=\"+values[0])",
                 "selector": "#value_c"
             }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ml_tl"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.attr('fill', values[0])",
+                "selector": "#ml_tl"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "il_tl"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.attr('fill', values[0])",
+                "selector": "#il_tl"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ml_in_sr"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "selector": "#ml_in_sr",
+                "translate": true
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ml_out_sr"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "selector": "#ml_out_sr",
+                "translate": true
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "il_out_sr"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "selector": "#il_out_sr",
+                "translate": true
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "il_in_sr"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "selector": "#il_in_sr",
+                "translate": true
+            }
         }
     ]
 }

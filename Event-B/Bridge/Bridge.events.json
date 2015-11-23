@@ -1,3 +1,30 @@
 {
-    "events": []
+    "events": [
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "ML_tl_green",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#ml_tl"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "IL_tl_green",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#il_tl"
+            }
+        }
+    ]
 }
