@@ -2,33 +2,33 @@
  <metadata id="metadata3426">image/svg+xml</metadata>
  <defs>
   <linearGradient id="linearGradient5682">
-   <stop stop-color="#4887d0" id="stop5684" offset="0"/>
-   <stop stop-color="#4887d0" stop-opacity="0" id="stop5686" offset="1"/>
+   <stop offset="0" id="stop5684" stop-color="#4887d0"/>
+   <stop offset="1" id="stop5686" stop-opacity="0" stop-color="#4887d0"/>
   </linearGradient>
-  <linearGradient y2="0.5" x2="1.00079" y1="0.5" x1="-0.00079" id="linearGradient5688" xlink:href="#linearGradient5682"/>
+  <linearGradient xlink:href="#linearGradient5682" id="linearGradient5688" x1="-0.00079" y1="0.5" x2="1.00079" y2="0.5"/>
  </defs>
  <g id="g3402">
   <title>background</title>
-  <rect height="557" width="767" fill="none" y="-1" x="-1" id="canvas_background"/>
+  <rect id="canvas_background" x="-1" y="-1" fill="none" width="767" height="557"/>
  </g>
  <g>
   <title>Layer 3</title>
-  <rect fill="url(#linearGradient5688)" fill-rule="evenodd" stroke="#2397c0" stroke-width="1px" y="-15.67732" x="-3.69577" height="590.09137" width="630.12891" id="rect3428"/>
+  <rect id="rect3428" width="630.12891" height="590.09137" x="-3.69577" y="-15.67732" stroke-width="1px" stroke="#2397c0" fill-rule="evenodd" fill="url(#linearGradient5688)"/>
  </g>
  <g id="g3411">
   <title>Layer 2</title>
-  <rect id="bridge" height="68" width="279" y="202.5" x="311.5" stroke-width="1.5" stroke="#000" fill="#fff" stroke-dasharray="2,2"/>
-  <ellipse ry="326.49999" rx="166.00001" id="ML" cy="274.00002" cx="682.50001" stroke-width="1.5" fill="#e2ffc6" stroke="#000"/>
-  <ellipse stroke="#000" ry="146.00001" rx="164.00001" id="IL" cy="235.50001" cx="183.5" stroke-width="1.5" fill="#fffcd3"/>
-  <text fill="#000000" stroke="#000" stroke-width="0" stroke-dasharray="2,2" stroke-opacity="null" fill-opacity="null" x="27" y="39.5" id="value_n" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">%n</text>
-  <text fill="#000000" stroke="#000" stroke-width="0" stroke-dasharray="2,2" stroke-opacity="null" fill-opacity="null" x="40" y="237.5" id="value_b" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">%b</text>
-  <text fill="#000000" stroke="#000" stroke-width="0" stroke-dasharray="2,2" stroke-opacity="null" fill-opacity="null" x="471" y="181.5" id="value_a" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">%a</text>
-  <text fill="#000000" stroke="#000" stroke-width="0" stroke-dasharray="2,2" stroke-opacity="null" fill-opacity="null" x="356" y="304.5" id="value_c" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">%c</text>
-  <ellipse fill="#fff" stroke="#000" stroke-width="1.5" cx="490" cy="139.5" id="ml_tl" rx="14.5" ry="14.5"/>
-  <ellipse fill="#fff" stroke="#000" stroke-width="1.5" cx="371" cy="329.5" id="il_tl" rx="14.5" ry="14.5"/>
-  <rect fill="#DDDDDD" stroke="#000" stroke-width="0" stroke-opacity="null" x="323.33333" y="210.66667" width="28.66667" height="10" id="il_in_sr"/>
-  <rect fill="#DDDDDD" stroke="#000" stroke-width="0" stroke-opacity="null" x="341.33333" y="244" width="28.66667" height="10" id="il_out_sr"/>
-  <rect fill="#DDDDDD" stroke="#000" stroke-width="0" stroke-opacity="null" x="511.66667" y="244" width="28.66667" height="10" id="ml_in_sr"/>
-  <rect fill="#dddddd" stroke="#000" stroke-width="0" stroke-opacity="null" x="497.00001" y="210.66667" width="28.66667" height="10" id="ml_out_sr"/>
+  <rect stroke-dasharray="2,2" fill="#fff" stroke="#000" stroke-width="1.5" x="311.5" y="202.5" width="279" height="68" id="bridge"/>
+  <ellipse stroke="#000" fill="#e2ffc6" stroke-width="1.5" cx="682.50001" cy="274.00002" id="ML" rx="166.00001" ry="326.49999"/>
+  <ellipse fill="#fffcd3" stroke-width="1.5" cx="183.5" cy="235.50001" id="IL" rx="164.00001" ry="146.00001" stroke="#000"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_n" y="39.5" x="27" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%n</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_b" y="237.5" x="40" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%b</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_a" y="181.5" x="471" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%a</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="value_c" y="304.5" x="356" fill-opacity="null" stroke-opacity="null" stroke-dasharray="2,2" stroke-width="0" stroke="#000" fill="#000000">%c</text>
+  <ellipse ry="14.5" rx="14.5" id="ml_tl" cy="139.5" cx="490" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="14.5" rx="14.5" id="il_tl" cy="329.5" cx="371" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="il_in_sr" height="10" width="28.66667" y="210.66667" x="323.33333" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#DDDDDD"/>
+  <rect id="il_out_sr" height="10" width="28.66667" y="244" x="341.33333" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#DDDDDD"/>
+  <rect id="ml_in_sr" height="10" width="28.66667" y="244" x="511.66667" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#DDDDDD"/>
+  <rect id="ml_out_sr" height="10" width="28.66667" y="210.66667" x="497.00001" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#dddddd"/>
  </g>
 </svg>

@@ -73,7 +73,7 @@
                     "ml_in_sr"
                 ],
                 "cause": "AnimationChanged",
-                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "trigger": "origin.attr('fill', values[0] ? '#c4f3ff' : 'red')",
                 "selector": "#ml_in_sr",
                 "translate": true
             }
@@ -85,7 +85,7 @@
                     "ml_out_sr"
                 ],
                 "cause": "AnimationChanged",
-                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "trigger": "origin.attr('fill', values[0] ? '#c4f3ff' : 'red')",
                 "selector": "#ml_out_sr",
                 "translate": true
             }
@@ -97,7 +97,7 @@
                     "il_out_sr"
                 ],
                 "cause": "AnimationChanged",
-                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "trigger": "origin.attr('fill', values[0] ? '#c4f3ff' : 'red')",
                 "selector": "#il_out_sr",
                 "translate": true
             }
@@ -109,7 +109,7 @@
                     "il_in_sr"
                 ],
                 "cause": "AnimationChanged",
-                "trigger": "if(values[0]) {\n  origin.attr('fill', '#c4f3ff')\n} else {\n  origin.attr('fill', '#dddddd')\n}",
+                "trigger": "origin.attr('fill', values[0] ? '#c4f3ff' : 'red')",
                 "selector": "#il_in_sr",
                 "translate": true
             }
