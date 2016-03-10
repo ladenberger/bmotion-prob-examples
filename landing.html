@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMotion Studio for ProB</title>
+    <link rel="stylesheet" type="text/css" href="../bmotion-prob-frontend/app/css/bms.main.css"/>
+    <script src="../bmotion-prob-frontend/app/js/require.js"></script>
+    <script>
+        requirejs(['bmotion.online']);
+    </script>
+</head>
+<body>
+
+<div ng-view bms-visualization="Event-B/LandingGear/bmotion.json"></div>
+
+</body>
+</html>
