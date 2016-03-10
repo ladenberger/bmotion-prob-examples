@@ -1,0 +1,14 @@
+{
+  "views": [{
+    "id": "Bridge",
+    "name": "BridgeVis",
+    "template": "index.html",
+    "autoOpen": [
+      "CurrentTrace",
+      "Events"
+    ],
+    "observers": "Bridge.observers.json",
+    "events": "Bridge.events.json"
+  }],
+  "model": "model/m3_sensors.bcm"
+}

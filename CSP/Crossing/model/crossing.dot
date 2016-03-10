@@ -1,0 +1,45 @@
+digraph history {
+graph [nodesep=1.5, ranksep=1.5];
+root [shape=invtriangle, color="#99BF38", fontsize=12, penwidth=2, label="root"];
+
+0 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+1 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+4 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+8 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+10 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+27 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+46 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+78 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+33 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+35 [shape=doubleoctagon, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+root -> 0 [style = dotted, color = black, label="start_cspm_MAIN", fontsize=12];
+
+0 -> 1 [color = "#006391", label="enter.1.Train1", fontsize=12];
+
+1 -> 4 [color = "#006391", label="leave.0.Train1", fontsize=12];
+
+4 -> 8 [color = "#006391", label="sensor.in", fontsize=12];
+
+8 -> 10 [color = "#006391", label="gate.go_down", fontsize=12];
+
+10 -> 27 [color = "#006391", label="tau(int_choice_right)", fontsize=12];
+
+27 -> 46 [color = "#006391", label="tock", fontsize=12];
+
+46 -> 78 [color = "#006391", label="tau(int_choice_left)", fontsize=12];
+
+78 -> 33 [color = "#006391", label="gate.down", fontsize=12];
+
+33 -> 35 [color = "#006391", label="tock", fontsize=12];
+
+}

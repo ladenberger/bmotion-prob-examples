@@ -5,15 +5,13 @@
             "data": {
                 "events": [
                     {
-                        "name": "switch_move_up"
-                    },
-                    {
-                        "name": "switch_move_dn"
+                        "name": "send_request",
+                        "predicate": ""
                     }
                 ],
                 "tooltip": true,
-                "label": "\n                            var predicateStr = event.predicate ? '(' + event.predicate + ')' : '';\n                            return '<span aria-hidden=\"true\"> ' + event.name + predicateStr + '</span>';\n                        ",
-                "selector": "#txt_direction"
+                "selector": "text[data-floor]",
+                "refinement": "m3"
             }
         },
         {
@@ -22,7 +20,8 @@
                 "events": [
                     {
                         "name": "close_door",
-                        "predicate": ""
+                        "predicate": "",
+                        "predicateJs": true
                     },
                     {
                         "name": "open_door",
@@ -34,8 +33,33 @@
                     }
                 ],
                 "tooltip": true,
-                "label": "\n                            var predicateStr = event.predicate ? '(' + event.predicate + ')' : '';\n                            return '<span aria-hidden=\"true\"> ' + event.name + predicateStr + '</span>';\n                        ",
-                "selector": "#door"
+                "selector": "#door",
+                "refinement": "m3",
+                "refinementJs": true
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "close_door",
+                        "predicate": "",
+                        "predicateJs": false
+                    },
+                    {
+                        "name": "open_door",
+                        "predicate": "",
+                        "nameJs": false
+                    },
+                    {
+                        "name": "move_serve",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#button",
+                "refinementJs": false
             }
         }
     ]

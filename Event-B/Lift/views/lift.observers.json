@@ -43,6 +43,28 @@
                 "trigger": "if (values[0] === \"open\") {\n  return {\"fill\": \"white\"};\n} else {\n  return {\"fill\": \"lightgray\"};\n}",
                 "selector": "#door"
             }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "door"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if (values[0] === \"open\") {\n  origin.css(\"background\",\"red\");\n} else {\n  origin.css(\"background\",\"blue\");\n}",
+                "selector": "#input"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "door"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if (values[0] === \"open\") {\n  return {\n    \"stroke\": \"green\",\n    \"stroke-width\": 5\n  }\n} else {\n  return {\n    \"stroke\": \"red\",\n    \"stroke-width\": 10\n  }\n}",
+                "selector": "#door"
+            }
         }
     ]
 }

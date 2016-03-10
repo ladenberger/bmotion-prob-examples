@@ -1,0 +1,65 @@
+digraph history {
+graph [nodesep=1.5, ranksep=1.5];
+root [shape=invtriangle, color="#99BF38", fontsize=12, penwidth=2, label="root"];
+
+0 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+11 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+152 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+283 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+286 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+290 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+301 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+309 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+314 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+317 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+325 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+332 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+337 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+346 [shape=doubleoctagon, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+346 [shape=doubleoctagon, color="#99BF38", fontsize=12, penwidth=2, label=""];
+
+root -> 0 [style = dotted, color = black, label="start_cspm(Network)", fontsize=12];
+
+0 -> 11 [color = "#006391", label="fail.2", fontsize=12];
+
+11 -> 152 [color = "#006391", label="fail.3", fontsize=12];
+
+152 -> 283 [color = "#006391", label="test.1.3", fontsize=12];
+
+283 -> 286 [color = "#006391", label="tock", fontsize=12];
+
+286 -> 290 [color = "#006391", label="election.1.3", fontsize=12];
+
+290 -> 301 [color = "#006391", label="election.1.2", fontsize=12];
+
+301 -> 309 [color = "#006391", label="revive.2", fontsize=12];
+
+309 -> 314 [color = "#006391", label="revive.3", fontsize=12];
+
+314 -> 317 [color = "#006391", label="coordinator.3.2", fontsize=12];
+
+317 -> 325 [color = "#006391", label="fail.3", fontsize=12];
+
+325 -> 332 [color = "#006391", label="test.0.3", fontsize=12];
+
+332 -> 337 [color = "#006391", label="tock", fontsize=12];
+
+337 -> 346 [color = "#006391", label="coordinator.1.0", fontsize=12];
+
+346 -> 346 [color = "#006391", label="leader.2.3", fontsize=12];
+
+}

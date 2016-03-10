@@ -64,9 +64,6 @@ FORKS = ||| i:FORKNAMES@ FORK(i)
 
 SYSTEM' = PHILS[|{|picks, putsdown|}|]FORKS
 
-MAIN = SYSTEM'
-
-{-
 -- The potential for deadlock is illustrated by 
 
 assert SYSTEM :[deadlock free [F]]
@@ -123,4 +120,3 @@ assert ASSYSTEMs :[deadlock free [F]]
 
 -- Compare the stripped down versions with the idea of "Leaf Compression"
 -- discussed in Chapter 8.
--}

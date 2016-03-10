@@ -1,0 +1,16 @@
+{
+  "name": "phils",
+  "model": "model/phils.csp",
+  "tool": "CSPAnimation",
+  "views": [
+    {
+      "id": "phils",
+      "name": "5 Philosophers visualization",
+      "template": "phils.html",
+      "autoOpen": [
+        "CurrentTrace",
+        "Events"
+      ]
+    }
+  ]
+}

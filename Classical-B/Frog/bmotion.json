@@ -1,7 +1,6 @@
 {
   "name": "frog",
   "model": "FrogPuzzle.mch",
-  "tool": "BAnimation",
   "views": [
     {
       "id": "frog",
