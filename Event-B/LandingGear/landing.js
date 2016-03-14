@@ -481,7 +481,7 @@ bms.executeEvent({
 
 bms.observe("refinement", {
   selector: "g[data-refinement]",
-  refinements: function(origin) {
+  refinement: function(origin) {
     return origin.attr("data-refinement");
   },
   enable: {
