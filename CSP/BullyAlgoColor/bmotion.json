@@ -1,7 +1,6 @@
 {
   "name": "bully",
   "model": "model/bully.csp",
-  "tool": "CSPAnimation",
   "views": [
     {
       "id": "bully",
