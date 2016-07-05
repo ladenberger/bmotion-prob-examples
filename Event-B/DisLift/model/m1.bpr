@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv2/INV"/>
+<org.eventb.core.prProof name="door_open/inv2/INV"/>
+<org.eventb.core.prProof name="door_close/inv2/INV"/>
+<org.eventb.core.prProof name="switch_move_up/inv2/INV"/>
+<org.eventb.core.prProof name="switch_move_down/inv2/INV"/>
+<org.eventb.core.prProof name="switch_move_stop/inv2/INV"/>
+</org.eventb.core.prFile>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="groundf∈ℤ" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_rt0OMBzlEeangeVl85nyqw" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="topf∈ℤ" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_rt0OMRzlEeangeVl85nyqw" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="groundf=−1" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_w6WkgBzlEeangeVl85nyqw" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="topf=1" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_w6WkgRzlEeangeVl85nyqw" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="+" org.eventb.core.label="axm5" org.eventb.core.predicate="groundf&lt;topf" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_y8gpgBzlEeangeVl85nyqw" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="," org.eventb.core.label="axm6" org.eventb.core.predicate="partition(Door,{open},{closed})" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_y8gpgBzlEeangeVl85nyq\|" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="Door" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#_y8gpgBzlEeangeVl85nyqx" org.eventb.core.type="ℙ(Door)"/>
+<org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" de.prob.units.unitPragmaAttribute="" name="closed" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#_y8gpgBzlEeangeVl85nyqz" org.eventb.core.type="Door"/>
+<org.eventb.core.scConstant name="groundf" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#_jzNvIBzlEeangeVl85nyqw" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" de.prob.units.unitPragmaAttribute="" name="open" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#_y8gpgBzlEeangeVl85nyqy" org.eventb.core.type="Door"/>
+<org.eventb.core.scConstant name="topf" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#_jzNvIRzlEeangeVl85nyqw" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scContextFile>
