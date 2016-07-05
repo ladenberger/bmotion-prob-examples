@@ -1,4 +1,4 @@
-bms.observe("csp-event", {
+bms.observe("cspEvent", {
   selector: "#bully",
   observers: [{
     exp: "Events",

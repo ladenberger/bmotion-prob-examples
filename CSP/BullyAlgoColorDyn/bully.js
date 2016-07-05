@@ -111,7 +111,7 @@ bms.init(function() {
 
 });
 
-bms.observe("csp-event", {
+bms.observe("cspEvent", {
   selector: "#bully",
   observers: [{
     events: ["Network"],

@@ -1,4 +1,4 @@
-    bms.observe("csp-event", {
+    bms.observe("cspEvent", {
       selector: "#phils",
       observers: [{
         "exp": "{thinks.x | x <- {0..4}}",
