@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.poIdentifier name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.poIdentifier name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.poIdentifier name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/CruiseSimplified/c1.bpo|org.eventb.core.poFile#c1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="STATUS={off,standby,cruise}" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm1A"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="off≠standby" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm2A"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="off≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm3A"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="standby≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm4A"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

@@ -1,0 +1,43 @@
+{
+    "events": [
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "PM_SetsPressure",
+                        "predicate": "var vpValue = container.find(\"#vp_input\").val();\nreturn \"pm = VP & prs =\" + vpValue;",
+                        "predicateJs": true
+                    }
+                ],
+                "selector": "#vp_bt"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "PM_SetsPressure",
+                        "predicate": "var apValue = container.find(\"#ap_input\").val();\nreturn \"pm = AP & prs =\" + apValue;",
+                        "predicateJs": true
+                    }
+                ],
+                "selector": "#ap_bt"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "PM_SetsPressure",
+                        "predicate": "var bepValue = container.find(\"#bep_input\").val();\nreturn \"pm = BEP & prs =\" + bepValue;",
+                        "predicateJs": true
+                    }
+                ],
+                "selector": "#bep_bt"
+            }
+        }
+    ]
+}

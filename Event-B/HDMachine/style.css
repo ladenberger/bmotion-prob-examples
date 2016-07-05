@@ -1,0 +1,17 @@
+.signal.red {
+  -webkit-animation: red-pulse 3s infinite;
+  -moz-animation: red-pulse 3s infinite;
+  animation: red-pulse 3s infinite;
+}
+
+@keyframes red-pulse {
+  1%   { fill: hsl(7, 50%, 38%); }
+  50%  { fill: hsl(7, 50%, 78%); }
+  100% { fill: hsl(7, 50%, 38%); }
+}
+
+@-webkit-keyframes red-pulse {
+  1%   { fill: hsl(7, 50%, 38%); }
+  50%  { fill: hsl(7, 50%, 78%); }
+  100% { fill: hsl(7, 50%, 38%); }
+}

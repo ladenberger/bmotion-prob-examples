@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel_STATES" org.eventb.core.type="ℙ(CS_TopLevel_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_STATES" org.eventb.core.type="ℙ(HDSystem_STATES)"/>
+<org.eventb.core.poIdentifier name="ENDING" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_END" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_STANDBY" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="STANDBY" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATET" org.eventb.core.predicate="STANDBY∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZELR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEU" org.eventb.core.predicate="PREPARATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZEbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEV" org.eventb.core.predicate="INITIATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZErR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEW" org.eventb.core.predicate="ENDING∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAILR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEX" org.eventb.core.predicate="partition(CS_TopLevel_STATES,{STANDBY},{PREPARATION},{INITIATION},{ENDING})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAIbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEY" org.eventb.core.predicate="HDSystem_STANDBY∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637ds6PgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEZ" org.eventb.core.predicate="HDSystem_PREP∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637dtKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE[" org.eventb.core.predicate="HDSystem_INIT∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE\" org.eventb.core.predicate="HDSystem_END∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwaPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE]" org.eventb.core.predicate="partition(HDSystem_STATES,{HDSystem_STANDBY},{HDSystem_PREP},{HDSystem_INIT},{HDSystem_END})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwqPgEeWaQrtEc5Lq6g"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm0_implicitContexv" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm0_implicitContexv" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#EVTIDENTm0_implicitContexv" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTm0_implicitContexw" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm0_implicitContexw" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#EVTIDENTm0_implicitContexw" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qGgKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjCZ8bR5EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm0_implicitContexx" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm0_implicitContexx" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#EVTIDENTm0_implicitContexx" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=PREPARATION" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qtkKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjCZ87R5EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm0_implicitContexy" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm0_implicitContexy" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#EVTIDENTm0_implicitContexy" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=INITIATION" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qtkaJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjDBAbR5EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm0_implicitContexz" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm0_implicitContexz" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#EVTIDENTm0_implicitContexz" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=ENDING" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_OIxOoKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjDBA7R5EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/m0.bpo|org.eventb.core.poFile#m0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#_JjEPILR5EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

@@ -1,15 +1,10 @@
 {
-  "name": "frog",
   "model": "FrogPuzzle.mch",
-  "views": [
-    {
-      "id": "frog",
-      "name": "Frog visualization",
-      "template": "frog.html",
-      "autoOpen": [
-        "CurrentTrace",
-        "Events"
-      ]
-    }
+  "id": "frog",
+  "name": "Frog visualization",
+  "template": "frog.html",
+  "autoOpen": [
+    "CurrentTrace",
+    "Events"
   ]
 }

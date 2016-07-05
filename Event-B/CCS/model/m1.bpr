@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p7">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p7" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="com.b4free.rodin.core.externalML" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p8">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p8" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="FALSE=TRUE⇒off≠cruise"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="FALSE=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="SwitchOn/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise">
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="braking=TRUE⇒standby≠cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="braking=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="braking=TRUE⇒¬cc_status=cruise">
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="BrakeOn/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise">
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="braking=TRUE⇒¬cc_status=cruise">
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="TRUE=TRUE⇒standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="TRUE=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="SetAcc/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16" org.eventb.core.prSets="STATUS" org.eventb.core.psManual="true">
+<org.eventb.core.prRule name="org.eventb.core.seqprover.autoRewrites" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="0">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p16" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="FORWARD_INF2" org.eventb.core.prHyps="p12" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p12"/>
+<org.eventb.core.prHypAction name="FORWARD_INF4" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p19"/>
+<org.eventb.core.prHypAction name="HIDE5" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="FORWARD_INF6" org.eventb.core.prHyps="p13" org.eventb.core.prInfHyps="p20"/>
+<org.eventb.core.prHypAction name="HIDE7" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prRule name="org.eventb.core.seqprover.conj" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="0" org.eventb.core.prGoal="p21">
+<org.eventb.core.prRule name="org.eventb.core.seqprover.mngHyp" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="0">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prRule name="org.eventb.core.seqprover.cut" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ah (target − actual∈ℤ)" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="0" org.eventb.core.prGoal="p22">
+<org.eventb.core.prRule name="org.eventb.core.seqprover.trueGoal" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p22" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="1" org.eventb.core.prGoal="p23">
+<org.eventb.core.prRule name="com.b4free.rodin.core.externalML" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="p1,p10,p14,p9,p15,p4,p7,p5,p2,p8,p3,p11,p17,p18,p19,p20">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="2" org.eventb.core.prHyps="p23">
+<org.eventb.core.prRule name="com.b4free.rodin.core.externalML" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p21" org.eventb.core.prHyps="p1,p10,p14,p9,p15,p4,p7,p5,p2,p8,p3,p11,p17,p18,p19,p20,p23">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prPredRef name=".pred" org.eventb.core.prRef="p23"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="1" org.eventb.core.prGoal="p4">
+<org.eventb.core.prRule name="org.eventb.core.seqprover.hyp" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p4" org.eventb.core.prHyps="p4"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="acceleration" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="target∈ℕ"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="target − actual∈dom(p)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="braking∈BOOL"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="p∈ℤ ⇸ ℤ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="cc_status∈STATUS"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="∀n⦂ℤ·n&lt;0⇒p(n)&lt;0"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="acceleration∈ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="p(0)=0"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="target − actual∈ℤ"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="braking=TRUE⇒¬cc_status=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="p∈ℤ → ℤ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="actual∈ℕ"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="0∈dom(p)"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="∀n⦂ℤ·n&gt;0⇒p(n)&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="target − actual∈dom(p)∧p∈ℤ ⇸ ℤ"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="SetCruise/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="braking=FALSE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise">
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="braking=TRUE⇒cruise≠cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="braking=TRUE⇒¬cc_status=cruise">
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="BrakeOff/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p11" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="braking=TRUE">
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise">
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬cc_status=cruise"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="FALSE=TRUE⇒cc_status≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊤⇒cc_status≠cruise"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="SetTaget/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="speed∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv7/INV"/>
+<org.eventb.core.prProof name="SetAcc/inv7/INV"/>
+<org.eventb.core.prProof name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p7">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p7" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="SetAcc/inv4/INV"/>
+<org.eventb.core.prProof name="Accelerate/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11" org.eventb.core.prSets="STATUS" org.eventb.core.psManual="true">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p7,p15,p8,p9,p14,p11,p1,p2,p3,p4,p6,p13,p10,p12"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="actual&gt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="braking=TRUE⇒¬cc_status=cruise"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="speed∈ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="cc_status∈STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="braking∈BOOL"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="target∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="SetCruise/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="speed∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Decelerate/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS" org.eventb.core.psManual="true">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p7,p6,p8,p2,p10,p11,p12,p13">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cc_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="braking=TRUE⇒¬cc_status=cruise"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="speed∈ℕ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="actual&lt;0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="cc_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="speed+actual≥0"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="braking=TRUE⇒cc_status≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="braking∈BOOL"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="target∈ℕ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_SwitchOn/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_braking=TRUE⇒standby≠cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="car_braking=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CAR_BrakeOn/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="TRUE=TRUE⇒standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="TRUE=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CAR_BrakeOff/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p11" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="car_braking=TRUE">
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="FALSE=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊤⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_SetCruise/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_SetCruise/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_braking=TRUE⇒cruise≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CAR_Accelerate/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p6,p3,p7,p5,p9,p10,p11,p12">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="actual&gt;0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CAR_Decelerate/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p6,p3,p7,p8,p4,p10,p11,p12,p13">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="car_speed+actual≥0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="actual&lt;0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_SetTaget/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Accelerate/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p13" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p5,p6,p10,p11,p12,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="actual&gt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Decelerate/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p19"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p6,p9,p4,p11,p12,p13,p16">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="car_speed+actual≥0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="actual&lt;0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Accelerate/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p13" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p5,p6,p10,p11,p12,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="actual&gt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Decelerate/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10" org.eventb.core.prSets="STATUS" org.eventb.core.psManual="true">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p19"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p6,p9,p4,p11,p12,p13,p16">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="car_speed+actual≥0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="actual&lt;0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_SetTaget/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_Accelerate/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p13" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p5,p6,p10,p11,p12,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="actual&gt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_Decelerate/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p19"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p6,p9,p4,p11,p12,p13,p16">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="actual" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="car_speed+actual≥0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="actual&lt;0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="actual∈ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+actual∈ℕ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Adapt_Speed/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p19"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p20"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p4,p9,p1,p6,p10,p8,p17,p12,p13,p14">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="s" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_speed&lt;ccs_target"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed+s≥0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="car_speed+s≤ccs_target"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+s∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="s∈ℤ"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Adapt_Speed_Up/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p19"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p20"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p21"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p10,p8,p5,p11,p9,p18,p6,p13,p14,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="s" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_target&gt;car_speed"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_speed+s≥0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="car_speed+s≤ccs_target"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+s∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="s∈ℤ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="s&gt;0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CCS_Adapt_Speed_Down/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p19"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p20"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p21"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p10,p4,p6,p9,p8,p18,p11,p13,p14,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="s" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="s&lt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed+s≥0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_speed+s≥ccs_target"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ccs_target&lt;car_speed"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+s∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="s∈ℤ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_SetTaget/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_braking=TRUE⇒cruise≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_SwitchON/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_braking=TRUE⇒standby≠cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="car_braking=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_Reset/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_Reset/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_braking=TRUE⇒cruise≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠cruise">
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_Adapt_Speed/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p13" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p14"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p3,p8,p6,p4,p10,p11,p12,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="s" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ccs_target+s≥0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="car_braking=FALSE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking=TRUE⇒¬⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ccs_target+s∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ccs_status=cruise"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="s∈ℤ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="USER_SwitchOFF/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p12">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p12" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ccs_status≠off">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬ccs_status=off">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬standby=cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise">
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_braking=TRUE⇒off≠cruise"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="standby≠cruise">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="car_braking=TRUE⇒⊤"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬off=standby">
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="CAR_Adapt_Speed/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="STATUS">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p3,p7,p6,p9,p10,p11,p12">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="car_braking" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="car_speed" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ccs_status" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="ccs_target" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="s" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ccs_target∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="car_speed+s≥0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="car_braking=TRUE⇒¬ccs_status=cruise"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="car_speed∈ℕ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬standby=cruise"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="car_braking∈BOOL"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ccs_status∈STATUS"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="car_speed+s∈ℕ"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="s∈ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬off=cruise"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬off=standby"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel_STATES" org.eventb.core.type="ℙ(CS_TopLevel_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_STATES" org.eventb.core.type="ℙ(HDSystem_STATES)"/>
+<org.eventb.core.poIdentifier name="ENDING" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_END" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_STANDBY" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="STANDBY" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/m0_implicitContext.bpo|org.eventb.core.poFile#m0_implicitContext|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="STANDBY∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZELR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PREPARATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZEbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="INITIATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZErR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="ENDING∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAILR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="partition(CS_TopLevel_STATES,{STANDBY},{PREPARATION},{INITIATION},{ENDING})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAIbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="HDSystem_STANDBY∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637ds6PgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="HDSystem_PREP∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637dtKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="HDSystem_INIT∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="HDSystem_END∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwaPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="partition(HDSystem_STATES,{HDSystem_STANDBY},{HDSystem_PREP},{HDSystem_INIT},{HDSystem_END})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwqPgEeWaQrtEc5Lq6g"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

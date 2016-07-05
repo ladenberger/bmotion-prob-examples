@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.comment="" org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="true" org.eventb.emf.persistence.generator_ID="ac.soton.eventb.statemachines._sqgkkKJSEeWzIMhBFfqG3Q" org.eventb.emf.persistence.priority="0" version="3">
+<org.eventb.core.extendsContext name="_1Bp4QLPCEeWQN-LP4iZKmA" org.eventb.core.target="m2_implicitContext"/>
+</org.eventb.core.contextFile>

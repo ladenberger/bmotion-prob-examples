@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "CS_TopLevel_CFTestingSignal2Green",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "CS_TopLevel_CFTestingSignal2Red",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#CF_TESTING_SIGNAL",
+                "refinement": "m6"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "User_PressesOn",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "User_PressesOff",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#bt_power",
+                "refinement": "m2"
+            }
+        }
+    ]
+}

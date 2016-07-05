@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.texttools.text_lastmodified="1456225591483" org.eventb.texttools.text_representation="context c1&#10;&#10;sets STATUS&#10;&#10;constants off standby cruise&#10;&#10;axioms&#10;  @axm1 STATUS = {off, standby, cruise}&#10;  @axm2 off ≠ standby&#10;  @axm3 off ≠ cruise&#10;  @axm4 standby ≠ cruise&#10;end&#10;" version="3">
+<org.eventb.core.axiom name="internal_axm1A" org.eventb.core.label="axm1" org.eventb.core.predicate="STATUS = {off, standby, cruise}"/>
+<org.eventb.core.axiom name="internal_axm2A" org.eventb.core.label="axm2" org.eventb.core.predicate="off ≠ standby"/>
+<org.eventb.core.axiom name="internal_axm3A" org.eventb.core.label="axm3" org.eventb.core.predicate="off ≠ cruise"/>
+<org.eventb.core.axiom name="internal_axm4A" org.eventb.core.label="axm4" org.eventb.core.predicate="standby ≠ cruise"/>
+<org.eventb.core.carrierSet name="internal_set1" org.eventb.core.identifier="STATUS"/>
+<org.eventb.core.constant name="internal_cst1" org.eventb.core.identifier="off"/>
+<org.eventb.core.constant name="internal_cst2" org.eventb.core.identifier="standby"/>
+<org.eventb.core.constant name="internal_cst3" org.eventb.core.identifier="cruise"/>
+</org.eventb.core.contextFile>

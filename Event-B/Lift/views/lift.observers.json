@@ -4,17 +4,6 @@
             "type": "formula",
             "data": {
                 "formulas": [
-                    "floor"
-                ],
-                "cause": "AnimationChanged",
-                "trigger": "origin.text('Current Floor: ' + values[0]);",
-                "selector": "#txt_floor"
-            }
-        },
-        {
-            "type": "formula",
-            "data": {
-                "formulas": [
                     "move"
                 ],
                 "cause": "AnimationChanged",

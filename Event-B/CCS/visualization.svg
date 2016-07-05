@@ -1,0 +1,64 @@
+<svg width="800" height="662" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="802" height="664" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_4">
+   <image y="-0.33291" xlink:href="ccs.png" id="svg_1" height="662" width="800" x="-0.5"/>
+   <rect data-bms-widget="iarea" id="btOnOff" height="82.49711" width="41.00028" y="208.50055" x="446.50193" fill-opacity="0.5" stroke-dasharray="5,5" fill="#eaeaea" stroke="#84b3ff"/>
+   <rect fill="#eaeaea" stroke="#84b3ff" stroke-dasharray="5,5" fill-opacity="0.5" x="388" y="461.5" width="59" height="59" id="brakePedal" data-bms-widget="iarea"/>
+   <rect fill="#eaeaea" stroke-dasharray="5,5" fill-opacity="0.5" x="453" y="457.5" width="77" height="186" id="acceleratePedal" data-bms-widget="iarea" stroke="#84b3ff"/>
+   <rect data-bms-widget="iarea" id="btSet" height="83.49573" width="48.49794" y="208.5011" x="490.00262" fill-opacity="0.5" stroke-dasharray="5,5" fill="#eaeaea" stroke="#84b3ff"/>
+   <rect data-bms-widget="iarea" id="btSpeedUp" height="40.49849" width="38.9989" y="211.16495" x="541.26421" fill-opacity="0.5" stroke-opacity="null" stroke-dasharray="5,5" fill="#eaeaea" stroke="#84b3ff"/>
+   <rect data-bms-widget="iarea" id="btSpeedDown" height="39.44015" width="40.18202" y="253.95383" x="543.02675" fill-opacity="0.5" stroke-opacity="null" stroke-dasharray="5,5" fill="#eaeaea" stroke="#84b3ff"/>
+   <g id="car_speed" data-btype="INT" data-placeholder="Enter speed ..." data-bms-widget="iinput">
+    <rect stroke="black" fill="white" height="25" width="104" y="563.5" x="354.5" id="svg_2"/>
+    <text fill="lightgray" y="581.5" x="356.5" id="svg_3">Enter speed ...</text>
+   </g>
+   <g id="svg_22">
+    <rect stroke="black" rx="5" id="svg_19" height="160" width="156" y="443.5" x="41.5" fill="white"/>
+    <g data-btype="INT" id="ccs_speed" data-placeholder="CCS Speed ..." data-bms-widget="iinput">
+     <rect stroke="black" fill="white" height="25" width="125" y="490.5" x="57" id="svg_8"/>
+     <text fill="lightgray" y="508.5" x="59" id="svg_14">CCS Speed ...</text>
+    </g>
+    <g id="btCCSSpeedDown" data-text="CCS Speed Down" data-bms-widget="ibutton">
+     <rect stroke="black" fill="#ededed" height="25" width="125" y="560.5" x="57" id="svg_15"/>
+     <text fill="black" y="578.5" x="67" id="svg_16">CCS Speed Down</text>
+    </g>
+    <g id="btCCSSpeedUp" data-text="CCS Speed Up" data-bms-widget="ibutton">
+     <rect stroke="black" fill="#ededed" height="25" width="125" y="525.5" x="57" id="svg_17"/>
+     <text fill="black" y="543.5" x="76" id="svg_18">CCS Speed Up</text>
+    </g>
+    <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_20" y="471.5" x="68.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="black" fill="#000000">CCS Controller</text>
+   </g>
+   <g id="svg_25">
+    <rect rx="5" id="svg_24" height="160" width="191" y="443.5" x="584.5" fill-opacity="null" stroke-opacity="null" stroke="black" fill="white"/>
+    <g id="svg_23">
+     <text font-style="italic" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_9" y="492" x="601.40016" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000" font-weight="normal">CCS Status:</text>
+     <text font-style="italic" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_10" y="557" x="607.60328" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000" font-weight="normal">Car Speed:</text>
+     <text font-style="italic" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_11" y="525" x="600.6189" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000" font-weight="normal">CCS Target:</text>
+     <text font-style="italic" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_12" y="587" x="600.6189" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000" font-weight="normal">Car Braking:</text>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="label_ccs_status" y="492" x="689.51563" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000">CCS Status</text>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="label_ccs_target" y="525" x="689.51563" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000">CCS Target</text>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="label_car_speed" y="557" x="689.51563" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000">Car Speed</text>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="label_car_breaking" y="587" x="689.51563" stroke-opacity="null" stroke-width="0" stroke="#84b3ff" fill="#000000">Car Braking</text>
+    </g>
+    <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_26" y="466.5" x="637.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="black" fill="#000000">CCS Values</text>
+   </g>
+   <g id="speedometer">
+    <ellipse fill="white" stroke-opacity="null" fill-opacity="null" cx="308.53013" cy="122.74971" id="svg_13" rx="50.26056" ry="50.26056" stroke="black"/>
+    <text stroke="#84b3ff" transform="matrix(1,0,0,0.9459013938903809,0,7.219628043472767) " font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="tacho_speed" y="109.57307" x="273.20434" stroke-opacity="null" stroke-width="0" fill="#000000">speed</text>
+    <g id="ccs_icon" transform="matrix(0.15223263607377852,0,0,0.15223263607377852,182.6713444729032,192.75463375258957) ">
+     <path fill="#000000" d="m637.36444,-335.85483c-21.02496,0 -38.06915,17.04431 -38.06915,38.06934c0,11.73303 5.31079,22.224 13.65643,29.20734c2.55035,-2.55548 5.10004,-5.11163 7.64972,-7.66772c0.56097,-0.56094 0.10742,-1.93066 -1.01453,-3.0527c-1.12213,-1.12204 -2.48279,-1.57553 -3.04376,-1.01462l-3.64532,3.64532c-4.15674,-4.81201 -6.9209,-10.8653 -7.65869,-17.52618l5.54871,0c0.79346,0 1.43665,-1.28644 1.43665,-2.87317c0,-1.58685 -0.64319,-2.87323 -1.43665,-2.87323l-5.67444,0c0.45264,-6.87079 3.0473,-13.15692 7.12903,-18.19049l4.30072,4.30066c0.56097,0.56113 1.92163,0.10754 3.04376,-1.01465c1.12195,-1.12195 1.5755,-2.49164 1.01453,-3.05261l-4.35455,-4.35474c4.98419,-4.30518 11.30035,-7.11743 18.24451,-7.73053l0,6.33893c0,0.79346 1.28632,1.43671 2.87305,1.43671c1.58691,0 2.87323,-0.64325 2.87323,-1.43671l0,-6.33893c6.94727,0.61224 13.25867,3.42236 18.24451,7.73053l-4.35474,4.35474c-0.56091,0.56097 -0.10736,1.93066 1.01465,3.05261c1.12201,1.12219 2.48267,1.57568 3.04382,1.01465l4.30072,-4.30066c4.08063,5.03387 6.67755,11.31885 7.12891,18.19049l-5.67444,0c-0.79333,0 -1.43658,1.28638 -1.43658,2.87323c0,1.58673 0.64325,2.87317 1.43658,2.87317l5.53979,0c-0.73657,6.66162 -3.49512,12.71368 -7.64996,17.52618l-3.64502,-3.64532c-0.56116,-0.5611 -1.92181,-0.10742 -3.04382,1.01462c-1.12201,1.12204 -1.57556,2.49176 -1.01465,3.0527c2.54932,2.55951 5.10437,5.11334 7.65875,7.66772c8.34277,-6.98334 13.64758,-17.47675 13.64758,-29.20734c0,-21.02502 -17.04425,-38.06934 -38.06934,-38.06934z" id="ccs_iconss"/>
+     <path fill="#000000" d="m658.57782,-310.82718c-0.85846,-1.16937 -1.99615,-1.77069 -2.61725,-1.36151l-15.74548,10.37262c-1.47485,-0.58679 -3.20837,-0.46686 -4.63452,0.47266c-2.31885,1.52765 -2.96039,4.64594 -1.43268,6.9649c1.52759,2.31897 4.64575,2.96027 6.96478,1.43274c1.42603,-0.93945 2.2207,-2.48486 2.26355,-4.07153l15.74554,-10.3728c0.66248,-0.43646 0.49188,-1.8645 -0.3811,-3.18964c-0.05444,-0.0827 -0.10571,-0.16943 -0.16284,-0.24744z" id="rect3049"/>
+     <path fill="#000000" d="m683.91046,-329.3389l3.55695,4.51324l-5.64136,4.44604l2.6676,3.38489l-14.1225,-1.6734l1.67334,-14.12256l2.6676,3.38483l5.64148,-4.44617l3.55688,4.51312z" id="path3065"/>
+    </g>
+    <text stroke="#84b3ff" transform="matrix(1,0,0,0.9459013938903809,0,7.219628043472767) " font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="tacho_target" y="151.80413" x="290.48878" stroke-opacity="null" stroke-width="0" fill="#000000">speed</text>
+    <path stroke="#000000" transform="rotate(178.6538543701172 308.7613220214843,126.5059356689453) " id="svg_21" d="m258.33719,127.35696c70.03088,-10.0619 101.2446,2.51548 100.84445,2.20107" stroke-width="null" fill="none"/>
+   </g>
+  </g>
+ </g>
+</svg>

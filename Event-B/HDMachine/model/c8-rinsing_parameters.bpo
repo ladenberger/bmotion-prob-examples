@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="BLOOD_FLOW_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="DF_FLOW_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="FILLING_BP_RATE_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="FILLING_BP_VOLUME_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="RINSING_BP_RATE_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="RINSING_TIME_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="UF_RINSING_RATE_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="UF_RINSING_VOLUME_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="FILLING_BP_RATE_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP'"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="FILLING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#7"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#7"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP'"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="FILL_BP_VOLUME_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP)"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm1"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm1"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP)"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RINSING_BP_RATE_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP+"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="RINSING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm2"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP+"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="DF_FLOW_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP-"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="DF_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm3"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP-"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RINSING_TIME_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP\/"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="RINSING_TIME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm4"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm4"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP\/"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="UF_RINSING_RATE_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP1"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="UF_RINSING_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm5"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm5"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="UF_RINSING_VOLUME_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP3"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm6"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm6"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="BLOOD_FLOW_RANGE_non_empty/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP5"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="BLOOD_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm7"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm7"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYP'" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="FILLING_BP_RATE_RANGE=50 ‥ 600" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP)" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP'" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="FILLING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#7"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE=0 ‥ 6000" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP+" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP)" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm1"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="RINSING_BP_RATE_RANGE=50 ‥ 300" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#,"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP-" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP+" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="RINSING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm2"/>
+<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="DF_FLOW_RANGE=50 ‥ 300" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#."/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP/" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP-" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="DF_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm3"/>
+<org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="RINSING_TIME_RANGE=0 ‥ 59" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#0"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP1" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP\/" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="RINSING_TIME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm4"/>
+<org.eventb.core.poPredicate name="PRD10" org.eventb.core.predicate="UF_RINSING_RATE_RANGE=0 ‥ 3000" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#2"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP3" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP1" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD11" org.eventb.core.predicate="UF_RINSING_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm5"/>
+<org.eventb.core.poPredicate name="PRD12" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE=0 ‥ 2950" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#4"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP5" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP3" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD13" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm6"/>
+<org.eventb.core.poPredicate name="PRD14" org.eventb.core.predicate="BLOOD_FLOW_RANGE=50 ‥ 600" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#6"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/c8-rinsing_parameters.bpo|org.eventb.core.poFile#c8-rinsing_parameters|org.eventb.core.poPredicateSet#HYP5" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD15" org.eventb.core.predicate="BLOOD_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm7"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

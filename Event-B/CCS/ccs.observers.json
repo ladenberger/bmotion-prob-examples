@@ -1,0 +1,82 @@
+{
+    "observers": [
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ccs_status"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(values[0]);",
+                "selector": "#label_ccs_status"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ccs_target"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(values[0]);",
+                "selector": "#label_ccs_target"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "car_speed"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(values[0]);",
+                "selector": "#label_car_speed"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "car_braking"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(values[0]);",
+                "selector": "#label_car_breaking"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "car_speed"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(values[0] + \" km/h\");",
+                "selector": "#tacho_speed"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ccs_target",
+                    "ccs_status"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.text(values[0] + \" km/h\");\nif(values[1] === 'cruise') origin.attr('fill', 'green');\nelse if(values[1] === 'standby') origin.attr('fill', 'orange');\nelse origin.attr('fill', 'black');",
+                "selector": "#tacho_target"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ccs_status"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "if(values[0] === 'cruise') origin.attr('fill', 'green');\nelse if(values[0] === 'standby') origin.attr('fill', 'orange');\nelse origin.attr('fill', 'black');",
+                "selector": "#ccs_icon path"
+            }
+        }
+    ]
+}

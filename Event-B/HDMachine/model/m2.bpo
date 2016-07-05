@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel_STATES" org.eventb.core.type="ℙ(CS_TopLevel_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_STATES" org.eventb.core.type="ℙ(HDSystem_STATES)"/>
+<org.eventb.core.poIdentifier name="ENDING" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_END" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_STANDBY" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="STANDBY" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATET" org.eventb.core.predicate="STANDBY∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZELR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEU" org.eventb.core.predicate="PREPARATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZEbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEV" org.eventb.core.predicate="INITIATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZErR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEW" org.eventb.core.predicate="ENDING∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAILR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEX" org.eventb.core.predicate="partition(CS_TopLevel_STATES,{STANDBY},{PREPARATION},{INITIATION},{ENDING})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAIbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEY" org.eventb.core.predicate="HDSystem_STANDBY∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637ds6PgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEZ" org.eventb.core.predicate="HDSystem_PREP∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637dtKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE[" org.eventb.core.predicate="HDSystem_INIT∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE\" org.eventb.core.predicate="HDSystem_END∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwaPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE]" org.eventb.core.predicate="partition(HDSystem_STATES,{HDSystem_STANDBY},{HDSystem_PREP},{HDSystem_INIT},{HDSystem_END})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwqPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poIdentifier name="ENDING_sm_STATES" org.eventb.core.type="ℙ(ENDING_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_END_sm_STATES" org.eventb.core.type="ℙ(HDSystem_END_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT_sm_STATES" org.eventb.core.type="ℙ(HDSystem_INIT_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP_sm_STATES" org.eventb.core.type="ℙ(HDSystem_PREP_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm_STATES" org.eventb.core.type="ℙ(INITIATION_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm_STATES" org.eventb.core.type="ℙ(PREPARATION_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="CARTRIDGE_EMPTYING" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CONCENTRATE_CONNECTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="DIALYZER_EMPTYING" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="DIALYZER_RINSING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="ENDING_sm_NULL" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_ConnectingConcentrate" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_ConnectingPatient" org.eventb.core.type="HDSystem_INIT_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_DisplayingOverview" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_END_sm_NULL" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_EmptyingCartridge" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_EmptyingDialyzer" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT_sm_NULL" org.eventb.core.type="HDSystem_INIT_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP_sm_NULL" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PreparingHP" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PreparingTubingSystem" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_Reinfusion" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_RinsingDialyzer" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_SettingRinsingParameters" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_SettingTreatmentParameters" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_Testing" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_Therapy" org.eventb.core.type="HDSystem_INIT_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HP_PREPARING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm_NULL" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTING" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm_NULL" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="REINFUSION" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="RP_SETTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="THERAPY" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="THERAPY_OVERVIEWING" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="TP_SETTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="TS_PREPARING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametert" org.eventb.core.predicate="PREPARATION_sm_NULL∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_tth5YLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameteru" org.eventb.core.predicate="INITIATION_sm_NULL∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigcLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterv" org.eventb.core.predicate="ENDING_sm_NULL∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigcbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterw" org.eventb.core.predicate="CF_TESTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigcrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterx" org.eventb.core.predicate="CONCENTRATE_CONNECTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigc7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametery" org.eventb.core.predicate="RP_SETTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigdLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterz" org.eventb.core.predicate="TS_PREPARING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigdbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter{" org.eventb.core.predicate="HP_PREPARING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigdrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter|" org.eventb.core.predicate="TP_SETTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigd7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter}" org.eventb.core.predicate="DIALYZER_RINSING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHgLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter~" org.eventb.core.predicate="PATIENT_CONNECTING∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHgbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes'" org.eventb.core.predicate="THERAPY∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHgrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes(" org.eventb.core.predicate="REINFUSION∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHg7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes)" org.eventb.core.predicate="DIALYZER_EMPTYING∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHhLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes*" org.eventb.core.predicate="CARTRIDGE_EMPTYING∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHhbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes+" org.eventb.core.predicate="THERAPY_OVERVIEWING∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjukLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes," org.eventb.core.predicate="partition(PREPARATION_sm_STATES,{CF_TESTING},{CONCENTRATE_CONNECTING},{RP_SETTING},{TS_PREPARING},{HP_PREPARING},{TP_SETTING},{DIALYZER_RINSING},{PREPARATION_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjukbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes-" org.eventb.core.predicate="partition(INITIATION_sm_STATES,{PATIENT_CONNECTING},{THERAPY},{INITIATION_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjukrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes." org.eventb.core.predicate="partition(ENDING_sm_STATES,{REINFUSION},{DIALYZER_EMPTYING},{CARTRIDGE_EMPTYING},{THERAPY_OVERVIEWING},{ENDING_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjuk7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes/" org.eventb.core.predicate="HDSystem_PREP_sm_NULL∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzUqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes0" org.eventb.core.predicate="HDSystem_INIT_sm_NULL∈HDSystem_INIT_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzU6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes1" org.eventb.core.predicate="HDSystem_END_sm_NULL∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzVKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes2" org.eventb.core.predicate="HDSystem_Testing∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzVaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes3" org.eventb.core.predicate="HDSystem_ConnectingConcentrate∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzVqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes4" org.eventb.core.predicate="HDSystem_SettingRinsingParameters∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzV6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes5" org.eventb.core.predicate="HDSystem_PreparingTubingSystem∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzWKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes6" org.eventb.core.predicate="HDSystem_PreparingHP∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aYKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes7" org.eventb.core.predicate="HDSystem_SettingTreatmentParameters∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aYaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes8" org.eventb.core.predicate="HDSystem_RinsingDialyzer∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aYqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes9" org.eventb.core.predicate="HDSystem_ConnectingPatient∈HDSystem_INIT_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aY6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes:" org.eventb.core.predicate="HDSystem_Therapy∈HDSystem_INIT_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes;" org.eventb.core.predicate="HDSystem_Reinfusion∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes=" org.eventb.core.predicate="HDSystem_EmptyingDialyzer∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes&gt;" org.eventb.core.predicate="HDSystem_EmptyingCartridge∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZ6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes?" org.eventb.core.predicate="HDSystem_DisplayingOverview∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1BcKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes@" org.eventb.core.predicate="partition(HDSystem_PREP_sm_STATES,{HDSystem_Testing},{HDSystem_ConnectingConcentrate},{HDSystem_SettingRinsingParameters},{HDSystem_PreparingTubingSystem},{HDSystem_PreparingHP},{HDSystem_SettingTreatmentParameters},{HDSystem_RinsingDialyzer},{HDSystem_PREP_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1BcaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesA" org.eventb.core.predicate="partition(HDSystem_INIT_sm_STATES,{HDSystem_ConnectingPatient},{HDSystem_Therapy},{HDSystem_INIT_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1BcqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesB" org.eventb.core.predicate="partition(HDSystem_END_sm_STATES,{HDSystem_Reinfusion},{HDSystem_EmptyingDialyzer},{HDSystem_EmptyingCartridge},{HDSystem_DisplayingOverview},{HDSystem_END_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1Bc6PiEeWaQrtEc5Lq6g"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_KO" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="ENDING_sm" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEE" org.eventb.core.predicate="CS_TopLevel∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#_JjEPILR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEF" org.eventb.core.predicate="PREPARATION_sm∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWhbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEG" org.eventb.core.predicate="INITIATION_sm∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWhrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEH" org.eventb.core.predicate="ENDING_sm∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWh7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEI" org.eventb.core.predicate="PREPARATION_sm≠PREPARATION_sm_NULL⇔CS_TopLevel=PREPARATION" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWiLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEJ" org.eventb.core.predicate="INITIATION_sm≠INITIATION_sm_NULL⇔CS_TopLevel=INITIATION" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZ9kLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_LL_CF_NOT_TESTEK" org.eventb.core.predicate="ENDING_sm≠ENDING_sm_NULL⇔CS_TopLevel=ENDING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZ9kbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/distinct_states_in_CS_LowLevel_CFTesting/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEE"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition({TRUE},{TRUE}∩{TRUE},{FALSE}∩{TRUE},{FALSE}∩{TRUE},{FALSE}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3R"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSB"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#INITIALISATION\/distinct_states_in_CS_LowLevel_CFTesting\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEE"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=PREPARATION⇒(PREPARATION_sm_NULL≠CF_TESTING⇒FALSE=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3R"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSB"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#INITIALISATION\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEE"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=INITIATION⇒FALSE=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3R"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSB"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#INITIALISATION\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEE"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=ENDING⇒FALSE=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3R"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSB"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#INITIALISATION\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEE" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_KO'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEE" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEE" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="User_PressesOn/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEF"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="PREPARATION=PREPARATION⇒(CF_TESTING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3S"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSC"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#User_PressesOn\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="User_PressesOn/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEF"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="PREPARATION=INITIATION⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3S"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSC"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#User_PressesOn\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="User_PressesOn/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEF"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="PREPARATION=ENDING⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3S"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSC"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#User_PressesOn\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEF" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEF" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEF" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qGgKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjCZ8bR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSC|org.eventb.core.guard#_0cjm0LUlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsConnectingPatient/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEG"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="INITIATION=PREPARATION⇒(PREPARATION_sm_NULL≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3T"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSD"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsConnectingPatient\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="HDSystem_StartsConnectingPatient/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEG"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="INITIATION=INITIATION⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3T"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSD"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsConnectingPatient\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="HDSystem_StartsConnectingPatient/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEG"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="INITIATION=ENDING⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3T"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSD"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsConnectingPatient\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEG" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEG" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEG" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=PREPARATION" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qtkKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjCZ87R5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PREPARATION_sm=DIALYZER_RINSING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3T|org.eventb.core.guard#_ttVsJLR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsReinfusion/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEH"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ENDING=PREPARATION⇒(PREPARATION_sm≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3U"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSE"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsReinfusion\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="HDSystem_StartsReinfusion/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEH"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ENDING=INITIATION⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3U"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSE"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsReinfusion\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="HDSystem_StartsReinfusion/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEH"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ENDING=ENDING⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3U"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSE"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsReinfusion\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEH" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEH" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEH" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=INITIATION" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qtkaJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjDBAbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="INITIATION_sm=THERAPY" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3U|org.eventb.core.guard#_ttWTMLR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="User_PressesOff/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEI"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=PREPARATION⇒(PREPARATION_sm≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3V"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSF"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#User_PressesOff\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="User_PressesOff/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEI"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=INITIATION⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3V"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSF"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#User_PressesOff\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="User_PressesOff/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEI"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=ENDING⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3V"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSF"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#User_PressesOff\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEI" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEI" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEI" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=ENDING" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_OIxOoKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjDBA7R5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ENDING_sm=THERAPY_OVERVIEWING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3V|org.eventb.core.guard#_ttWTM7R9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsConnectingConcentrate/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEJ"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(CONCENTRATE_CONNECTING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JHqEILQ6EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSG"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsConnectingConcentrate\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEJ" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEJ" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEJ" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CF_TESTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JHqEILQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttW6QLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSG|org.eventb.core.guard#_0cjm0bUlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsSettingRP/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEK"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(RP_SETTING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_XmAkELQ6EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSH"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsSettingRP\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEK" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEK" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEK" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CONCENTRATE_CONNECTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_XmAkELQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttXhUbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsPreparingTS/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEL"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(TS_PREPARING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_hfJzcLQ6EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSI"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsPreparingTS\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEL" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEL" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEL" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=RP_SETTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_hfJzcLQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttXhU7R9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsPreparingHP/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEM"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(HP_PREPARING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_oYozwLQ6EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSJ"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsPreparingHP\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEM" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEM" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEM" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=TS_PREPARING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_oYozwLQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttXhVbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsSettingTP/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEN"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(TP_SETTING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_xp4T0LR1EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSK"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsSettingTP\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEN" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEN" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEN" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=HP_PREPARING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_xp4T0LR1EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYIYbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsRinsingDialyzer/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEO"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(DIALYZER_RINSING≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_BRMm8LR2EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSL"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#HDSystem_StartsRinsingDialyzer\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEO" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEO" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEO" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=TP_SETTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_BRMm8LR2EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYIY7R9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="INITIATION_sm=PATIENT_CONNECTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_GW8G0LR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYIZbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEQ" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEQ" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEQ" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=REINFUSION" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_i1CfILR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYvcLR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTER" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTER" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTER" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=DIALYZER_EMPTYING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_qVG-ULR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYvcrR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTES" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTES" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTES" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=CARTRIDGE_EMPTYING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_0fo4oLR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYvdLR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="CS_LowLevel_StartsTestingCF/distinct_states_in_CS_LowLevel_CFTesting/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTET"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition({TRUE},{FALSE}∩{TRUE},{TRUE}∩{TRUE},{CS_LL_CF_TESTED_OK}∩{TRUE},{CS_LL_CF_TESTED_KO}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCALSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_StartsTestingCF\/distinct_states_in_CS_LowLevel_CFTesting\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTET" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTET" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTET" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CF_TESTING" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCALSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fmTwLUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCALSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fmTwbUlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="CS_LowLevel_StandsBy/distinct_states_in_CS_LowLevel_CFTesting/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEU"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition({TRUE},{TRUE}∩{TRUE},{CS_LL_CF_TESTING}∩{TRUE},{FALSE}∩{TRUE},{CS_LL_CF_TESTED_KO}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_StandsBy\/distinct_states_in_CS_LowLevel_CFTesting\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CS_LowLevel_StandsBy/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEU"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(PREPARATION_sm≠CF_TESTING⇒FALSE=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_StandsBy\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CS_LowLevel_StandsBy/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEU"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=INITIATION⇒FALSE=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_StandsBy\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CS_LowLevel_StandsBy/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEU"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=ENDING⇒FALSE=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_StandsBy\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEU" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEU" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEU" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fm60rUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fm607UlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="CS_LowLevel_CFTestsOK/distinct_states_in_CS_LowLevel_CFTesting/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEV"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition({TRUE},{CS_LL_CF_NOT_TESTED}∩{TRUE},{FALSE}∩{TRUE},{TRUE}∩{TRUE},{CS_LL_CF_TESTED_KO}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCArSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_CFTestsOK\/distinct_states_in_CS_LowLevel_CFTesting\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CS_LowLevel_CFTestsOK/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEV"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(PREPARATION_sm≠CF_TESTING⇒TRUE=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCArSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_CFTestsOK\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CS_LowLevel_CFTestsOK/CS_TopLevel_invariants2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEV"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=INITIATION⇒TRUE=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCArSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_CFTestsOK\/CS_TopLevel_invariants2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CS_LowLevel_CFTestsOK/CS_TopLevel_invariants3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEV"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=ENDING⇒TRUE=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCArSGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_CFTestsOK\/CS_TopLevel_invariants3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEV" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEV" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEV" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_LL_CF_TESTING=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCArSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fnh4LUlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="CS_LowLevel_CFTestsKO/distinct_states_in_CS_LowLevel_CFTesting/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTALLHYPCS_LL_CF_NOT_TESTEW"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition({TRUE},{CS_LL_CF_NOT_TESTED}∩{TRUE},{FALSE}∩{TRUE},{CS_LL_CF_TESTED_OK}∩{TRUE},{TRUE}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCA7SGEeW1p-Q_lMMcSA"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poSequent#CS_LowLevel_CFTestsKO\/distinct_states_in_CS_LowLevel_CFTesting\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTCS_LL_CF_NOT_TESTEW" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_KO'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPCS_LL_CF_NOT_TESTEW" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTCS_LL_CF_NOT_TESTEW" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_LL_CF_TESTING=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCA7SGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fnh47UlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI8LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_TESTING∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI8bUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="CS_LL_CF_TESTED_OK∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI8rUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="CS_LL_CF_TESTED_KO∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI87UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="partition({TRUE},{CS_LL_CF_NOT_TESTED}∩{TRUE},{CS_LL_CF_TESTING}∩{TRUE},{CS_LL_CF_TESTED_OK}∩{TRUE},{CS_LL_CF_TESTED_KO}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(PREPARATION_sm≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="CS_TopLevel=INITIATION⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="CS_TopLevel=ENDING⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

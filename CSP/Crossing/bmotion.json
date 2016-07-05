@@ -1,17 +1,11 @@
 {
-  "name": "crossing",
   "model": "model/crossing.csp",
-  "tool": "CSPAnimation",
-  "views": [
-    {
-      "id": "crossing",
-      "name": "Crossing visualization",
-      "template": "crossing.html",
-      "observers": "views/crossing.observers.json",
-      "autoOpen": [
-        "CurrentTrace",
-        "Events"
-      ]
-    }
+  "id": "crossing",
+  "name": "Crossing visualization",
+  "template": "crossing.html",
+  "observers": "views/crossing.observers.json",
+  "autoOpen": [
+    "CurrentTrace",
+    "Events"
   ]
 }

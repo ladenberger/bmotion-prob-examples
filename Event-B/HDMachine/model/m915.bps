@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/distinct_states_in_CS_LowLevel_Heparin/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/distinct_states_in_CS_LowLevel_Heparin_ON_sm/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/Check_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/Update_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="HDSystem_StartsReinfusion/distinct_states_in_CS_LowLevel_Heparin/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="HDSystem_StartsTherapy/distinct_states_in_CS_LowLevel_Heparin/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_On/distinct_states_in_CS_LowLevel_Heparin/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_On/distinct_states_in_CS_LowLevel_Heparin_ON_sm/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_On/Check_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_On/Update_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Off/distinct_states_in_CS_LowLevel_Heparin/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Off/distinct_states_in_CS_LowLevel_Heparin_ON_sm/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Off/Check_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Off/Update_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Updates/distinct_states_in_CS_LowLevel_Heparin_ON_sm/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Updates/Check_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Updates/Update_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Updates/CS_LowLevel_Heparin_actions2/FIS" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Positve/distinct_states_in_CS_LowLevel_Heparin_ON_sm/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Positve/Check_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Heparin_Positve/Update_Heparin_substateof_CS_LowLevel_Heparin_ON/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

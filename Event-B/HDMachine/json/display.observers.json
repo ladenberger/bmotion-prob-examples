@@ -1,0 +1,175 @@
+{
+    "observers": [
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "signal_status(CF_TESTING_SIGNAL)"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "var colors = {\n  \"SIGNAL_OFF\": \"lightgray\",\n  \"SIGNAL_RED\": \"red\",\n  \"SIGNAL_GREEN\": \"green\",\n  \"SIGNAL_ORANGE\": \"orange\"\n}\norigin.find(\"#signal_CF_TESTING_SIGNAL\").attr(\"fill\", colors[values[0]]);",
+                "selector": "#CF_TESTING_SIGNAL",
+                "refinement": "m6"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "CS_TopLevel"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"path\").attr(\"fill\", values[0] === \"STANDBY\" ? \"#840000\" : \"#077700\");",
+                "selector": "#bt_power",
+                "refinement": "m2"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "fillingBPRate"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#fillingBPRate_val\").text(values[0]);",
+                "selector": "#fillingBPRate",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "fillingBPVolume"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#fillingBPVolume_val\").text(values[0]);",
+                "selector": "#fillingBPVolume",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "rinsingBPRate"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#rinsingBPRate_val\").text(values[0]);",
+                "selector": "#rinsingBPRate",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "DFFlow"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#DFFlow_val\").text(values[0]);",
+                "selector": "#DFFlow",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "UFRinsingRate"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#UFRinsingRate_val\").text(values[0]);",
+                "selector": "#UFRinsingRate",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "UFRinsingVolume"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#UFRinsingVolume_val\").text(values[0]);",
+                "selector": "#UFRinsingVolume",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "bloodFlow"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#bloodFlow_val\").text(values[0]);",
+                "selector": "#bloodFlow",
+                "refinement": "m8"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "pressure(AP)",
+                    "limit_high(AP)",
+                    "limit_low(AP)"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#AP_value\").text(values[0]);\norigin.find(\"#AP_limit_high\").text(values[1]);\norigin.find(\"#AP_limit_low\").text(values[2]);\n\nvar range = values[1] - values[2];\nif(range > 0) {\n  var offset = values[2] < 0 ? values[2] * -1 : 0;\n  var einheit = range < 50 ? 50 / range : range / 50;\n  origin.find(\"#AP_line\").attr(\"transform\",\"translate(0,-\"+ einheit * (values[0] + offset) +\")\");\n}\n",
+                "selector": "#AP_display",
+                "refinement": "m912",
+                "translate": true
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "pressure(VP)",
+                    "limit_high(VP)",
+                    "limit_low(VP)"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#VP_value\").text(values[0]);\norigin.find(\"#VP_limit_high\").text(values[1]);\norigin.find(\"#VP_limit_low\").text(values[2]);\n\nvar range = values[1] - values[2];\nif(range > 0) {\n  var offset = values[2] < 0 ? values[2] * -1 : 0;\n  var einheit = range < 50 ? 50 / range : range / 50;\n  origin.find(\"#VP_line\").attr(\"transform\",\"translate(0,-\"+ einheit * (values[0] + offset) +\")\");\n}\n",
+                "selector": "#VP_display",
+                "refinement": "m912",
+                "translate": true
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "pressure(BEP)",
+                    "limit_high(BEP)",
+                    "limit_low(BEP)"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"#BEP_value\").text(values[0]);\norigin.find(\"#BEP_limit_high\").text(values[1]);\norigin.find(\"#BEP_limit_low\").text(values[2]);\n\nvar range = values[1] - values[2];\nif(range > 0) {\n  var offset = values[2] < 0 ? values[2] * -1 : 0;\n  var einheit = range < 50 ? 50 / range : range / 50;\n  origin.find(\"#BEP_line\").attr(\"transform\",\"translate(0,-\"+ einheit * (values[0] + offset) +\")\");\n}\n",
+                "selector": "#BEP_display",
+                "refinement": "m912",
+                "translate": true
+            }
+        },
+        {
+            "type": "refinement",
+            "data": {
+                "refinement": "m912",
+                "selector": "#m912",
+                "enable": "origin.attr(\"visibility\",\"visible\");",
+                "disable": "origin.attr(\"visibility\",\"hidden\");"
+            }
+        },
+        {
+            "type": "refinement",
+            "data": {
+                "refinement": "m6",
+                "selector": "#CF_TESTING_SIGNAL",
+                "enable": "origin.attr(\"visibility\",\"visible\");",
+                "disable": "origin.attr(\"visibility\",\"hidden\");"
+            }
+        }
+    ]
+}

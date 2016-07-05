@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="SIGNAL" org.eventb.core.type="ℙ(SIGNAL)"/>
+<org.eventb.core.poIdentifier name="SIGNAL_STATUS" org.eventb.core.type="ℙ(SIGNAL_STATUS)"/>
+<org.eventb.core.poIdentifier name="SIGNAL_GREEN" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poIdentifier name="SIGNAL_OFF" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poIdentifier name="SIGNAL_ORANGE" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poIdentifier name="SIGNAL_RED" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poPredicate name="SIGNAL_STATUT" org.eventb.core.predicate="partition(SIGNAL_STATUS,{SIGNAL_OFF},{SIGNAL_RED},{SIGNAL_GREEN},{SIGNAL_ORANGE})" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.axiom#+"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_SIGNAL" org.eventb.core.type="SIGNAL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/c6-CFTestingSignal.bpo|org.eventb.core.poFile#c6-CFTestingSignal|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CF_TESTING_SIGNAL∈SIGNAL" org.eventb.core.source="/HDMachine/c6-CFTestingSignal.buc|org.eventb.core.contextFile#c6-CFTestingSignal|org.eventb.core.axiom#)"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

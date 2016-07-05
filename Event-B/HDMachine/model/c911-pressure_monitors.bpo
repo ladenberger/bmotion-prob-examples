@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="PRESSURE_MONITOR" org.eventb.core.type="ℙ(PRESSURE_MONITOR)"/>
+<org.eventb.core.poIdentifier name="AP" org.eventb.core.type="PRESSURE_MONITOR"/>
+<org.eventb.core.poIdentifier name="BEP" org.eventb.core.type="PRESSURE_MONITOR"/>
+<org.eventb.core.poIdentifier name="VP" org.eventb.core.type="PRESSURE_MONITOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/c911-pressure_monitors.bpo|org.eventb.core.poFile#c911-pressure_monitors|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(PRESSURE_MONITOR,{AP},{VP},{BEP})" org.eventb.core.source="/HDMachine/c911-pressure_monitors.buc|org.eventb.core.contextFile#c911-pressure_monitors|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

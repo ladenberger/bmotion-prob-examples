@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(CONCENTRATE,{CONCENTRATE_NONE},{CONCENTRATE_BICARBONATE},{CONCENTRATE_ACETATE})" org.eventb.core.source="/HDMachine/c7-concentrates.buc|org.eventb.core.contextFile#c7-concentrates|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="CONCENTRATE" org.eventb.core.source="/HDMachine/c7-concentrates.buc|org.eventb.core.contextFile#c7-concentrates|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(CONCENTRATE)"/>
+<org.eventb.core.scConstant name="CONCENTRATE_ACETATE" org.eventb.core.source="/HDMachine/c7-concentrates.buc|org.eventb.core.contextFile#c7-concentrates|org.eventb.core.constant#*" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.scConstant name="CONCENTRATE_BICARBONATE" org.eventb.core.source="/HDMachine/c7-concentrates.buc|org.eventb.core.contextFile#c7-concentrates|org.eventb.core.constant#)" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.scConstant name="CONCENTRATE_NONE" org.eventb.core.source="/HDMachine/c7-concentrates.buc|org.eventb.core.contextFile#c7-concentrates|org.eventb.core.constant#(" org.eventb.core.type="CONCENTRATE"/>
+</org.eventb.core.scContextFile>

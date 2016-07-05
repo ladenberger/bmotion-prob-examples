@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="SIGNAL_STATUS−def" org.eventb.core.predicate="partition(SIGNAL_STATUS,{SIGNAL_OFF},{SIGNAL_RED},{SIGNAL_GREEN},{SIGNAL_ORANGE})" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="SIGNAL" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.carrierSet#," org.eventb.core.type="ℙ(SIGNAL)"/>
+<org.eventb.core.scConstant name="SIGNAL_GREEN" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.constant#*" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.scConstant name="SIGNAL_OFF" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.constant#(" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.scConstant name="SIGNAL_ORANGE" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.constant#\/" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.scConstant name="SIGNAL_RED" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.constant#)" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.scCarrierSet name="SIGNAL_STATUS" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(SIGNAL_STATUS)"/>
+</org.eventb.core.scContextFile>

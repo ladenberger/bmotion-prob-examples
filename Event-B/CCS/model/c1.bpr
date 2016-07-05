@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="axm6/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5" org.eventb.core.prSets="STATUS">
+<org.eventb.core.prRule name="com.b4free.rodin.core.externalML" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p3,p2,p4,p5">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀n⦂ℤ·n&gt;0⇒n∈dom(p)∧p∈ℤ ⇸ ℤ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="p∈ℤ → ℤ"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="axm7/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6" org.eventb.core.prSets="STATUS">
+<org.eventb.core.prRule name="com.b4free.rodin.core.externalML" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p4,p2,p5,p6,p3">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀n⦂ℤ·n&gt;0⇒p(n)&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈dom(p)∧p∈ℤ ⇸ ℤ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="p∈ℤ → ℤ"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="axm8/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9" org.eventb.core.prSets="STATUS">
+<org.eventb.core.prRule name="com.b4free.rodin.core.externalML" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p6,p2,p7,p9,p5,p8,p4,p3">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+<org.eventb.core.prIdent name="standby" org.eventb.core.type="STATUS"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="STATUS={off,standby,cruise}"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀n⦂ℤ·n&lt;0⇒n∈dom(p)∧p∈ℤ ⇸ ℤ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="off≠cruise"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="p∈ℤ ⇸ ℤ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="off≠standby"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="∀n⦂ℤ·n&gt;0⇒p(n)&gt;0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="0∈dom(p)"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="standby≠cruise"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="p(0)=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="p∈ℤ → ℤ"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>

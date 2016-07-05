@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="inv1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/distinct_states_in_CS_LowLevel_Reinfusion_AP_Status/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/attribType_limit_low_copy/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/attribType_limit_high_copy/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/attribType_limit_window_active/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/attribType_limit_low/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/attribType_limit_high/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="HDSystem_StartsReinfusion/distinct_states_in_CS_LowLevel_Reinfusion_AP_Status/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="HDSystem_StartsEmptyingDialyzer/distinct_states_in_CS_LowLevel_Reinfusion_AP_Status/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/CS_LowLevel_guards1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/CS_LowLevel_guards2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/CS_LowLevel_guards8/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/attribType_limit_low_copy/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/attribType_limit_high_copy/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/attribType_limit_window_active/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/attribType_limit_low/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_ActivatesLimitWindow/attribType_limit_high/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_DeactivatesLimitWindow/CS_LowLevel_guards3/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_DeactivatesLimitWindow/attribType_limit_window_active/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_Therapy_OutOfRange/CS_LowLevel_guards4/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_Therapy_OutOfRange/CS_LowLevel_guards5/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_VP_High/CS_TopLevel_PatientConnecting_VP_Status_guards1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_VP_High_2_Normal/CS_TopLevel_PatientConnecting_VP_Status_guards2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_VP_Low_2_High/CS_TopLevel_PatientConnecting_VP_Status_guards5/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_VP_Low/CS_TopLevel_PatientConnecting_VP_Status_guards3/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_VP_Low/CS_TopLevel_PatientConnecting_VP_Status_guards4/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_AP_Low/CS_TopLevel_PatientConnecting_AP_Status_guards1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_AP_Low/CS_TopLevel_PatientConnecting_AP_Status_guards2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_PatientConnecting_AP_Low_2_Normal/CS_TopLevel_PatientConnecting_AP_Status_guards3/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_Reinfusion_VP_High/CS_LowLevel_Reinfusion_VP_Status_guards1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_PM_Reinfusion_VP_High_2_Normal/CS_LowLevel_Reinfusion_VP_Status_guards2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Reinfusion_AP_Low/CS_LowLevel_Reinfusion_AP_Status_guards1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Reinfusion_AP_Low/distinct_states_in_CS_LowLevel_Reinfusion_AP_Status/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Reinfusion_AP_Low_2_Normal/CS_LowLevel_Reinfusion_AP_Status_guards2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CS_LowLevel_Reinfusion_AP_Low_2_Normal/distinct_states_in_CS_LowLevel_Reinfusion_AP_Status/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

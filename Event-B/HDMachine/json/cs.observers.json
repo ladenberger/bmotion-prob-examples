@@ -1,0 +1,52 @@
+{
+    "observers": [
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "CS_TopLevel"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"[id^=HDSystem_]\").attr(\"fill\", \"white\");\norigin.find(\"#HDSystem_\" + values[0]).attr(\"fill\", \"#dbe8ff\");",
+                "selector": "#CS_TopLevel",
+                "refinement": "m0"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "PREPARATION_sm"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"rect\").attr(\"fill\", \"#f7f7f7\");\norigin.find(\"#\" + values[0] + \" rect\").attr(\"fill\", \"#ffffcc\");",
+                "selector": "#PREPARATION_sm",
+                "refinement": "m1"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "INITIATION_sm"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"rect\").attr(\"fill\", \"#f7f7f7\");\norigin.find(\"#\" + values[0] + \" rect\").attr(\"fill\", \"#ffffcc\");",
+                "selector": "#INITIATION_sm",
+                "refinement": "m1"
+            }
+        },
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [
+                    "ENDING_sm"
+                ],
+                "cause": "AnimationChanged",
+                "trigger": "origin.find(\"rect\").attr(\"fill\", \"#f7f7f7\");\norigin.find(\"#\" + values[0] + \" rect\").attr(\"fill\", \"#ffffcc\");",
+                "selector": "#ENDING_sm",
+                "refinement": "m1"
+            }
+        }
+    ]
+}

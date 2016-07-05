@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="SIGNAL_STATUS"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="SIGNAL_OFF"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="SIGNAL_RED"/>
+<org.eventb.core.constant name="*" org.eventb.core.identifier="SIGNAL_GREEN"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="SIGNAL_STATUS−def" org.eventb.core.predicate="partition(SIGNAL_STATUS, {SIGNAL_OFF}, {SIGNAL_RED}, {SIGNAL_GREEN}, {SIGNAL_ORANGE})"/>
+<org.eventb.core.carrierSet name="," org.eventb.core.identifier="SIGNAL"/>
+<org.eventb.core.constant name="/" org.eventb.core.identifier="SIGNAL_ORANGE"/>
+</org.eventb.core.contextFile>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.constant name="'" org.eventb.core.identifier="FILLING_BP_RATE_RANGE"/>
+<org.eventb.core.axiom name="(" org.eventb.core.label="FILLING_BP_RATE_RANGE_type" org.eventb.core.predicate="FILLING_BP_RATE_RANGE = 50‥600"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="FILLING_BP_VOLUME_RANGE"/>
+<org.eventb.core.axiom name="7" org.eventb.core.label="FILLING_BP_RATE_RANGE_non_empty" org.eventb.core.predicate="FILLING_BP_RATE_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="*" org.eventb.core.label="FILL_BP_VOLUME_RANGE_type" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE = 0‥6000"/>
+<org.eventb.core.axiom name="axm1" org.eventb.core.label="FILL_BP_VOLUME_RANGE_non_empty" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.constant name="+" org.eventb.core.identifier="RINSING_BP_RATE_RANGE"/>
+<org.eventb.core.axiom name="," org.eventb.core.label="RINSING_BP_RATE_RANGE_type" org.eventb.core.predicate="RINSING_BP_RATE_RANGE = 50‥300"/>
+<org.eventb.core.axiom name="axm2" org.eventb.core.label="RINSING_BP_RATE_RANGE_non_empty" org.eventb.core.predicate="RINSING_BP_RATE_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.constant name="-" org.eventb.core.identifier="DF_FLOW_RANGE"/>
+<org.eventb.core.axiom name="." org.eventb.core.label="DF_FLOW_RANGE_type" org.eventb.core.predicate="DF_FLOW_RANGE = 50‥300"/>
+<org.eventb.core.axiom name="axm3" org.eventb.core.label="DF_FLOW_RANGE_non_empty" org.eventb.core.predicate="DF_FLOW_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.constant name="/" org.eventb.core.identifier="RINSING_TIME_RANGE"/>
+<org.eventb.core.axiom name="0" org.eventb.core.label="RINSING_TIME_RANGE_type" org.eventb.core.predicate="RINSING_TIME_RANGE = 0‥59"/>
+<org.eventb.core.axiom name="axm4" org.eventb.core.label="RINSING_TIME_RANGE_non_empty" org.eventb.core.predicate="RINSING_TIME_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.constant name="1" org.eventb.core.identifier="UF_RINSING_RATE_RANGE"/>
+<org.eventb.core.axiom name="2" org.eventb.core.label="UF_RINSING_RATE_RANGE_type" org.eventb.core.predicate="UF_RINSING_RATE_RANGE = 0‥3000"/>
+<org.eventb.core.axiom name="axm5" org.eventb.core.label="UF_RINSING_RATE_RANGE_non_empty" org.eventb.core.predicate="UF_RINSING_RATE_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.constant name="3" org.eventb.core.identifier="UF_RINSING_VOLUME_RANGE"/>
+<org.eventb.core.axiom name="4" org.eventb.core.label="UF_RINSING_VOLUME_RANGE_type" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE = 0‥2950"/>
+<org.eventb.core.axiom name="axm6" org.eventb.core.label="UF_RINSING_VOLUME_RANGE_non_empty" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+<org.eventb.core.constant name="5" org.eventb.core.identifier="BLOOD_FLOW_RANGE"/>
+<org.eventb.core.axiom name="6" org.eventb.core.label="BLOOD_FLOW_RANGE_type" org.eventb.core.predicate="BLOOD_FLOW_RANGE = 50‥600"/>
+<org.eventb.core.axiom name="axm7" org.eventb.core.label="BLOOD_FLOW_RANGE_non_empty" org.eventb.core.predicate="BLOOD_FLOW_RANGE ≠ ∅" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

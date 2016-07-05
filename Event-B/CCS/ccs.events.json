@@ -1,0 +1,131 @@
+{
+    "events": [
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "USER_SwitchON",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "USER_SwitchOFF",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#btOnOff"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "CAR_BrakeOn",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "CAR_BrakeOff",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#brakePedal"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "CAR_Adapt_Speed",
+                        "predicate": "var speed = container.find(\"#car_speed\").val();\nif(speed.length > 0) return \"s=\"+speed;\nelse return \"\";\n",
+                        "predicateJs": true
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#acceleratePedal"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "USER_SetTaget",
+                        "predicate": ""
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#btSet"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "USER_Adapt_Speed",
+                        "predicate": "s=1",
+                        "predicateJs": false
+                    },
+                    {
+                        "name": "USER_Adapt_Speed",
+                        "predicate": "s=5"
+                    }
+                ],
+                "tooltip": true,
+                "label": "return \"Increase speed \" + event.predicate;\n              ",
+                "selector": "#btSpeedUp"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "USER_Adapt_Speed",
+                        "predicate": "s=-1",
+                        "predicateJs": false
+                    },
+                    {
+                        "name": "USER_Adapt_Speed",
+                        "predicate": "s=-5"
+                    }
+                ],
+                "tooltip": true,
+                "label": "return '<span>Decrease speed ' + event.predicate + '</span>';\n              ",
+                "selector": "#btSpeedDown"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "CCS_Adapt_Speed_Up",
+                        "predicate": "var speed = container.find(\"#ccs_speed\").val();\nif(speed.length > 0) return \"s=\"+speed;\nelse return \"s=1\";\n",
+                        "predicateJs": true
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#btCCSSpeedUp"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "CCS_Adapt_Speed_Down",
+                        "predicate": "var speed = container.find(\"#ccs_speed\").val();\nif(speed.length > 0) return \"s=-\"+speed;\nelse return \"s=-1\";\n",
+                        "predicateJs": true
+                    }
+                ],
+                "tooltip": true,
+                "selector": "#btCCSSpeedDown"
+            }
+        }
+    ]
+}

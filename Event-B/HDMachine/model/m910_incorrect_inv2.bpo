@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="CS_TopLevel_STATES" org.eventb.core.type="ℙ(CS_TopLevel_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_STATES" org.eventb.core.type="ℙ(HDSystem_STATES)"/>
+<org.eventb.core.poIdentifier name="ENDING" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_END" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_STANDBY" org.eventb.core.type="HDSystem_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="STANDBY" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATET" org.eventb.core.predicate="STANDBY∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZELR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEU" org.eventb.core.predicate="PREPARATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZEbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEV" org.eventb.core.predicate="INITIATION∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjNZErR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEW" org.eventb.core.predicate="ENDING∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAILR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEX" org.eventb.core.predicate="partition(CS_TopLevel_STATES,{STANDBY},{PREPARATION},{INITIATION},{ENDING})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_JjOAIbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEY" org.eventb.core.predicate="HDSystem_STANDBY∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637ds6PgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATEZ" org.eventb.core.predicate="HDSystem_PREP∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_637dtKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE[" org.eventb.core.predicate="HDSystem_INIT∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwKPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE\" org.eventb.core.predicate="HDSystem_END∈HDSystem_STATES" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwaPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_STATE]" org.eventb.core.predicate="partition(HDSystem_STATES,{HDSystem_STANDBY},{HDSystem_PREP},{HDSystem_INIT},{HDSystem_END})" org.eventb.core.source="/HDMachine/m0_implicitContext.buc|org.eventb.core.contextFile#m0_implicitContext|org.eventb.core.axiom#_638EwqPgEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poIdentifier name="ENDING_sm_STATES" org.eventb.core.type="ℙ(ENDING_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_END_sm_STATES" org.eventb.core.type="ℙ(HDSystem_END_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT_sm_STATES" org.eventb.core.type="ℙ(HDSystem_INIT_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP_sm_STATES" org.eventb.core.type="ℙ(HDSystem_PREP_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm_STATES" org.eventb.core.type="ℙ(INITIATION_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm_STATES" org.eventb.core.type="ℙ(PREPARATION_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="CARTRIDGE_EMPTYING" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CONCENTRATE_CONNECTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="DIALYZER_EMPTYING" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="DIALYZER_RINSING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="ENDING_sm_NULL" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_ConnectingConcentrate" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_ConnectingPatient" org.eventb.core.type="HDSystem_INIT_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_DisplayingOverview" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_END_sm_NULL" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_EmptyingCartridge" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_EmptyingDialyzer" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_INIT_sm_NULL" org.eventb.core.type="HDSystem_INIT_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PREP_sm_NULL" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PreparingHP" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_PreparingTubingSystem" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_Reinfusion" org.eventb.core.type="HDSystem_END_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_RinsingDialyzer" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_SettingRinsingParameters" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_SettingTreatmentParameters" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_Testing" org.eventb.core.type="HDSystem_PREP_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDSystem_Therapy" org.eventb.core.type="HDSystem_INIT_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HP_PREPARING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm_NULL" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTING" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm_NULL" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="REINFUSION" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="RP_SETTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="THERAPY" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="THERAPY_OVERVIEWING" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="TP_SETTING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="TS_PREPARING" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametert" org.eventb.core.predicate="PREPARATION_sm_NULL∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_tth5YLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameteru" org.eventb.core.predicate="INITIATION_sm_NULL∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigcLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterv" org.eventb.core.predicate="ENDING_sm_NULL∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigcbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterw" org.eventb.core.predicate="CF_TESTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigcrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterx" org.eventb.core.predicate="CONCENTRATE_CONNECTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigc7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametery" org.eventb.core.predicate="RP_SETTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigdLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameterz" org.eventb.core.predicate="TS_PREPARING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigdbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter{" org.eventb.core.predicate="HP_PREPARING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigdrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter|" org.eventb.core.predicate="TP_SETTING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttigd7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter}" org.eventb.core.predicate="DIALYZER_RINSING∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHgLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParameter~" org.eventb.core.predicate="PATIENT_CONNECTING∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHgbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes'" org.eventb.core.predicate="THERAPY∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHgrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes(" org.eventb.core.predicate="REINFUSION∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHg7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes)" org.eventb.core.predicate="DIALYZER_EMPTYING∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHhLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes*" org.eventb.core.predicate="CARTRIDGE_EMPTYING∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjHhbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes+" org.eventb.core.predicate="THERAPY_OVERVIEWING∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjukLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes," org.eventb.core.predicate="partition(PREPARATION_sm_STATES,{CF_TESTING},{CONCENTRATE_CONNECTING},{RP_SETTING},{TS_PREPARING},{HP_PREPARING},{TP_SETTING},{DIALYZER_RINSING},{PREPARATION_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjukbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes-" org.eventb.core.predicate="partition(INITIATION_sm_STATES,{PATIENT_CONNECTING},{THERAPY},{INITIATION_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjukrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes." org.eventb.core.predicate="partition(ENDING_sm_STATES,{REINFUSION},{DIALYZER_EMPTYING},{CARTRIDGE_EMPTYING},{THERAPY_OVERVIEWING},{ENDING_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_ttjuk7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes/" org.eventb.core.predicate="HDSystem_PREP_sm_NULL∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzUqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes0" org.eventb.core.predicate="HDSystem_INIT_sm_NULL∈HDSystem_INIT_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzU6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes1" org.eventb.core.predicate="HDSystem_END_sm_NULL∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzVKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes2" org.eventb.core.predicate="HDSystem_Testing∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzVaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes3" org.eventb.core.predicate="HDSystem_ConnectingConcentrate∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzVqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes4" org.eventb.core.predicate="HDSystem_SettingRinsingParameters∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzV6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes5" org.eventb.core.predicate="HDSystem_PreparingTubingSystem∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IYzzWKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes6" org.eventb.core.predicate="HDSystem_PreparingHP∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aYKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes7" org.eventb.core.predicate="HDSystem_SettingTreatmentParameters∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aYaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes8" org.eventb.core.predicate="HDSystem_RinsingDialyzer∈HDSystem_PREP_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aYqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes9" org.eventb.core.predicate="HDSystem_ConnectingPatient∈HDSystem_INIT_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aY6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes:" org.eventb.core.predicate="HDSystem_Therapy∈HDSystem_INIT_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes;" org.eventb.core.predicate="HDSystem_Reinfusion∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes=" org.eventb.core.predicate="HDSystem_EmptyingDialyzer∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes&gt;" org.eventb.core.predicate="HDSystem_EmptyingCartridge∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY0aZ6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes?" org.eventb.core.predicate="HDSystem_DisplayingOverview∈HDSystem_END_sm_STATES" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1BcKPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametes@" org.eventb.core.predicate="partition(HDSystem_PREP_sm_STATES,{HDSystem_Testing},{HDSystem_ConnectingConcentrate},{HDSystem_SettingRinsingParameters},{HDSystem_PreparingTubingSystem},{HDSystem_PreparingHP},{HDSystem_SettingTreatmentParameters},{HDSystem_RinsingDialyzer},{HDSystem_PREP_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1BcaPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesA" org.eventb.core.predicate="partition(HDSystem_INIT_sm_STATES,{HDSystem_ConnectingPatient},{HDSystem_Therapy},{HDSystem_INIT_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1BcqPiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesB" org.eventb.core.predicate="partition(HDSystem_END_sm_STATES,{HDSystem_Reinfusion},{HDSystem_EmptyingDialyzer},{HDSystem_EmptyingCartridge},{HDSystem_DisplayingOverview},{HDSystem_END_sm_NULL})" org.eventb.core.source="/HDMachine/m1_implicitContext.buc|org.eventb.core.contextFile#m1_implicitContext|org.eventb.core.axiom#_IY1Bc6PiEeWaQrtEc5Lq6g"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm_STATES" org.eventb.core.type="ℙ(CF_TESTING_sm_STATES)"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_SIGNAL_GREEN" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_SIGNAL_OFF" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_SIGNAL_RED" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm_NULL" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesC" org.eventb.core.predicate="CF_TESTING_sm_NULL∈CF_TESTING_sm_STATES" org.eventb.core.source="/HDMachine/m6_implicitContext.buc|org.eventb.core.contextFile#m6_implicitContext|org.eventb.core.axiom#_QblPpbkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesD" org.eventb.core.predicate="CF_TESTING_SIGNAL_OFF∈CF_TESTING_sm_STATES" org.eventb.core.source="/HDMachine/m6_implicitContext.buc|org.eventb.core.contextFile#m6_implicitContext|org.eventb.core.axiom#_QblPprkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesE" org.eventb.core.predicate="CF_TESTING_SIGNAL_GREEN∈CF_TESTING_sm_STATES" org.eventb.core.source="/HDMachine/m6_implicitContext.buc|org.eventb.core.contextFile#m6_implicitContext|org.eventb.core.axiom#_Qbl2sLkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesF" org.eventb.core.predicate="CF_TESTING_SIGNAL_RED∈CF_TESTING_sm_STATES" org.eventb.core.source="/HDMachine/m6_implicitContext.buc|org.eventb.core.contextFile#m6_implicitContext|org.eventb.core.axiom#_Qbl2sbkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="HDSystem_SettingTreatmentParametesG" org.eventb.core.predicate="partition(CF_TESTING_sm_STATES,{CF_TESTING_SIGNAL_OFF},{CF_TESTING_SIGNAL_GREEN},{CF_TESTING_SIGNAL_RED},{CF_TESTING_sm_NULL})" org.eventb.core.source="/HDMachine/m6_implicitContext.buc|org.eventb.core.contextFile#m6_implicitContext|org.eventb.core.axiom#_Qbl2srkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting_STATES" org.eventb.core.type="ℙ(CS_TopLevel_PatientConnecting_STATES)"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting_NULL" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="PatientConnecting_ARTERIALLY_CONNECTING" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="PatientConnecting_BF_INITIATING" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="PatientConnecting_BP_RESTARTING" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="PatientConnecting_BypassModeLeaving" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="PatientConnecting_VENOUSLY_CONNECTING" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINH" org.eventb.core.predicate="CS_TopLevel_PatientConnecting_NULL∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZg7k7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINI" org.eventb.core.predicate="PatientConnecting_ARTERIALLY_CONNECTING∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZhLk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINJ" org.eventb.core.predicate="PatientConnecting_BF_INITIATING∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZhbk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINK" org.eventb.core.predicate="PatientConnecting_VENOUSLY_CONNECTING∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZhrk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINL" org.eventb.core.predicate="PatientConnecting_BP_RESTARTING∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZh7k7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINM" org.eventb.core.predicate="PatientConnecting_BypassModeLeaving∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZiLk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINN" org.eventb.core.predicate="partition(CS_TopLevel_PatientConnecting_STATES,{PatientConnecting_ARTERIALLY_CONNECTING},{PatientConnecting_BF_INITIATING},{PatientConnecting_VENOUSLY_CONNECTING},{PatientConnecting_BP_RESTARTING},{PatientConnecting_BypassModeLeaving},{CS_TopLevel_PatientConnecting_NULL})" org.eventb.core.source="/HDMachine/m9_implicitContext.buc|org.eventb.core.contextFile#m9_implicitContext|org.eventb.core.axiom#_WtoZibk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS_STATES" org.eventb.core.type="ℙ(PATIENT_CONNECTIONS_STATES)"/>
+<org.eventb.core.poIdentifier name="PATIENT_ARTERIALLY_CONNECTED" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+<org.eventb.core.poIdentifier name="PATIENT_BOTH_CONNECTED" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+<org.eventb.core.poIdentifier name="PATIENT_DISCONNECTED" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+<org.eventb.core.poIdentifier name="PATIENT_VENOUSLY_CONNECTED" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINO" org.eventb.core.predicate="PATIENT_DISCONNECTED∈PATIENT_CONNECTIONS_STATES" org.eventb.core.source="/HDMachine/m910_implicitContext.buc|org.eventb.core.contextFile#m910_implicitContext|org.eventb.core.axiom#_ezK9Rbk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINP" org.eventb.core.predicate="PATIENT_ARTERIALLY_CONNECTED∈PATIENT_CONNECTIONS_STATES" org.eventb.core.source="/HDMachine/m910_implicitContext.buc|org.eventb.core.contextFile#m910_implicitContext|org.eventb.core.axiom#_ezLkULk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINQ" org.eventb.core.predicate="PATIENT_BOTH_CONNECTED∈PATIENT_CONNECTIONS_STATES" org.eventb.core.source="/HDMachine/m910_implicitContext.buc|org.eventb.core.contextFile#m910_implicitContext|org.eventb.core.axiom#_ezLkUbk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINR" org.eventb.core.predicate="PATIENT_VENOUSLY_CONNECTED∈PATIENT_CONNECTIONS_STATES" org.eventb.core.source="/HDMachine/m910_implicitContext.buc|org.eventb.core.contextFile#m910_implicitContext|org.eventb.core.axiom#_ezLkUrk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINS" org.eventb.core.predicate="partition(PATIENT_CONNECTIONS_STATES,{PATIENT_DISCONNECTED},{PATIENT_ARTERIALLY_CONNECTED},{PATIENT_BOTH_CONNECTED},{PATIENT_VENOUSLY_CONNECTED})" org.eventb.core.source="/HDMachine/m910_implicitContext.buc|org.eventb.core.contextFile#m910_implicitContext|org.eventb.core.axiom#_ezLkU7k7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poIdentifier name="SIGNAL" org.eventb.core.type="ℙ(SIGNAL)"/>
+<org.eventb.core.poIdentifier name="SIGNAL_STATUS" org.eventb.core.type="ℙ(SIGNAL_STATUS)"/>
+<org.eventb.core.poIdentifier name="SIGNAL_GREEN" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poIdentifier name="SIGNAL_OFF" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poIdentifier name="SIGNAL_ORANGE" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poIdentifier name="SIGNAL_RED" org.eventb.core.type="SIGNAL_STATUS"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINT" org.eventb.core.predicate="partition(SIGNAL_STATUS,{SIGNAL_OFF},{SIGNAL_RED},{SIGNAL_GREEN},{SIGNAL_ORANGE})" org.eventb.core.source="/HDMachine/c5-signals.buc|org.eventb.core.contextFile#c5-signals|org.eventb.core.axiom#+"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_SIGNAL" org.eventb.core.type="SIGNAL"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINU" org.eventb.core.predicate="CF_TESTING_SIGNAL∈SIGNAL" org.eventb.core.source="/HDMachine/c6-CFTestingSignal.buc|org.eventb.core.contextFile#c6-CFTestingSignal|org.eventb.core.axiom#)"/>
+<org.eventb.core.poIdentifier name="CONCENTRATE" org.eventb.core.type="ℙ(CONCENTRATE)"/>
+<org.eventb.core.poIdentifier name="CONCENTRATE_ACETATE" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.poIdentifier name="CONCENTRATE_BICARBONATE" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.poIdentifier name="CONCENTRATE_NONE" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINV" org.eventb.core.predicate="partition(CONCENTRATE,{CONCENTRATE_NONE},{CONCENTRATE_BICARBONATE},{CONCENTRATE_ACETATE})" org.eventb.core.source="/HDMachine/c7-concentrates.buc|org.eventb.core.contextFile#c7-concentrates|org.eventb.core.axiom#+"/>
+<org.eventb.core.poIdentifier name="BLOOD_FLOW_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="DF_FLOW_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="FILLING_BP_RATE_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="FILLING_BP_VOLUME_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="RINSING_BP_RATE_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="RINSING_TIME_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="UF_RINSING_RATE_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poIdentifier name="UF_RINSING_VOLUME_RANGE" org.eventb.core.type="ℙ(ℤ)"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINW" org.eventb.core.predicate="FILLING_BP_RATE_RANGE=50 ‥ 600" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#("/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINX" org.eventb.core.predicate="FILLING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#7"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINY" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE=0 ‥ 6000" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINZ" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm1"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTIN[" org.eventb.core.predicate="RINSING_BP_RATE_RANGE=50 ‥ 300" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#,"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTIN\" org.eventb.core.predicate="RINSING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm2"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTIN]" org.eventb.core.predicate="DF_FLOW_RANGE=50 ‥ 300" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#."/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTIN^" org.eventb.core.predicate="DF_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm3"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTIN_" org.eventb.core.predicate="RINSING_TIME_RANGE=0 ‥ 59" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#0"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTIN`" org.eventb.core.predicate="RINSING_TIME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm4"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINa" org.eventb.core.predicate="UF_RINSING_RATE_RANGE=0 ‥ 3000" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#2"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINb" org.eventb.core.predicate="UF_RINSING_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm5"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINc" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE=0 ‥ 2950" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#4"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINd" org.eventb.core.predicate="UF_RINSING_VOLUME_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm6"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINe" org.eventb.core.predicate="BLOOD_FLOW_RANGE=50 ‥ 600" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#6"/>
+<org.eventb.core.poPredicate name="PatientConnecting_ARTERIALLY_CONNECTINf" org.eventb.core.predicate="BLOOD_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#axm7"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CF_TESTING_sm" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_2_HD_StartsCFTesting" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_KO" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="DFFlow" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ENDING_sm" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDMachine_CFTestedOK" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="HD_2_CS_CFTestingFinished" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="UFRinsingRate" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="UFRinsingVolume" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="bloodFlow" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="connected_concentrate" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.poIdentifier name="fillingBPRate" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="fillingBPVolume" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="rinsingBPRate" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="signal_status" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinh" org.eventb.core.predicate="CS_TopLevel∈CS_TopLevel_STATES" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#_JjEPILR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectini" org.eventb.core.predicate="PREPARATION_sm∈PREPARATION_sm_STATES" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWhbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinj" org.eventb.core.predicate="INITIATION_sm∈INITIATION_sm_STATES" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWhrR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectink" org.eventb.core.predicate="ENDING_sm∈ENDING_sm_STATES" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWh7R9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinl" org.eventb.core.predicate="PREPARATION_sm≠PREPARATION_sm_NULL⇔CS_TopLevel=PREPARATION" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZWiLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinm" org.eventb.core.predicate="INITIATION_sm≠INITIATION_sm_NULL⇔CS_TopLevel=INITIATION" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZ9kLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinn" org.eventb.core.predicate="ENDING_sm≠ENDING_sm_NULL⇔CS_TopLevel=ENDING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#_ttZ9kbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectino" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI8LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinp" org.eventb.core.predicate="CS_LL_CF_TESTING∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI8bUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinq" org.eventb.core.predicate="CS_LL_CF_TESTED_OK∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI8rUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinr" org.eventb.core.predicate="CS_LL_CF_TESTED_KO∈BOOL" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI87UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectins" org.eventb.core.predicate="partition({TRUE},{CS_LL_CF_NOT_TESTED}∩{TRUE},{CS_LL_CF_TESTING}∩{TRUE},{CS_LL_CF_TESTED_OK}∩{TRUE},{CS_LL_CF_TESTED_KO}∩{TRUE})" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0foI9LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectint" org.eventb.core.predicate="CS_TopLevel=PREPARATION⇒(PREPARATION_sm≠CF_TESTING⇒CS_LL_CF_TESTED_OK=TRUE)" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QbUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinu" org.eventb.core.predicate="CS_TopLevel=INITIATION⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4QrUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinv" org.eventb.core.predicate="CS_TopLevel=ENDING⇒CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#_0cn4Q7UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinw" org.eventb.core.predicate="HDMachine_CFTestedOK∈BOOL" org.eventb.core.source="/HDMachine/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#_buRZULSPEeW1p-Q_lMMcSC"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinx" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED=TRUE⇒HD_2_CS_CFTestingFinished=FALSE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.invariant#_d72-oL95EeWuMPCp23wdnQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectiny" org.eventb.core.predicate="CS_LL_CF_TESTED_OK=TRUE⇒HD_2_CS_CFTestingFinished=FALSE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.invariant#_d73lsL95EeWuMPCp23wdnQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectinz" org.eventb.core.predicate="CS_LL_CF_TESTED_KO=TRUE⇒HD_2_CS_CFTestingFinished=FALSE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.invariant#_d73lsb95EeWuMPCp23wdnQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectin{" org.eventb.core.predicate="CS_2_HD_StartsCFTesting=TRUE⇒CS_LL_CF_TESTING=TRUE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.invariant#_buRZULSPEeW1p-Q_lMMcSX"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectin|" org.eventb.core.predicate="HD_2_CS_CFTestingFinished=TRUE⇒CS_2_HD_StartsCFTesting=FALSE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.invariant#_buRZULSPEeW1p-Q_lMMcSZ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectin}" org.eventb.core.predicate="signal_status∈SIGNAL → SIGNAL_STATUS" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.invariant#_ycEZ4rhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectin~" org.eventb.core.predicate="CS_TopLevel=STANDBY⇒signal_status=SIGNAL × {SIGNAL_OFF}" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.invariant#_yVreALhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio'" org.eventb.core.predicate="CF_TESTING_sm∈CF_TESTING_sm_STATES" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.invariant#_QbfwELkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio(" org.eventb.core.predicate="CF_TESTING_sm≠CF_TESTING_sm_NULL⇔PREPARATION_sm=CF_TESTING" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.invariant#_QbfwEbkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio)" org.eventb.core.predicate="CF_TESTING_sm=CF_TESTING_SIGNAL_GREEN⇒signal_status(CF_TESTING_SIGNAL)=SIGNAL_GREEN" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.invariant#_QbfwErkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio*" org.eventb.core.predicate="CF_TESTING_sm=CF_TESTING_SIGNAL_RED⇒signal_status(CF_TESTING_SIGNAL)=SIGNAL_RED" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.invariant#_QbfwE7kaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio+" org.eventb.core.predicate="connected_concentrate∈CONCENTRATE" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.invariant#_uXHVwLUpEeWNr7Z28XyZBF"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio," org.eventb.core.predicate="fillingBPRate∈FILLING_BP_RATE_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv1"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio-" org.eventb.core.predicate="fillingBPVolume∈FILLING_BP_VOLUME_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv2"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio." org.eventb.core.predicate="rinsingBPRate∈RINSING_BP_RATE_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv3"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio/" org.eventb.core.predicate="DFFlow∈DF_FLOW_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv4"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio0" org.eventb.core.predicate="UFRinsingRate∈UF_RINSING_RATE_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv5"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio1" org.eventb.core.predicate="UFRinsingVolume∈UF_RINSING_VOLUME_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv6"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio2" org.eventb.core.predicate="bloodFlow∈BLOOD_FLOW_RANGE" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.invariant#inv7"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio3" org.eventb.core.predicate="CS_TopLevel_PatientConnecting∈CS_TopLevel_PatientConnecting_STATES" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.invariant#_WtdaYrk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio4" org.eventb.core.predicate="CS_TopLevel_PatientConnecting≠CS_TopLevel_PatientConnecting_NULL⇒INITIATION_sm=PATIENT_CONNECTING" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.invariant#_uXHVwLUpEeWNr7Z28XyZBl"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio5" org.eventb.core.predicate="INITIATION_sm=PATIENT_CONNECTING⇒CS_TopLevel_PatientConnecting≠CS_TopLevel_PatientConnecting_NULL" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.invariant#_uXHVwLUpEeWNr7Z28XyZBm"/>
+<org.eventb.core.poPredicate name="CS_TopLevel_PatientConnectio6" org.eventb.core.predicate="PATIENT_CONNECTIONS∈PATIENT_CONNECTIONS_STATES" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.invariant#_ezIhA7k7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContexv"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=ENDING⇒PATIENT_DISCONNECTED=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMfh"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBP"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#INITIALISATION\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContexv" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="UFRinsingRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="HDMachine_CFTestedOK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="HD_2_CS_CFTestingFinished'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="UFRinsingVolume'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="fillingBPRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="fillingBPVolume'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS'" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+<org.eventb.core.poIdentifier name="connected_concentrate'" org.eventb.core.type="CONCENTRATE"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_KO'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_2_HD_StartsCFTesting'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="rinsingBPRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="DFFlow'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+<org.eventb.core.poIdentifier name="bloodFlow'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm'" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContexv" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContexv" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="User_PressesOn/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContexw"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="PREPARATION=ENDING⇒PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMfi"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBQ"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#User_PressesOn\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContexw" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm'" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContexw" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContexw" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qGgKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjCZ8bR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSC|org.eventb.core.guard#_0cjm0LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="connected_concentrate=CONCENTRATE_NONE" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB)|org.eventb.core.guard#_ZKMlkLkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsConnectingArterially/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContexx"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="INITIATION=ENDING⇒PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMfj"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBR"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#HDSystem_StartsConnectingArterially\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContexx" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm'" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContexx" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContexx" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=PREPARATION" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qtkKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjCZ87R5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PREPARATION_sm=DIALYZER_RINSING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3T|org.eventb.core.guard#_ttVsJLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=CS_TopLevel_PatientConnecting_NULL" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBR|org.eventb.core.guard#_WtZI8bk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="HDSystem_StartsReinfusion/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContexy"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ENDING=ENDING⇒PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMfk"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBS"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#HDSystem_StartsReinfusion\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContexy" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContexy" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContexy" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=INITIATION" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_M2qtkaJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjDBAbR5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="INITIATION_sm=THERAPY" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3U|org.eventb.core.guard#_ttWTMLR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="User_PressesOff/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContexz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="STANDBY=ENDING⇒PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMfl"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBT"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#User_PressesOff\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContexz" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CS_TopLevel'" org.eventb.core.type="CS_TopLevel_STATES"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContexz" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContexz" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=ENDING" org.eventb.core.source="/HDMachine/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#_OIxOoKJUEeWzIMhBFfqG3Q|org.eventb.core.guard#_JjDBA7R5EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ENDING_sm=THERAPY_OVERVIEWING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_egXkoKJTEeWzIMhBFfqG3V|org.eventb.core.guard#_ttWTM7R9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContex{" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm'" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContex{" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContex{" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CF_TESTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JHqEILQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttW6QLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_ttZWhLR9EeW1p-Q_lMMcSG|org.eventb.core.guard#_0cjm0bUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="CF_TESTING_sm=CF_TESTING_SIGNAL_GREEN" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZAl|org.eventb.core.guard#_QbcFsrkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContex|" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContex|" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContex\|" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CONCENTRATE_CONNECTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_XmAkELQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttXhUbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="connected_concentrate≠CONCENTRATE_NONE" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB.|org.eventb.core.guard#_ZKMlkbkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContex}" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContex}" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContex}" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=RP_SETTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_hfJzcLQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttXhU7R9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContex~" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContex~" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContex~" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=TS_PREPARING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_oYozwLQ6EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttXhVbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey'" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey'" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey'" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=HP_PREPARING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_xp4T0LR1EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYIYbR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey(" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PREPARATION_sm'" org.eventb.core.type="PREPARATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey(" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey(" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=TP_SETTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_BRMm8LR2EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYIY7R9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey)" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+<org.eventb.core.poIdentifier name="INITIATION_sm'" org.eventb.core.type="INITIATION_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey)" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey)" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="INITIATION_sm=PATIENT_CONNECTING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_GW8G0LR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYIZbR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_BypassModeLeaving" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB[|org.eventb.core.guard#_WtZwALk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey*" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey*" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey*" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=REINFUSION" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_i1CfILR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYvcLR9EeW1p-Q_lMMcSA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMft|org.eventb.core.guard#_el59ULk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey+" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey+" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey+" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=DIALYZER_EMPTYING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_qVG-ULR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYvcrR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey," org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="ENDING_sm'" org.eventb.core.type="ENDING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey," org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey," org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=CARTRIDGE_EMPTYING" org.eventb.core.source="/HDMachine/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_0fo4oLR4EeW1p-Q_lMMcSA|org.eventb.core.guard#_ttYvdLR9EeW1p-Q_lMMcSA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey-" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_2_HD_StartsCFTesting'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey-" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey-" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CF_TESTING" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCALSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fmTwLUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_NOT_TESTED=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCALSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fmTwbUlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey." org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_NOT_TESTED'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey." org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey." org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fm60rUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCAbSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fm607UlEeWNr7Z28XyZAQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey/" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="HD_2_CS_CFTestingFinished'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_OK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey/" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey\/" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_LL_CF_TESTING=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCArSGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fnh4LUlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="HDMachine_CFTestedOK=TRUE" org.eventb.core.source="/HDMachine/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#_bPvj4LSHEeW1p-Q_lMMcSS|org.eventb.core.guard#_P7bT8LVsEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="HD_2_CS_CFTestingFinished=TRUE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.event#_buRZULSPEeW1p-Q_lMMcST|org.eventb.core.guard#_d71JcL95EeWuMPCp23wdnQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey0" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="HD_2_CS_CFTestingFinished'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTED_KO'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_LL_CF_TESTING'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey0" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey0" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_LL_CF_TESTING=TRUE" org.eventb.core.source="/HDMachine/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#_91cCA7SGEeW1p-Q_lMMcSA|org.eventb.core.guard#_0fnh47UlEeWNr7Z28XyZAQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="HDMachine_CFTestedOK=FALSE" org.eventb.core.source="/HDMachine/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#_bPvj4LSHEeW1p-Q_lMMcST|org.eventb.core.guard#_P7bT8bVsEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="HD_2_CS_CFTestingFinished=TRUE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.event#_buRZULSPEeW1p-Q_lMMcSU|org.eventb.core.guard#_d71wgb95EeWuMPCp23wdnQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey1" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="HDMachine_CFTestedOK'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="HD_2_CS_CFTestingFinished'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="CS_2_HD_StartsCFTesting'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey1" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey1" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_2_HD_StartsCFTesting=TRUE" org.eventb.core.source="/HDMachine/m4.bum|org.eventb.core.machineFile#m4|org.eventb.core.event#_buRZULSPEeW1p-Q_lMMcSV|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey2" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="sgn" org.eventb.core.type="SIGNAL"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm'" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey2" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey2" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sgn∈SIGNAL" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_KQ860LYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDLwbhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_TopLevel≠STANDBY" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_KQ860LYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDLwrhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="CS_LL_CF_TESTED_OK=TRUE" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZA{|org.eventb.core.guard#_QbdT0LkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="CF_TESTING_sm=CF_TESTING_SIGNAL_OFF" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZA{|org.eventb.core.guard#_QbdT0bkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="sgn=CF_TESTING_SIGNAL" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZA{|org.eventb.core.guard#_QiRtgLkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey3" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="sgn" org.eventb.core.type="SIGNAL"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+<org.eventb.core.poIdentifier name="CF_TESTING_sm'" org.eventb.core.type="CF_TESTING_sm_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey3" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey3" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sgn∈SIGNAL" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_hMfpgLYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDy0rhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_TopLevel≠STANDBY" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_hMfpgLYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDy07hTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="CS_LL_CF_TESTED_KO=TRUE" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZA\||org.eventb.core.guard#_Qbd64LkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="CF_TESTING_sm=CF_TESTING_SIGNAL_OFF" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZA\||org.eventb.core.guard#_Qbd64bkaEeW2TOhOfFhbNg"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="sgn=CF_TESTING_SIGNAL" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZA\||org.eventb.core.guard#_QiRtgbkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey4" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="connected_concentrate'" org.eventb.core.type="CONCENTRATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey4" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey4" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=CONCENTRATE_CONNECTING" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB?|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="connected_concentrate=CONCENTRATE_NONE" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB?|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey5" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="connected_concentrate'" org.eventb.core.type="CONCENTRATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey5" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey5" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB@|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="connected_concentrate≠CONCENTRATE_NONE" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB@|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey6" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="UFRinsingRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="fillingBPRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="fillingBPVolume'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="rinsingBPRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="DFFlow'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="bloodFlow'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey6" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey6" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=RP_SETTING" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBh|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey7" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="sgn" org.eventb.core.type="SIGNAL"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey7" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey7" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sgn∈SIGNAL" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_hMfpgLYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDy0rhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_TopLevel≠STANDBY" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_hMfpgLYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDy07hTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="sgn≠CF_TESTING_SIGNAL" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_NCmFMLhXEeWeLteVXSdMfg|org.eventb.core.guard#_QiTisbkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey8" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="sgn" org.eventb.core.type="SIGNAL"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey8" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey8" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sgn∈SIGNAL" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_KQ860LYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDLwbhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_TopLevel≠STANDBY" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_KQ860LYkEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDLwrhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="sgn≠CF_TESTING_SIGNAL" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_PM09kLhWEeWeLteVXSdMfg|org.eventb.core.guard#_QiTisLkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey9" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="sgn" org.eventb.core.type="SIGNAL"/>
+<org.eventb.core.poIdentifier name="signal_status'" org.eventb.core.type="ℙ(SIGNAL×SIGNAL_STATUS)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey9" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey9" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sgn∈SIGNAL" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_SjJn4LhQEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycDy1rhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="CS_TopLevel≠STANDBY" org.eventb.core.source="/HDMachine/m5.bum|org.eventb.core.machineFile#m5|org.eventb.core.event#_SjJn4LhQEeWZYZ7CLrnHEQ|org.eventb.core.guard#_ycEZ4LhTEeWZYZ7CLrnHEQ"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="sgn≠CF_TESTING_SIGNAL" org.eventb.core.source="/HDMachine/m6.bum|org.eventb.core.machineFile#m6|org.eventb.core.event#_VWt3gLhXEeWeLteVXSdMfg|org.eventb.core.guard#_QiTisrkaEeW2TOhOfFhbNg"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey:" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey:" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey:" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_ARTERIALLY_CONNECTING" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.event#_D7h-wLhyEeWeLteVXSdMfg|org.eventb.core.guard#_WtczULk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_ARTERIALLY_CONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMg,|org.eventb.core.guard#_esOnwLk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey;" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey;" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey;" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_BF_INITIATING" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.event#_fT5eELhyEeWeLteVXSdMfg|org.eventb.core.guard#_WtczUrk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey=" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey=" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey=" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_VENOUSLY_CONNECTING" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.event#_Dq0z0LhzEeWeLteVXSdMfg|org.eventb.core.guard#_WtczVLk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_BOTH_CONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_vkqr8Lh0EeWeLteVXSdMg0|org.eventb.core.guard#_esPO0Lk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey&gt;" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="CS_TopLevel_PatientConnecting'" org.eventb.core.type="CS_TopLevel_PatientConnecting_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey&gt;" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey&gt;" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_BP_RESTARTING" org.eventb.core.source="/HDMachine/m9.bum|org.eventb.core.machineFile#m9|org.eventb.core.event#_Dq0z0bhzEeWeLteVXSdMfg|org.eventb.core.guard#_WtdaYLk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="Patient_ConnectsArterially/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContey?"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=ENDING⇒PATIENT_ARTERIALLY_CONNECTED=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70Lj3EeWeLteVXSdMfg"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBp"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#Patient_ConnectsArterially\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey?" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS'" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey?" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey?" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_ARTERIALLY_CONNECTING" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70Lj3EeWeLteVXSdMfg|org.eventb.core.guard#_ezGr0Lk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70Lj3EeWeLteVXSdMfg|org.eventb.core.guard#_ezHS4Lk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="Patient_DisconnectsVenously/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitContey@"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=ENDING⇒PATIENT_DISCONNECTED=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70bj3EeWeLteVXSdMfg"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBq"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#Patient_DisconnectsVenously\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitContey@" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS'" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitContey@" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitContey@" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=REINFUSION" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70bj3EeWeLteVXSdMfg|org.eventb.core.guard#_ezHS4rk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_VENOUSLY_CONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70bj3EeWeLteVXSdMfg|org.eventb.core.guard#_ezHS47k7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="Patient_DisconnectsArterially/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitConteyA"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=ENDING⇒PATIENT_VENOUSLY_CONNECTED=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70rj3EeWeLteVXSdMfg"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBr"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#Patient_DisconnectsArterially\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitConteyA" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS'" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitConteyA" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitConteyA" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ENDING_sm=REINFUSION" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70rj3EeWeLteVXSdMfg|org.eventb.core.guard#_ezH58Lk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_BOTH_CONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu70rj3EeWeLteVXSdMfg|org.eventb.core.guard#_ezH58bk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="Patient_ConnectsVenously/CS_TopLevel_invariants1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTALLHYPm910_incorrect_inv2_implicitConteyB"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="CS_TopLevel=ENDING⇒PATIENT_BOTH_CONNECTED=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu707j3EeWeLteVXSdMfg"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBs"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poSequent#Patient_ConnectsVenously\/CS_TopLevel_invariants1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv2_implicitConteyB" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="PATIENT_CONNECTIONS'" org.eventb.core.type="PATIENT_CONNECTIONS_STATES"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv2_implicitConteyB" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv2_implicitConteyB" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel_PatientConnecting=PatientConnecting_VENOUSLY_CONNECTING" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu707j3EeWeLteVXSdMfg|org.eventb.core.guard#_ezIhALk7EeWb9YPbyi1TqQ"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="PATIENT_CONNECTIONS=PATIENT_ARTERIALLY_CONNECTED" org.eventb.core.source="/HDMachine/m910.bum|org.eventb.core.machineFile#m910|org.eventb.core.event#_6fu707j3EeWeLteVXSdMfg|org.eventb.core.guard#_ezIhAbk7EeWb9YPbyi1TqQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv2.bpo|org.eventb.core.poFile#m910_incorrect_inv2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=ENDING⇒PATIENT_CONNECTIONS=PATIENT_DISCONNECTED" org.eventb.core.source="/HDMachine/m910_incorrect_inv2.bum|org.eventb.core.machineFile#m910_incorrect_inv2|org.eventb.core.invariant#_oZbCQLteEeWVKJ5CbGPvFA"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

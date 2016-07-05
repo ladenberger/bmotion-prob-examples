@@ -1,10 +1,11 @@
-requirejs(['../bmotion-prob-frontend/app/bmotion.config'], function () {
+requirejs(['../bmotion-frontend/app/bmotion.config'], function () {
 
     requirejs.config({
-        baseUrl: "../bmotion-prob-frontend/app/"
+        baseUrl: "../bmotion-frontend/app/"
     });
 
-    requirejs(['prob.online'], function () {
+    requirejs(['js/bmotion.online'], function () {
+
     });
 
 });
