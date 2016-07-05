@@ -1,1 +1,1 @@
-# BMotion Studio for ProB Examples
+# BMotionWeb ProB Examples
