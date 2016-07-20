@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/inv1/INV" org.eventb.core.confidence="-99" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="door_open/inv1/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="send_request/inv1/INV" org.eventb.core.confidence="-99" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

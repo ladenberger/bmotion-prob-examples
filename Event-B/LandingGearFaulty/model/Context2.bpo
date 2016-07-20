@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="STIMULI" org.eventb.core.type="ℙ(STIMULI)"/>
+<org.eventb.core.poIdentifier name="close_door_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="extend_gear_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="open_door_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="retract_gear_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="stop_close_door_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="stop_extend_gear_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="stop_open_door_stimulus" org.eventb.core.type="STIMULI"/>
+<org.eventb.core.poIdentifier name="stop_retract_gear_stimulus" org.eventb.core.type="STIMULI"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/LandingGearJournal/Context2.bpo|org.eventb.core.poFile#Context2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(STIMULI,{open_door_stimulus},{close_door_stimulus},{retract_gear_stimulus},{extend_gear_stimulus},{stop_open_door_stimulus},{stop_close_door_stimulus},{stop_retract_gear_stimulus},{stop_extend_gear_stimulus})" org.eventb.core.source="/LandingGearJournal/Context2.buc|org.eventb.core.contextFile#Context2|org.eventb.core.axiom#,"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

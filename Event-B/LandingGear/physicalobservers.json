@@ -1,0 +1,11 @@
+{
+    "observers": [
+        {
+            "type": "formula",
+            "data": {
+                "formulas": [],
+                "selector": ""
+            }
+        }
+    ]
+}

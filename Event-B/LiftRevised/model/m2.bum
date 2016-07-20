@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.units.mchBase" org.eventb.texttools.text_lastmodified="1463664824424" org.eventb.texttools.text_representation="machine m2 refines m1  sees c1&#10;&#10;variables floor door move request&#10;&#10;invariants&#10;  @inv1 request ∈ ℙ(groundf ‥ topf)&#10;&#10;events&#10;  event INITIALISATION extends INITIALISATION&#10;    then&#10;      @act4 request ≔ ∅&#10;  end&#10;&#10;  event move_up extends move_up&#10;  end&#10;&#10;  event move_down extends move_down&#10;  end&#10;&#10;  event door_open extends door_open&#10;  &#9;where&#10;  &#9;  @grd3 floor ∈ request&#10;  end&#10;&#10;  event door_close extends door_close&#10;    then&#10;      @act2 request ≔ request ∖ {floor}&#10;  end&#10;&#10;  event switch_move_up extends switch_move_up&#10;  &#9;where&#10;  &#9;  @grd4 floor ∉ request&#10;  end&#10;&#10;  event switch_move_down extends switch_move_down&#10;  &#9;where&#10;  &#9;  @grd4 floor ∉ request&#10;  end&#10;&#10;  event switch_move_stop extends switch_move_stop&#10;  end&#10;&#10;  event send_request&#10;    any f&#10;    where&#10;      @grd1 f ∈ groundf ‥ topf&#10;      @grd2 f ∉ request&#10;    then&#10;      @act1 request ≔ request ∪ {f}&#10;  end&#10;end&#10;" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m1"/>
+<org.eventb.core.seesContext name="_B24DIBz-EeangeVl85nyqw" org.eventb.core.target="c1"/>
+<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_53yZkBzlEeangeVl85nyqx" org.eventb.core.identifier="floor"/>
+<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_53yZkBzlEeangeVl85nyqz" org.eventb.core.identifier="door"/>
+<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_B24DIBz-EeangeVl85nyq{" org.eventb.core.identifier="move"/>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyq|" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="request ≔ ∅" org.eventb.core.label="act4"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyq}" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="move_up">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="move_up"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyq~" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="move_down">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="move_down"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyr'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="door_open">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="door_open"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd3" org.eventb.core.predicate="floor ∈ request"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="request ≔ request ∖ {floor}" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyr(" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="door_close">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="door_close"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyr)" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="switch_move_up">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="switch_move_up"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd4" org.eventb.core.predicate="floor ∉ request"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyr*" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="switch_move_down">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="switch_move_down"/>
+<org.eventb.core.guard name="_9p_2IB3FEeaSAvSzanvGUg" org.eventb.core.label="grd4" org.eventb.core.predicate="floor ∉ request"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyr+" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="switch_move_stop">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="switch_move_stop"/>
+</org.eventb.core.event>
+<org.eventb.core.variable de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_B24DIBz-EeangeVl85nyr," org.eventb.core.identifier="request"/>
+<org.eventb.core.invariant name="_B24DIBz-EeangeVl85nyr-" org.eventb.core.label="inv1" org.eventb.core.predicate="request ∈ ℙ(groundf ‥ topf)"/>
+<org.eventb.core.event name="_B24DIBz-EeangeVl85nyr." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="send_request">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="f"/>
+<org.eventb.core.action name="_F6FH8B0AEeangeVl85nyqw" org.eventb.core.assignment="request ≔ request ∪ {f}" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="__9ossB3FEeaSAvSzanvGUg" org.eventb.core.label="grd1" org.eventb.core.predicate="f ∈ groundf ‥ topf"/>
+<org.eventb.core.guard name="_TtT8UB3GEeaSAvSzanvGUg" org.eventb.core.label="grd2" org.eventb.core.predicate="f ∉ request"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" org.eventb.texttools.text_lastmodified="1463583606332" org.eventb.texttools.text_representation="context c0&#10;&#10;sets Door&#10;&#10;constants groundf topf open closed&#10;&#10;axioms&#10;  @axm1 groundf ∈ ℤ&#10;  @axm2 topf ∈ ℤ&#10;  @axm3 groundf = −1&#10;  @axm4 topf = 1&#10;  @axm5 groundf &lt; topf&#10;  @axm6 partition(Door, {open}, {closed})&#10;end&#10;" version="3">
+<org.eventb.core.constant name="_jzNvIBzlEeangeVl85nyqw" org.eventb.core.identifier="groundf"/>
+<org.eventb.core.constant name="_jzNvIRzlEeangeVl85nyqw" org.eventb.core.identifier="topf"/>
+<org.eventb.core.axiom name="_rt0OMBzlEeangeVl85nyqw" org.eventb.core.label="axm1" org.eventb.core.predicate="groundf ∈ ℤ"/>
+<org.eventb.core.axiom name="_rt0OMRzlEeangeVl85nyqw" org.eventb.core.label="axm2" org.eventb.core.predicate="topf ∈ ℤ"/>
+<org.eventb.core.axiom name="_w6WkgBzlEeangeVl85nyqw" org.eventb.core.label="axm3" org.eventb.core.predicate="groundf = −1"/>
+<org.eventb.core.axiom name="_w6WkgRzlEeangeVl85nyqw" org.eventb.core.label="axm4" org.eventb.core.predicate="topf = 1"/>
+<org.eventb.core.axiom name="_y8gpgBzlEeangeVl85nyqw" org.eventb.core.label="axm5" org.eventb.core.predicate="groundf &lt; topf"/>
+<org.eventb.core.carrierSet name="_y8gpgBzlEeangeVl85nyqx" org.eventb.core.identifier="Door"/>
+<org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_y8gpgBzlEeangeVl85nyqy" org.eventb.core.identifier="open"/>
+<org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_y8gpgBzlEeangeVl85nyqz" org.eventb.core.identifier="closed"/>
+<org.eventb.core.axiom name="_y8gpgBzlEeangeVl85nyq|" org.eventb.core.label="axm6" org.eventb.core.predicate="partition(Door, {open}, {closed})"/>
+</org.eventb.core.contextFile>

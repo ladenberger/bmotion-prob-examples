@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="TEST1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="TEST2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/R41/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/test1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/test2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/TEST1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/TEST2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="16" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_extending/TEST1/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="18" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_extending/TEST2/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="18" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_extend_gear/TEST1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_extend_gear/TEST2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_retract_gear/TEST1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_retract_gear/TEST2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_retracting/TEST1/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="18" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_retracting/TEST2/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="18" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_open_door/TEST1/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_open_door/TEST2/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_open_door/TEST1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_open_door/TEST2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_close_door/TEST1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_close_door/TEST2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_close_door/TEST1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="19" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_close_door/TEST2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="19" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/R41/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/test1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/test2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_open_door_valve/R41/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_open_door_valve/test1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_open_door_valve/test2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/R41/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_close_door_valve/R41/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/test1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_retract_gear_valve/test1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/test2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_extend_gear_valve/test2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="17" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

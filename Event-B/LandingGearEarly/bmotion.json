@@ -1,0 +1,19 @@
+{
+  "model": "model/Ref4_ControllerHandle.bcm",
+  "id": "landing",
+  "name": "ABZ 2014 Case Study: Landing Gear System (Hydraulic Architecture)",
+  "template": "landinggear.html",
+  "autoOpen": [
+    "CurrentTrace",
+    "Events"
+  ],
+  "views": [
+    {
+      "id": "env",
+      "name": "ABZ 2014 Case Study: Landing Gear System (Environment)",
+      "template": "landinggear_env.html",
+      "width": 500,
+      "height": 500
+    }
+  ]
+}

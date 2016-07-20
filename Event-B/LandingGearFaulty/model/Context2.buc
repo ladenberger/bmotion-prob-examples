@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.texttools.text_lastmodified="1389623030345" org.eventb.texttools.text_representation="context Context2&#10;&#10;constants open_door_stimulus close_door_stimulus retract_gear_stimulus extend_gear_stimulus stop_open_door_stimulus stop_close_door_stimulus stop_retract_gear_stimulus stop_extend_gear_stimulus&#10;sets STIMULI&#10;&#10;&#10;&#10;axioms&#10;  @axm1 partition(STIMULI, {open_door_stimulus}, {close_door_stimulus}, {retract_gear_stimulus}, {extend_gear_stimulus}, {stop_open_door_stimulus}, {stop_close_door_stimulus}, {stop_retract_gear_stimulus}, {stop_extend_gear_stimulus})&#10;end&#10;" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="STIMULI"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="open_door_stimulus"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="close_door_stimulus"/>
+<org.eventb.core.constant name="*" org.eventb.core.identifier="retract_gear_stimulus"/>
+<org.eventb.core.constant name="+" org.eventb.core.identifier="extend_gear_stimulus"/>
+<org.eventb.core.constant name="." org.eventb.core.identifier="stop_open_door_stimulus"/>
+<org.eventb.core.constant name="/" org.eventb.core.identifier="stop_close_door_stimulus"/>
+<org.eventb.core.constant name="0" org.eventb.core.identifier="stop_retract_gear_stimulus"/>
+<org.eventb.core.constant name="1" org.eventb.core.identifier="stop_extend_gear_stimulus"/>
+<org.eventb.core.axiom name="," org.eventb.core.label="axm1" org.eventb.core.predicate="partition(STIMULI, {open_door_stimulus}, {close_door_stimulus}, {retract_gear_stimulus}, {extend_gear_stimulus}, {stop_open_door_stimulus}, {stop_close_door_stimulus}, {stop_retract_gear_stimulus}, {stop_extend_gear_stimulus})"/>
+</org.eventb.core.contextFile>

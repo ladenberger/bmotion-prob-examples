@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.texttools.text_lastmodified="1417703222390" org.eventb.texttools.text_representation="context Context0&#10;&#10;constants open closed door_moving retracted extended up down gear_moving ground flight front left right&#10;&#10;sets DOOR_STATE GEAR_STATE HANDLE_STATE PLANE_STATE POSITION&#10;&#10;axioms&#10;  @axm1 partition(DOOR_STATE, {open}, {closed}, {door_moving})&#10;  @axm2 partition(GEAR_STATE, {retracted}, {extended}, {gear_moving})&#10;  @axm3 partition(HANDLE_STATE, {up}, {down})&#10;  @axm4 partition(PLANE_STATE, {ground}, {flight})&#10;  @axm5 partition(POSITION, {front}, {left}, {right})&#10;end&#10;" version="3">
+<org.eventb.core.carrierSet name="_r0fLUWYzEeO7UsfGCD69ng" org.eventb.core.identifier="DOOR_STATE"/>
+<org.eventb.core.carrierSet name="_r0fyYGYzEeO7UsfGCD69ng" org.eventb.core.identifier="GEAR_STATE"/>
+<org.eventb.core.carrierSet name="_r0gZcGYzEeO7UsfGCD69ng" org.eventb.core.identifier="HANDLE_STATE"/>
+<org.eventb.core.carrierSet name="_r0gZcWYzEeO7UsfGCD69ng" org.eventb.core.identifier="PLANE_STATE"/>
+<org.eventb.core.carrierSet name="_nXATcHvBEeSxCbbMjQar7w" org.eventb.core.identifier="POSITION"/>
+<org.eventb.core.constant name="_r0gZcmYzEeO7UsfGCD69ng" org.eventb.core.identifier="open"/>
+<org.eventb.core.constant name="_r0hAgGYzEeO7UsfGCD69ng" org.eventb.core.identifier="closed"/>
+<org.eventb.core.constant name="_r0hAgWYzEeO7UsfGCD69ng" org.eventb.core.identifier="door_moving"/>
+<org.eventb.core.constant name="_r0hAgmYzEeO7UsfGCD69ng" org.eventb.core.identifier="retracted"/>
+<org.eventb.core.constant name="_r0hnkGYzEeO7UsfGCD69ng" org.eventb.core.identifier="extended"/>
+<org.eventb.core.constant name="_r0hnkWYzEeO7UsfGCD69ng" org.eventb.core.identifier="up"/>
+<org.eventb.core.constant name="_r0iOoGYzEeO7UsfGCD69ng" org.eventb.core.identifier="down"/>
+<org.eventb.core.constant name="_r0iOoWYzEeO7UsfGCD69ng" org.eventb.core.identifier="gear_moving"/>
+<org.eventb.core.constant name="_r0i1sGYzEeO7UsfGCD69ng" org.eventb.core.identifier="ground"/>
+<org.eventb.core.constant name="_r0i1sWYzEeO7UsfGCD69ng" org.eventb.core.identifier="flight"/>
+<org.eventb.core.constant name="_nXA6gHvBEeSxCbbMjQar7w" org.eventb.core.identifier="front"/>
+<org.eventb.core.constant name="_nXA6gXvBEeSxCbbMjQar7w" org.eventb.core.identifier="left"/>
+<org.eventb.core.constant name="_nXA6gnvBEeSxCbbMjQar7w" org.eventb.core.identifier="right"/>
+<org.eventb.core.axiom name="_r0i1smYzEeO7UsfGCD69ng" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(DOOR_STATE, {open}, {closed}, {door_moving})"/>
+<org.eventb.core.axiom name="_r0kD0GYzEeO7UsfGCD69ng" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(GEAR_STATE, {retracted}, {extended}, {gear_moving})"/>
+<org.eventb.core.axiom name="_r0kD0WYzEeO7UsfGCD69ng" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(HANDLE_STATE, {up}, {down})"/>
+<org.eventb.core.axiom name="_r0kq4GYzEeO7UsfGCD69ng" org.eventb.core.label="axm4" org.eventb.core.predicate="partition(PLANE_STATE, {ground}, {flight})"/>
+<org.eventb.core.axiom name="_nXBhkHvBEeSxCbbMjQar7w" org.eventb.core.label="axm5" org.eventb.core.predicate="partition(POSITION, {front}, {left}, {right})"/>
+</org.eventb.core.contextFile>

@@ -1,12 +1,15 @@
 {
-    "model": "model/m1.bcm",
-    "id": "ccs",
-    "name": "Cruise Control System",
-    "autoOpen": [
-        "UserInteractions",
-        "Events"
-    ],
-    "template": "index.html",
-    "observers": "ccs.observers.json",
-    "events": "ccs.events.json"
+  "model": "model/m1.bcm",
+  "modelOptions": {
+    "MAX_OPERATIONS": 200
+  },
+  "id": "ccs",
+  "name": "Cruise Control System",
+  "autoOpen": [
+    "UserInteractions",
+    "Events"
+  ],
+  "template": "index.html",
+  "observers": "ccs.observers.json",
+  "events": "ccs.events.json"
 }

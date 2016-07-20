@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.texttools.text_lastmodified="1389623045352" org.eventb.texttools.text_representation="context Context1&#10;&#10;constants valve_open valve_closed switch_open switch_closed&#10;sets VALVE_STATE SWITCH_STATE&#10;&#10;axioms&#10;  @axm1 partition(VALVE_STATE, {valve_open}, {valve_closed})&#10;  @axm2 partition(SWITCH_STATE, {switch_open}, {switch_closed})&#10;end&#10;" version="3">
+<org.eventb.core.carrierSet name="_CLvPQGY2EeO7UsfGCD69ng" org.eventb.core.identifier="VALVE_STATE"/>
+<org.eventb.core.carrierSet name="_CLvPQWY2EeO7UsfGCD69ng" org.eventb.core.identifier="SWITCH_STATE"/>
+<org.eventb.core.constant name="_CLv2UGY2EeO7UsfGCD69ng" org.eventb.core.identifier="valve_open"/>
+<org.eventb.core.constant name="_CLv2UWY2EeO7UsfGCD69ng" org.eventb.core.identifier="valve_closed"/>
+<org.eventb.core.constant name="_CLv2UmY2EeO7UsfGCD69ng" org.eventb.core.identifier="switch_open"/>
+<org.eventb.core.constant name="_CLv2U2Y2EeO7UsfGCD69ng" org.eventb.core.identifier="switch_closed"/>
+<org.eventb.core.axiom name="_CLwdYGY2EeO7UsfGCD69ng" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(VALVE_STATE, {valve_open}, {valve_closed})"/>
+<org.eventb.core.axiom name="_CLwdYWY2EeO7UsfGCD69ng" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(SWITCH_STATE, {switch_open}, {switch_closed})"/>
+</org.eventb.core.contextFile>

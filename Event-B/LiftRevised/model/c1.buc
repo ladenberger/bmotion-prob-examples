@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" org.eventb.texttools.text_lastmodified="1463580332955" org.eventb.texttools.text_representation="context c1 extends c0&#10;&#10;sets Move&#10;&#10;constants up down idle&#10;&#10;axioms&#10;  @axm1 partition(Move, {up}, {down}, {idle})&#10;end&#10;" version="3">
+<org.eventb.core.extendsContext name="'" org.eventb.core.target="c0"/>
+<org.eventb.core.carrierSet name="_lfdk0B0BEeangeVl85nyqw" org.eventb.core.identifier="Move"/>
+<org.eventb.core.constant name="_lfeL4B0BEeangeVl85nyqw" org.eventb.core.identifier="up"/>
+<org.eventb.core.constant name="_lfeL4R0BEeangeVl85nyqw" org.eventb.core.identifier="down"/>
+<org.eventb.core.constant name="_lfeL4h0BEeangeVl85nyqw" org.eventb.core.identifier="idle"/>
+<org.eventb.core.axiom name="_lfeL4x0BEeangeVl85nyqw" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(Move, {up}, {down}, {idle})"/>
+</org.eventb.core.contextFile>

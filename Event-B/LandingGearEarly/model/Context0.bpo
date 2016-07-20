@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="DOOR_STATE" org.eventb.core.type="ℙ(DOOR_STATE)"/>
+<org.eventb.core.poIdentifier name="GEAR_STATE" org.eventb.core.type="ℙ(GEAR_STATE)"/>
+<org.eventb.core.poIdentifier name="HANDLE_STATE" org.eventb.core.type="ℙ(HANDLE_STATE)"/>
+<org.eventb.core.poIdentifier name="PLANE_STATE" org.eventb.core.type="ℙ(PLANE_STATE)"/>
+<org.eventb.core.poIdentifier name="POSITION" org.eventb.core.type="ℙ(POSITION)"/>
+<org.eventb.core.poIdentifier name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.poIdentifier name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.poIdentifier name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.poIdentifier name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.poIdentifier name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.poIdentifier name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.poIdentifier name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.poIdentifier name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.poIdentifier name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.poIdentifier name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.poIdentifier name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.poIdentifier name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.poIdentifier name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/LandingGearJournal/Context0.bpo|org.eventb.core.poFile#Context0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0i1smYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0kD0GYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0kD0WYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0kq4GYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_nXBhkHvBEeSxCbbMjQar7w"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

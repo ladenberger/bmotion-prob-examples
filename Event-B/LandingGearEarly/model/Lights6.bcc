@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(LIGHT_STATE,{on},{off})" org.eventb.core.source="/LandingGearJournal/Lights6.buc|org.eventb.core.contextFile#Lights6|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="bool_to_light={TRUE ↦ on,FALSE ↦ off}" org.eventb.core.source="/LandingGearJournal/Lights6.buc|org.eventb.core.contextFile#Lights6|org.eventb.core.axiom#_1jDZEXkQEeOBXrBZ8EbeCQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="LIGHT_STATE" org.eventb.core.source="/LandingGearJournal/Lights6.buc|org.eventb.core.contextFile#Lights6|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(LIGHT_STATE)"/>
+<org.eventb.core.scConstant name="bool_to_light" org.eventb.core.source="/LandingGearJournal/Lights6.buc|org.eventb.core.contextFile#Lights6|org.eventb.core.constant#_1jDZEHkQEeOBXrBZ8EbeCQ" org.eventb.core.type="ℙ(BOOL×LIGHT_STATE)"/>
+<org.eventb.core.scConstant name="off" org.eventb.core.source="/LandingGearJournal/Lights6.buc|org.eventb.core.contextFile#Lights6|org.eventb.core.constant#)" org.eventb.core.type="LIGHT_STATE"/>
+<org.eventb.core.scConstant name="on" org.eventb.core.source="/LandingGearJournal/Lights6.buc|org.eventb.core.contextFile#Lights6|org.eventb.core.constant#(" org.eventb.core.type="LIGHT_STATE"/>
+</org.eventb.core.scContextFile>

@@ -4,8 +4,10 @@
 <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="off≠standby" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm2A" org.eventb.core.theorem="false"/>
 <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="off≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm3A" org.eventb.core.theorem="false"/>
 <org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="standby≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm4A" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="+" org.eventb.core.label="axm5" org.eventb.core.predicate="maxspeed=30" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#_uN9bgUNMEea4JsOWmm07-Q" org.eventb.core.theorem="false"/>
 <org.eventb.core.scCarrierSet name="STATUS" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#internal_set1" org.eventb.core.type="ℙ(STATUS)"/>
 <org.eventb.core.scConstant name="cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#internal_cst3" org.eventb.core.type="STATUS"/>
+<org.eventb.core.scConstant name="maxspeed" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#_uN9bgENMEea4JsOWmm07-Q" org.eventb.core.type="ℤ"/>
 <org.eventb.core.scConstant name="off" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#internal_cst1" org.eventb.core.type="STATUS"/>
 <org.eventb.core.scConstant name="standby" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#internal_cst2" org.eventb.core.type="STATUS"/>
 </org.eventb.core.scContextFile>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.texttools.text_lastmodified="1389259897112" org.eventb.texttools.text_representation="context Lights6&#10;&#10;sets LIGHT_STATE&#10;&#10;constants on off bool_to_light&#10;&#10;axioms&#10;  @axm1 partition(LIGHT_STATE, {on}, {off})&#10;  @axm2 bool_to_light = {TRUE ↦ on, FALSE ↦ off}&#10;end&#10;" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="LIGHT_STATE"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="on"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="off"/>
+<org.eventb.core.axiom name="*" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(LIGHT_STATE, {on}, {off})"/>
+<org.eventb.core.constant name="_1jDZEHkQEeOBXrBZ8EbeCQ" org.eventb.core.identifier="bool_to_light"/>
+<org.eventb.core.axiom name="_1jDZEXkQEeOBXrBZ8EbeCQ" org.eventb.core.label="axm2" org.eventb.core.predicate="bool_to_light = {TRUE ↦ on, FALSE ↦ off}"/>
+</org.eventb.core.contextFile>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/door_closed/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/door_open/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/gear_extended/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/gear_retracted/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/last_door_action/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/last_door_action2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/last_gear_action/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/last_gear_action2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/valid_sensors1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/valid_sensors2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/valid_sensors3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/valid_sensors4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_extending/gear_retracted/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_extend_gear/gear_extended/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_retract_gear/gear_retracted/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_retracting/gear_extended/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_open_door/door_closed/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_open_door/door_open/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_close_door/door_closed/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_start_close_door/door_open/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/gear_not_moving/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/last_door_action/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/last_door_action2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/grd/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/gear_not_moving/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/last_door_action/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/last_door_action2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/doorfront/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/doorleft/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/doorright/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/grd4/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/last_gear_action/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/last_gear_action2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/doorfront/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/doorleft/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/doorright/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/grd/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/last_gear_action/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/last_gear_action2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_extended/validyet/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_extended/nowinvalid/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_extended/validvalue/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_extended/valid_sensors1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_extended/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_retracted/validyet/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_retracted/nowinvalid/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_retracted/validvalue/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_retracted/valid_sensors2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_gear_retracted/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_open/nowinvalid/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_open/validvalue/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_open/validyet/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_open/valid_sensors3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_open/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_closed/validyet/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_closed/nowinvalid/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_closed/validvalue/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_closed/valid_sensors4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_door_closed/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_Anomaly/invalid/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

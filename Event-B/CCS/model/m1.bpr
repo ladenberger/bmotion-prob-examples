@@ -1683,4 +1683,6 @@
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 </org.eventb.core.prProof>
+<org.eventb.core.prProof name="CAR_Adapt_Speed_Up/inv4/INV"/>
+<org.eventb.core.prProof name="CAR_Adapt_Speed_Down/inv4/INV"/>
 </org.eventb.core.prFile>

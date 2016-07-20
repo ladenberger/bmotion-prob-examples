@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/time1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/time8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/R12/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/R13/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/R14/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/R15/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time1/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time2/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time3/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time4/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time5/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time6/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time7/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/time8/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/R12/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/R13/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/R14/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/R15/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act1/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act2/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act3/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act4/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act5/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act6/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act7/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="tick/act8/WD" org.eventb.core.confidence="0" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/time5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_open_door_valve/time6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/time5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_close_door_valve/time6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/time7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_retract_gear_valve/time8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/time7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_extend_gear_valve/time8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_toggle_handle/time1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_toggle_handle/R12/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_toggle_handle/R13/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_general_valve/time3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_general_valve/time4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_general_valve/R14/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stimulate_general_valve/R15/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_general_valve/time3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_general_valve/time4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_general_valve/R14/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_stop_stimulate_general_valve/R15/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="1" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="evn_open_general_valve/R14/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="evn_open_general_valve/R15/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="evn_close_general_valve/R14/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="evn_close_general_valve/R15/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_close_switch/time2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_close_switch/R12/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_close_switch/R13/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_open_switch/R12/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="env_open_switch/R13/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_set_anomaly_output/R12/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_set_anomaly_output/R13/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_set_anomaly_output/R14/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="con_set_anomaly_output/R15/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="0" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_Anomaly/R12/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_Anomaly/R13/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_Anomaly/R14/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="sensor_invalid_Anomaly/R15/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

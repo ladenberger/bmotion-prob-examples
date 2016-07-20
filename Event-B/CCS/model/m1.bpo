@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="2">
-<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poFile org.eventb.core.poStamp="35">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
 <org.eventb.core.poIdentifier name="cruise" org.eventb.core.type="STATUS"/>
+<org.eventb.core.poIdentifier name="maxspeed" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="off" org.eventb.core.type="STATUS"/>
 <org.eventb.core.poIdentifier name="standby" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poPredicate name="standbz" org.eventb.core.predicate="STATUS={off,standby,cruise}" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm1A"/>
-<org.eventb.core.poPredicate name="standb{" org.eventb.core.predicate="off≠standby" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm2A"/>
-<org.eventb.core.poPredicate name="standb|" org.eventb.core.predicate="off≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm3A"/>
-<org.eventb.core.poPredicate name="standb}" org.eventb.core.predicate="standby≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm4A"/>
+<org.eventb.core.poPredicate name="maxspeee" org.eventb.core.predicate="STATUS={off,standby,cruise}" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm1A"/>
+<org.eventb.core.poPredicate name="maxspeef" org.eventb.core.predicate="off≠standby" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm2A"/>
+<org.eventb.core.poPredicate name="maxspeeg" org.eventb.core.predicate="off≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm3A"/>
+<org.eventb.core.poPredicate name="maxspeeh" org.eventb.core.predicate="standby≠cruise" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#internal_axm4A"/>
+<org.eventb.core.poPredicate name="maxspeei" org.eventb.core.predicate="maxspeed=30" org.eventb.core.source="/CruiseSimplified/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#_uN9bgUNMEea4JsOWmm07-Q"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="car_braking" org.eventb.core.type="BOOL"/>
 <org.eventb.core.poIdentifier name="car_speed" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="ccs_status" org.eventb.core.type="STATUS"/>
 <org.eventb.core.poIdentifier name="ccs_target" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinh"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt1"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinh"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt1"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="INITIALISATION/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinh"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="FALSE=TRUE⇒off≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt1"/>
@@ -40,14 +42,14 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#INITIALISATION\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinh" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinh" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="car_speed'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="ccs_target'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="ccs_status'" org.eventb.core.type="STATUS"/>
 <org.eventb.core.poIdentifier name="car_braking'" org.eventb.core.type="BOOL"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinh" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinh" org.eventb.core.poStamp="0"/>
-<org.eventb.core.poSequent name="USER_SwitchON/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinh" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinh" org.eventb.core.poStamp="33"/>
+<org.eventb.core.poSequent name="USER_SwitchON/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakini"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_braking=TRUE⇒standby≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt2"/>
@@ -55,13 +57,13 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#USER_SwitchON\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakini" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakini" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="ccs_status'" org.eventb.core.type="STATUS"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakini" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakini" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakini" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakini" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ccs_status=off" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt2|org.eventb.core.guard#internal_grd1"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="USER_SwitchOFF/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="USER_SwitchOFF/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinj"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_braking=TRUE⇒off≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt3"/>
@@ -69,21 +71,21 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#USER_SwitchOFF\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinj" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinj" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="ccs_status'" org.eventb.core.type="STATUS"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinj" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinj" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinj" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinj" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ccs_status≠off" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt3|org.eventb.core.guard#internal_grd1"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="USER_SetTaget/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="USER_SetTaget/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakink"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#USER_SetTaget\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="USER_SetTaget/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="USER_SetTaget/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakink"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_braking=TRUE⇒cruise≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt4"/>
@@ -91,91 +93,91 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#USER_SetTaget\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakink" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakink" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="ccs_target'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="ccs_status'" org.eventb.core.type="STATUS"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakink" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakink" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakink" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakink" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ccs_status≠off" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt4|org.eventb.core.guard#internal_grd1"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt4|org.eventb.core.guard#_AvMqQNofEeWWxpaw0yLPhA"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="USER_Adapt_Speed/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="USER_Adapt_Speed/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinl"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ccs_target+s∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ccs_target+s∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#USER_Adapt_Speed\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinl" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinl" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="s" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="ccs_target'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinl" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinl" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ccs_status=cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#_lW-U4doeEeWWxpaw0yLPhA"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="s∈ℤ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#_lW-U4NoeEeWWxpaw0yLPhA"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="ccs_target+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#_AvPGgNofEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinl" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinl" org.eventb.core.poStamp="33">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈−maxspeed ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#_lW-U4doeEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ccs_status=cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#_lW-U4NoeEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="ccs_target+s≤maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#_AvPGgNofEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="ccs_target+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#internal_evt7|org.eventb.core.guard#internal_element1"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="CCS_Adapt_Speed_Up/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="CCS_Adapt_Speed_Up/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinm"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed+s∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed+s∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CCS_Adapt_Speed_Up\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinm" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinm" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="car_speed'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="s" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinm" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinm" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈ℤ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#internal_element1"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="s&gt;0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_DxgvQ9ogEeWWxpaw0yLPhA"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="ccs_status=cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_RZKk0NotEeWRf9DBh5U1pA"/>
-<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="car_speed+s≤ccs_target" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JVltwdoeEeWWxpaw0yLPhA"/>
-<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="car_speed+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_Yk82EdotEeWRf9DBh5U1pA"/>
-<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_Qs1AENopEeWWxpaw0yLPhA"/>
-<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="ccs_target&gt;car_speed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_FKy2YNogEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinm" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinm" org.eventb.core.poStamp="33">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈1 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_DxgvQ9ogEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ccs_status=cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_RZKk0NotEeWRf9DBh5U1pA"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_speed+s≤ccs_target" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JVltwdoeEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="car_speed+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_Yk82EdotEeWRf9DBh5U1pA"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_Qs1AENopEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="ccs_target&gt;car_speed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JVltwNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNR0EOBlEeW2TeBqhvVE6A"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="CCS_Adapt_Speed_Down/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="2">
+<org.eventb.core.poSequent name="CCS_Adapt_Speed_Down/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinn"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed+s∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed+s∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CCS_Adapt_Speed_Down\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinn" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinn" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="car_speed'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="s" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinn" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinn" org.eventb.core.poStamp="2">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s&lt;0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNR0EOBlEeW2TeBqhvVE6A"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ccs_status=cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbIOBlEeW2TeBqhvVE6A"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_speed+s≥ccs_target" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbIeBlEeW2TeBqhvVE6A"/>
-<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="car_speed+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_DxgvQtogEeWWxpaw0yLPhA"/>
-<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_GS3RYOBlEeW2TeBqhvVE6A"/>
-<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="s∈ℤ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_RZKk0dotEeWRf9DBh5U1pA"/>
-<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="ccs_target&lt;car_speed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbI-BlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinn" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinn" org.eventb.core.poStamp="33">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈−maxspeed ‥ 0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbIOBlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ccs_status=cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbIeBlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_speed+s≥ccs_target" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_DxgvQtogEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="car_speed+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_GS3RYOBlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_FKy2YNogEeWWxpaw0yLPhA"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="ccs_target&lt;car_speed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_cTapsNoeEeWWxpaw0yLPhA|org.eventb.core.guard#_RZKk09otEeWRf9DBh5U1pA"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="CAR_Adapt_Speed/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poSequent name="CAR_Adapt_Speed/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="35">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakino"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed+s∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="car_speed+s∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CAR_Adapt_Speed\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakino" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakino" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poIdentifier name="car_speed'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="s" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakino" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakino" org.eventb.core.poStamp="1">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈ℤ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_RZKk09otEeWRf9DBh5U1pA"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="car_speed+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbJOBlEeW2TeBqhvVE6A"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbJeBlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakino" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakino" org.eventb.core.poStamp="34">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈−maxspeed ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_RZKk0dotEeWRf9DBh5U1pA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="car_speed+s≥0" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbI-BlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_speed+s≤maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_JNSbJOBlEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_DxgvQdogEeWWxpaw0yLPhA|org.eventb.core.guard#_XwWeoUNPEeaD-pagWPhjjg"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="CAR_BrakeOn/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poSequent name="CAR_BrakeOn/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="35">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinp"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="TRUE=TRUE⇒standby≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_RZKk0totEeWRf9DBh5U1pA"/>
@@ -183,14 +185,14 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CAR_BrakeOn\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinp" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinp" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="35">
 <org.eventb.core.poIdentifier name="ccs_status'" org.eventb.core.type="STATUS"/>
 <org.eventb.core.poIdentifier name="car_braking'" org.eventb.core.type="BOOL"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinp" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinp" org.eventb.core.poStamp="1">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_RZKk0totEeWRf9DBh5U1pA|org.eventb.core.guard#_DdOEgOBmEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinp" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinp" org.eventb.core.poStamp="35">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="car_braking=FALSE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_RZKk0totEeWRf9DBh5U1pA|org.eventb.core.guard#_JNSbJeBlEeW2TeBqhvVE6A"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="CAR_BrakeOff/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poSequent name="CAR_BrakeOff/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="35">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPcar_brakinq"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="FALSE=TRUE⇒ccs_status≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JNTCMOBlEeW2TeBqhvVE6A"/>
@@ -198,16 +200,16 @@
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CAR_BrakeOff\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinq" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTcar_brakinq" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="35">
 <org.eventb.core.poIdentifier name="car_braking'" org.eventb.core.type="BOOL"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinq" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinq" org.eventb.core.poStamp="1">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="car_braking=TRUE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JNTCMOBlEeW2TeBqhvVE6A|org.eventb.core.guard#_MXCk4OBmEeW2TeBqhvVE6A"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcar_brakinq" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTcar_brakinq" org.eventb.core.poStamp="35">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="car_braking=TRUE" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#_JNTCMOBlEeW2TeBqhvVE6A|org.eventb.core.guard#_XwY64ENPEeaD-pagWPhjjg"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/CruiseSimplified/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="33">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ccs_status∈STATUS" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv1I"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ccs_target∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_speed∈ℕ" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ccs_target∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv2I"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="car_speed∈0 ‥ maxspeed" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv4I"/>
 <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="car_braking∈BOOL" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv5I"/>
 <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="car_braking=TRUE⇒ccs_status≠cruise" org.eventb.core.source="/CruiseSimplified/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#internal_inv6I"/>
 </org.eventb.core.poPredicateSet>

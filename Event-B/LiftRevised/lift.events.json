@@ -1,0 +1,42 @@
+{
+    "events": [
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "send_request",
+                        "predicate": "return \"f=\" + origin.attr(\"data-custom\");",
+                        "predicateJs": true
+                    }
+                ],
+                "selector": ".bt",
+                "label": "return \"Push button \" + event.predicate;"
+            }
+        },
+        {
+            "type": "executeEvent",
+            "data": {
+                "events": [
+                    {
+                        "name": "door_open",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "door_close",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "move_up",
+                        "predicate": ""
+                    },
+                    {
+                        "name": "move_down",
+                        "predicate": ""
+                    }
+                ],
+                "selector": "#door"
+            }
+        }
+    ]
+}

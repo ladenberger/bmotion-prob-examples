@@ -1,0 +1,280 @@
+<svg width="1056" height="728" xmlns="http://www.w3.org/2000/svg" id="landinggear" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata3467">image/svg+xml</metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="730" width="1058" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="g3267">
+   <g id="svg_3">
+    <rect id="svg_26" height="0" width="0.25" y="449.68176" x="480.72729" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#1c93a5" fill="#666666"/>
+    <g id="svg_13" data-refinement="R4GearsDoorsHandleValves">
+     <text id="svg_101" fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="347.02269" y="372.31248" font-size="8" font-family="Monospace" text-anchor="middle" xml:space="preserve" stroke="#ff0000">(retraction circuit)</text>
+     <g id="front_door_cylinder">
+      <rect fill="#cccccc" stroke="#000000" stroke-width="null" stroke-dasharray="null" height="39.44828" width="107.58621" y="403.37699" x="369.0909" stroke-linecap="null" stroke-linejoin="null" id="front_door_cylinder1"/>
+      <rect fill="#cccccc" stroke="#000000" stroke-width="0" stroke-dasharray="null" id="front_door_cylinder_l" height="38.25" width="54" y="403.97717" x="369.51135" stroke-linecap="null" stroke-linejoin="null"/>
+      <rect fill="#cccccc" stroke="#000000" stroke-width="0" stroke-dasharray="null" id="front_door_cylinder_r" height="38.25" width="55" y="404.01136" x="421.13636" stroke-linecap="null" stroke-linejoin="null"/>
+      <g id="front_door_cylinder_forcer">
+       <rect fill="#666666" stroke="#1c93a5" height="39" width="15.24138" y="403.35657" x="370" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" id="front_door_cylinder_forcer1"/>
+       <rect fill="#666666" stroke="#1c93a5" height="8.96552" width="90" y="419.27036" x="385" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" id="front_door_cylinder_forcer2"/>
+      </g>
+     </g>
+     <g id="right_door_cylinder">
+      <rect id="right_door_cylinder1" fill="#cccccc" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="568.09088" y="403.37699" width="107.58621" height="39.44828" stroke="#000000"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="568.51137" y="403.88636" width="58" height="38.25" id="right_door_cylinder_l"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="622.01137" y="403.88636" width="53" height="38.25" id="right_door_cylinder_r"/>
+      <g id="right_door_cylinder_forcer">
+       <rect fill="#666666" stroke="#1c93a5" id="right_door_cylinder_forcer1" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x="569" y="403.35657" width="15.24138" height="39"/>
+       <rect fill="#666666" stroke="#1c93a5" id="right_door_cylinder_forcer2" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x="584" y="419.27036" width="90" height="8.96552"/>
+      </g>
+     </g>
+     <g id="left_door_cylinder">
+      <rect id="left_door_cylinder1" fill="#cccccc" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="773.09088" y="403.37699" width="107.58621" height="39.44828" stroke="#000000"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="773.76135" y="404.01136" width="56" height="38.25" id="left_door_cylinder_l"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="823.13635" y="404.01136" width="57" height="38.25" id="left_door_cylinder_r"/>
+      <g id="left_door_cylinder_forcer">
+       <rect fill="#666666" stroke="#1c93a5" id="left_door_cylinder_forcer1" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x="774" y="403.35657" width="15.24138" height="39"/>
+       <rect fill="#666666" stroke="#1c93a5" id="left_door_cylinder_forcer2" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x="790" y="419.27036" width="90" height="8.96552"/>
+      </g>
+     </g>
+     <g id="front_gear_cylinder">
+      <rect stroke="#000000" height="39.44828" width="107.58621" y="598.37699" x="369.0909" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#cccccc" id="front_gear_cylinder1"/>
+      <rect id="front_gear_cylinder_l" height="38.25" width="55" y="598.88637" x="369.63636" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#cccccc" stroke="#000000"/>
+      <rect id="front_gear_cylinder_r" height="38.25" width="58" y="598.88637" x="418.13636" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#cccccc" stroke="#000000"/>
+      <g id="front_gear_cylinder_forcer">
+       <rect stroke="#1c93a5" height="39" width="15.24138" y="598.35658" x="370" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#666666" id="front_gear_cylinder_forcer1"/>
+       <rect stroke="#1c93a5" height="8.96552" width="90" y="614.27037" x="385" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#666666" id="front_gear_cylinder_forcer2"/>
+      </g>
+     </g>
+     <g id="right_gear_cylinder">
+      <rect id="right_gear_cylinder1" fill="#cccccc" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="568.09088" y="598.37699" width="107.58621" height="39.44828" stroke="#000000"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="568.63637" y="599.01137" width="61" height="38.25" id="right_gear_cylinder_l"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="623.01137" y="598.88637" width="52" height="38.25" id="right_gear_cylinder_r"/>
+      <g id="right_gear_cylinder_forcer">
+       <rect id="right_gear_cylinder_forcer1" fill="#666666" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="569" y="598.35658" width="15.24138" height="39" stroke="#1c93a5"/>
+       <rect id="right_gear_cylinder_forcer2" fill="#666666" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="584" y="614.27037" width="90" height="8.96552" stroke="#1c93a5"/>
+      </g>
+     </g>
+     <g id="left_gear_cylinder">
+      <rect id="left_gear_cylinder1" fill="#cccccc" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="773.09088" y="598.37699" width="107.58621" height="39.44828" stroke="#000000"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="773.51135" y="599.01137" width="56" height="38.25" id="left_gear_cylinder_l"/>
+      <rect stroke="#000000" fill="#cccccc" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="823.13634" y="598.88637" width="57.00001" height="38.25" id="left_gear_cylinder_r"/>
+      <g id="left_gear_cylinder_forcer">
+       <rect id="left_gear_cylinder_forcer1" fill="#666666" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="774" y="598.35658" width="15.24138" height="39" stroke="#1c93a5"/>
+       <rect id="left_gear_cylinder_forcer2" fill="#666666" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="790" y="614.27037" width="90" height="8.96552" stroke="#1c93a5"/>
+      </g>
+     </g>
+     <g id="retraction_circuit_doors">
+      <line fill="none" stroke-width="2" x1="296.125" y1="379.375" x2="872.12496" y2="379.375" id="svg_34" stroke="#cccccc"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="667.11353" y1="379.97717" x2="667.11353" y2="401.47753" id="svg_35" marker-end="url(#se_marker_end_svg_35)" stroke="#cccccc"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="871.14771" y1="379.85218" x2="871.14771" y2="402.47717" id="svg_36" marker-end="url(#se_marker_end_svg_36)" stroke="#cccccc"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="466.51137" y1="379.51118" x2="466.51137" y2="401.01154" marker-end="url(#se_marker_end_svg_57)" stroke="#cccccc" id="svg_57"/>
+     </g>
+     <g id="retraction_circuit_gears">
+      <line fill="none" stroke-width="2" x1="296.59091" y1="573.80105" x2="872.39091" y2="573.80105" id="svg_78" stroke="#cccccc"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="667.07944" y1="574.40323" x2="667.07944" y2="595.90358" marker-end="url(#se_marker_end_svg_35)" stroke="#cccccc" id="svg_79"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="871.36362" y1="573.77823" x2="871.36362" y2="596.40323" marker-end="url(#se_marker_end_svg_36)" stroke="#cccccc" id="svg_80"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="467.47728" y1="574.43723" x2="467.47728" y2="595.93759" marker-end="url(#se_marker_end_svg_57)" stroke="#cccccc" id="svg_81"/>
+     </g>
+     <g id="extension_circuit_doors">
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="296.81812" y1="477.88635" x2="794.81378" y2="477.88635" id="svg_87" stroke="#cccccc"/>
+      <line fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="385.45447" y1="477.65906" x2="385.45447" y2="444.36304" id="svg_88" marker-end="url(#se_marker_end_svg_88)"/>
+      <line fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="587.27272" y1="477.67074" x2="587.27272" y2="444.37472" marker-end="url(#se_marker_end_svg_89)" id="svg_89"/>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="793.77274" y1="477.57073" x2="793.77274" y2="443.37471" marker-end="url(#se_marker_end_svg_90)" id="svg_90" stroke="#cccccc"/>
+     </g>
+     <g id="extension_circuit_gears">
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="296.8681" y1="672.95454" x2="787.51371" y2="672.95454" id="svg_93" stroke="#cccccc"/>
+      <line fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="385.25446" y1="672.47725" x2="385.25446" y2="639.18123" marker-end="url(#se_marker_end_svg_88)" id="svg_94"/>
+      <line fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="584.82271" y1="672.48893" x2="584.82271" y2="639.19291" marker-end="url(#se_marker_end_svg_89)" id="svg_95"/>
+      <line fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="786.57272" y1="672.23892" x2="786.57272" y2="638.9429" marker-end="url(#se_marker_end_svg_90)" id="svg_96"/>
+     </g>
+     <text stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" id="svg_97" y="686.45453" x="343.22723" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">(extension circuit)</text>
+     <text stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="567.0632" x="348.0234" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="svg_98">(retraction circuit)</text>
+     <text stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="491.06248" x="345.02269" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="sfsfa">(extension circuit)</text>
+     <text id="svg_100" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="329.73151" x="275.09016" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Electro-valve (close doors)</text>
+     <text id="svg_102" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="427.72867" x="270.08733" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Electro-valve (open doors)</text>
+     <text id="svg_103" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="524.72583" x="273.8423" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Electro-valve (retraction gears)</text>
+     <text id="svg_104" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="625.73081" x="274.09727" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Electro-valve (extended gears)</text>
+     <text id="svg_105" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="395.47868" x="413.58733" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Front door cylinder</text>
+     <text id="svg_106" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="394.72584" x="612.5923" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Right door cylinder</text>
+     <text id="svg_107" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="394.73081" x="818.58946" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Left door cylinder</text>
+     <text id="svg_108" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="588.72584" x="417.3423" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Front gear cylinder</text>
+     <text id="svg_109" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="588.73081" x="617.08946" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Right gear cylinder</text>
+     <text id="svg_110" stroke="#ff0000" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="8" y="589.72797" x="821.08662" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Left gear cylinder</text>
+     <g id="electro-valves">
+      <g id="ev_close_doors">
+       <path stroke="#000000" id="svg_2" d="m229.979,356.69601l32.58398,22.13898l-32.58398,22.14001l0,-44.27899l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+       <path stroke="#000000" id="svg_1" d="m296.20285,400.97467l-32.58395,-22.13922l32.58395,-22.14011l0,44.27933l0,0l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+      </g>
+      <g id="ev_open_doors">
+       <path id="svg_60" stroke="#000000" d="m229.97894,454.29977l32.58398,22.13925l-32.58398,22.13922l0,-44.27847l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+       <path id="svg_61" stroke="#000000" d="m296.20285,498.57825l-32.58395,-22.13922l32.58395,-22.14011l0,44.27933l0,0l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+      </g>
+      <g id="ev_retraction_gears">
+       <path id="svg_66" stroke="#000000" d="m229.97894,551.2998l32.58398,22.13922l-32.58398,22.13922l0,-44.27844l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+       <path id="svg_67" stroke="#000000" d="m296.20285,595.57825l-32.58395,-22.13922l32.58395,-22.14008l0,44.2793l0,0l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+      </g>
+      <g id="ev_extended_gears">
+       <path id="svg_72" stroke="#000000" d="m229.97894,650.2998l32.58398,22.13922l-32.58398,22.13922l0,-44.27844l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+       <path id="svg_73" stroke="#000000" d="m296.20285,694.57825l-32.58395,-22.13922l32.58395,-22.14008l0,44.2793l0,0l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+      </g>
+     </g>
+    </g>
+    <g data-refinement="R7GearsDoorsHandleValvesControllerSwitchLights" id="lights">
+     <rect fill="#88d2f7" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="37.25" y="64.875" width="10" height="10" stroke="#1c93a5" id="svg_22"/>
+     <rect fill="#88d2f7" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="60.5" y="64.875" width="10" height="10" stroke="#1c93a5" id="svg_33"/>
+     <rect fill="#88d2f7" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="83.75" y="64.875" width="10" height="10" stroke="#1c93a5" id="rect3363"/>
+     <line fill="none" stroke="#ff0000" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="42" y1="64.25" x2="42" y2="40.25" id="line3365" marker-end="url(#se_marker_end_svg_36)"/>
+     <line fill="none" stroke="#ff0000" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="65.5" y1="64.25" x2="65.5" y2="40.25" marker-end="url(#se_marker_end_svg_46)" id="svg_46"/>
+     <line fill="none" stroke="#ff0000" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="88.75" y1="64.25" x2="88.75" y2="40.25" marker-end="url(#se_marker_end_svg_47)" id="svg_47"/>
+     <ellipse fill="#cfffa0" stroke="#000000" stroke-width="0" cx="41.75" cy="23.625" rx="8" ry="8" id="green_light"/>
+     <ellipse fill="#ffe7ad" stroke="#000000" stroke-width="0" cx="65.25" cy="23.625" rx="8" ry="8" id="orange_light"/>
+     <ellipse fill="#ffc9c9" stroke="#000000" stroke-width="0" cx="88.75" cy="23.625" rx="8" ry="8" id="red_light"/>
+    </g>
+    <g data-refinement="R8GearsDoorsHandleValvesControllerSwitchLightsSensors" id="sensors">
+     <path stroke="#ff0000" marker-end="url(#se_marker_end_svg_45)" id="sensor_handle" d="m208.5,46l-96.25,0l0,26.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="none"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="111.125" y="72.24999" width="2.5" height="2.5" id="svg_5-6"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="82.95676" width="2.5" height="2.5" id="svg_92"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="87.63826" width="2.5" height="2.5" id="svg_99"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="92.42097" width="2.5" height="2.5" id="svg_111"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="78.36598" width="2.5" height="2.5" id="svg_5"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="74.46598" width="2.5" height="2.5" id="svg_5"/>
+     <line fill="#ff0000" stroke="#ff0000" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="75.47652" x2="366.17615" y2="75.47652" id="sensor_shock_absorber"/>
+     <line fill="#ff0000" stroke="#ff0000" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="79.47652" x2="366.17615" y2="79.47652" id="gear_extended_front"/>
+     <line stroke="#ff0000" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="84.35306" x2="366.17612" y2="84.35306" id="gear_extended_right"/>
+     <line stroke="#ff0000" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="89.04845" x2="366.17615" y2="89.04845" id="gear_extended_left"/>
+     <line stroke="#ff0000" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="93.74781" x2="366.17615" y2="93.74781" id="gear_retracted_front"/>
+     <line stroke="#ff0000" id="gear_retracted_right" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="98.75434" x2="366.17615" y2="98.75434"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" id="svg_21" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="132.99486" width="2.5" height="2.5"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="97.35166" width="2.5" height="2.5" id="svg_111-1"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="102.18684" width="2.5" height="2.5" id="svg_111-8"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="107.20257" width="2.5" height="2.5" id="svg_111-4"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="112.38999" width="2.5" height="2.5" id="svg_111-9"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="117.43594" width="2.5" height="2.5" id="svg_111-7"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="122.82087" width="2.5" height="2.5" id="svg_111-84"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-linejoin="null" stroke-linecap="null" x="134.88522" y="127.78944" width="2.5" height="2.5" id="svg_111-89"/>
+     <line stroke="#ff0000" id="gear_retracted_left" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="103.54458" x2="366.17615" y2="103.54458"/>
+     <line stroke="#ff0000" id="door_open_front" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="108.60815" x2="366.17615" y2="108.60815"/>
+     <line stroke="#ff0000" id="door_open_right" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="113.64205" x2="366.17612" y2="113.64205"/>
+     <line stroke="#ff0000" id="door_open_left" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="118.74892" x2="366.17618" y2="118.74892"/>
+     <line stroke="#ff0000" id="door_closed_front" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="124.22057" x2="366.17615" y2="124.22057"/>
+     <line stroke="#ff0000" id="door_closed_right" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="129.03568" x2="366.17618" y2="129.03568"/>
+     <line stroke="#ff0000" id="door_closed_left" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" x1="137.66943" y1="134.36139" x2="366.17615" y2="134.36139"/>
+     <g id="g3986">
+      <text text-anchor="middle" fill="#4f9e00" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="418.75" y="77.7322" id="svg_23" font-size="7px" xml:space="preserve">ground</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="448.75" y="77.7322" id="svg_37" font-size="7px" xml:space="preserve">flight</text>
+      <text text-anchor="middle" fill="#4f9e00" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="404.73816" y="90.7322" id="svg_23" font-size="7px" xml:space="preserve">gear extended</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="461.59796" y="90.7322" id="svg_37" font-size="7px" xml:space="preserve">not extended</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="534.80585" y="90.7698" id="svg_37-1" font-size="7px" xml:space="preserve">
+       <tspan fill="#000000" id="tspan3984">(front, right, left)</tspan>
+      </text>
+      <text text-anchor="middle" fill="#4f9e00" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="402.63269" y="104.38843" id="svg_23-5" font-size="7px" xml:space="preserve">gear retracted</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="463.70343" y="104.38843" id="svg_37-8" font-size="7px" xml:space="preserve">not retracted</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="534.80585" y="104.42602" id="svg_37-1-6" font-size="7px" xml:space="preserve">
+       <tspan fill="#000000" id="tspan3984-2">(front, right, left)</tspan>
+      </text>
+      <text text-anchor="middle" fill="#4f9e00" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="413.12927" y="118.38843" id="svg_23-9" font-size="7px" xml:space="preserve">door open</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="453.17609" y="118.38843" id="svg_37-9" font-size="7px" xml:space="preserve">not open</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="534.80585" y="118.42603" id="svg_37-1-5" font-size="7px" xml:space="preserve">
+       <tspan fill="#000000" id="tspan3984-8">(front, right, left)</tspan>
+      </text>
+      <text text-anchor="middle" fill="#4f9e00" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="408.9491" y="131.88843" id="svg_23-7" font-size="7px" xml:space="preserve">door closed</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="457.38702" y="131.88843" id="svg_37-5" font-size="7px" xml:space="preserve">not closed</text>
+      <text text-anchor="middle" fill="#ff0000" stroke="#ff0000" stroke-width="0" font-family="Monospace" stroke-linejoin="null" stroke-linecap="null" x="534.80585" y="131.92603" id="svg_37-1-9" font-size="7px" xml:space="preserve">
+       <tspan fill="#000000" id="tspan3984-3">(front, right, left)</tspan>
+      </text>
+     </g>
+    </g>
+    <g data-refinement="R5GearsDoorsHandleValvesController" id="svg_28">
+     <text fill="#000000" stroke="#ff0000" stroke-width="0" stroke-dasharray="null" font-family="Monospace" text-anchor="middle" stroke-linejoin="null" stroke-linecap="null" x="24.72726" y="450.45453" id="svg_20" font-size="8" xml:space="preserve" transform="rotate(-90 24.726600646972717,447.7269897460938) ">Orders to electro-valves</text>
+     <g id="e-order-close">
+      <line fill="none" stroke="#000000" stroke-dasharray="null" id="svg_8" y2="353.18451" x2="262.98441" y1="378.53458" x1="262.98441" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <rect fill="#cccccc" stroke="#000000" stroke-dasharray="null" id="svg_4" height="15.24684" width="29.03165" y="338" x="248.2724" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke="#000000" stroke-dasharray="null" id="svg_6" y2="338.62658" x2="277.55404" y1="353.09019" x1="248.26132" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke="#ff0000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="101.07455" y1="194.41318" x2="101.07455" y2="346.25" id="svg_9"/>
+      <line fill="none" stroke="#ff0000" stroke-linejoin="round" stroke-dasharray="null" stroke-width="null" stroke-linecap="null" x1="248" y1="345.57268" x2="100.52485" y2="345.57268" id="svg_10"/>
+     </g>
+     <g id="e-order-open">
+      <line fill="none" stroke-dasharray="null" stroke="#000000" id="svg_64" y2="450.78808" x2="262.98442" y1="476.13815" x1="262.98442" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <rect fill="#cccccc" stroke-dasharray="null" stroke="#000000" id="svg_62" height="15.24684" width="29.03165" y="435.60357" x="248.77241" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke-dasharray="null" stroke="#000000" id="svg_63" y2="436.23016" x2="277.80406" y1="450.69376" x1="248.51133" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke="#ff0000" x1="81.0293" y1="193.81752" x2="80.55869" y2="443.92481" id="svg_14"/>
+      <line fill="none" stroke="#ff0000" stroke-linejoin="round" stroke-dasharray="null" stroke-width="null" stroke-linecap="null" x1="247.93863" y1="443.32872" x2="80" y2="443.32872" id="svg_15"/>
+     </g>
+     <g id="e-order-retract">
+      <line fill="none" stroke="#000000" stroke-dasharray="null" id="svg_70" y2="547.78808" x2="262.98442" y1="573.13815" x1="262.98442" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <rect fill="#cccccc" stroke="#000000" stroke-dasharray="null" id="svg_68" height="15.24684" width="29.03165" y="532.60357" x="248.77241" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke="#000000" stroke-dasharray="null" id="svg_69" y2="533.23016" x2="277.80406" y1="547.69376" x1="248.51133" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke="#ff0000" stroke-dasharray="null" id="svg_11" stroke-linejoin="null" stroke-linecap="null" x1="60.33782" y1="193.78728" x2="59.80693" y2="541.40828"/>
+      <line fill="none" stroke="#ff0000" stroke-linejoin="round" marker-start="url(#se_marker_start_svg_15)" stroke-dasharray="null" id="svg_16" stroke-width="null" stroke-linecap="null" x1="248.62271" y1="540.84636" x2="59.23716" y2="540.84636"/>
+     </g>
+     <g id="e-order-extend">
+      <line fill="none" stroke="#000000" stroke-dasharray="null" id="svg_76" y2="646.78808" x2="262.98442" y1="672.13815" x1="262.98442" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <rect fill="#cccccc" stroke="#000000" stroke-dasharray="null" id="svg_74" height="15.24684" width="29.03165" y="631.60358" x="248.77241" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke="#000000" stroke-dasharray="null" id="svg_75" y2="632.23016" x2="277.80406" y1="646.69377" x1="248.51133" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      <line fill="none" stroke="#ff0000" stroke-dasharray="null" id="svg_18" stroke-linejoin="null" stroke-linecap="null" x1="39.55688" y1="194.40543" x2="38.96783" y2="640.52644"/>
+      <line fill="none" stroke="#ff0000" stroke-linejoin="round" marker-start="url(#se_marker_start_svg_15)" stroke-dasharray="null" id="svg_19" stroke-width="null" stroke-linecap="null" x1="248.47121" y1="639.8053" x2="38.33563" y2="639.8053"/>
+     </g>
+     <g id="svg_51">
+      <rect fill="#ffffff" stroke="#1c93a5" x="26" y="75" width="109" height="109" id="svg_24"/>
+      <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" font-family="Monospace" text-anchor="middle" stroke-linejoin="null" stroke-linecap="null" x="81.81818" y="133.54541" id="svg_25" font-size="12" xml:space="preserve" font-weight="normal">Digital part</text>
+      <rect fill="#88d2f7" stroke="#1c93a5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="35" y="184" width="10" height="10" id="signal_extend_gears"/>
+      <rect fill="#88d2f7" stroke="#1c93a5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="56" y="184" width="10" height="10" id="signal_retract_gears"/>
+      <rect fill="#88d2f7" stroke="#1c93a5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="76" y="184" width="10" height="10" id="signal_open_door"/>
+      <rect fill="#88d2f7" stroke="#1c93a5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="96" y="184" width="10" height="10" id="signal_close_door"/>
+     </g>
+    </g>
+    <g data-refinement="R6GearsDoorsHandleValvesControllerSwitch" id="svg_29">
+     <rect fill="#88d2f7" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="115" y="184" width="10" height="10" stroke="#1c93a5" id="con_stimulate_general_valve"/>
+     <rect fill="#88d2f7" stroke="#1c93a5" stroke-dasharray="null" id="svg_136" stroke-linejoin="null" stroke-linecap="null" x="135" y="138.375" width="2.5" height="2.5"/>
+     <g id="general_circuit">
+      <text id="svg_121" fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="389.08732" y="204.72867" font-size="8" font-family="Monospace" text-anchor="middle" xml:space="preserve" stroke="#ff0000">General electro-valve</text>
+      <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="259.09229" y="236.72583" font-size="8" font-family="Monospace" text-anchor="middle" xml:space="preserve" stroke="#ff0000" id="lb_analogical_switch">Analogical switch</text>
+      <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="424.15906" y1="255.95453" x2="565.16045" y2="255.95453" id="svg_7" marker-start="url(#se_marker_start_svg_7)" stroke="#88d2f7"/>
+      <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="498.52411" y="248.07171" font-size="8" font-family="Monospace" text-anchor="middle" xml:space="preserve" stroke="#ff0000" id="svg_12">Aircraft hydraulic circuit</text>
+      <g id="hydraulic_circuit">
+       <line stroke-width="2" id="svg_122" y2="255.36359" x2="190.07075" y1="255.36359" x1="352.18182" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#cccccc" fill="none"/>
+       <line stroke="#cccccc" stroke-width="2" id="svg_123" y2="673.78071" x2="190.15906" y1="254.85309" x1="190.15906" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="none"/>
+       <line stroke="#cccccc" id="svg_124" y2="380.5" x2="229.66325" y1="380.5" x1="189.61359" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+       <line id="svg_126" stroke="#cccccc" y2="477.27273" x2="229.54755" y1="477.27273" x1="189.49789" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+       <line id="svg_127" stroke="#cccccc" y2="575.02272" x2="229.54756" y1="575.02272" x1="189.4979" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+       <line id="svg_128" stroke="#cccccc" y2="672.77272" x2="229.54756" y1="672.77272" x1="189.4979" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+      </g>
+      <g id="ev_general">
+       <path id="svg_112" stroke="#000000" d="m352.979,232.3l32.58398,22.13899l-32.58398,22.13901l0,-44.278l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+       <path id="svg_113" stroke="#000000" d="m419.203,276.578l-32.58401,-22.13901l32.58401,-22.14l0,44.27901l0,0l0,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#cccccc"/>
+       <line id="svg_116" stroke="#000000" y2="228.78808" x2="385.98443" y1="254.13815" x1="385.98443" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="none"/>
+      </g>
+      <g id="oev_general">
+       <g id="ge-order-1">
+        <line stroke="#ff0000" id="svg_119" fill="none" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="119.70442" y1="194.2975" x2="119.70442" y2="221.88431"/>
+        <line stroke="#ff0000" id="oev_general_l" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="null" x1="246.95346" y1="221.77128" x2="119.22833" y2="221.77128" marker-start="url(#se_marker_start_svg_120)"/>
+       </g>
+       <g id="ge-order-2">
+        <rect id="svg_114" stroke="#000000" height="15.24684" width="29.03165" y="213.35357" x="371.77242" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#cccccc"/>
+        <line stroke="#ff0000" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="null" x1="371.63528" y1="221.77273" x2="267.16016" y2="221.77273" id="oev_general_r" marker-end="url(#se_marker_end_svg_3)"/>
+        <line id="svg_115" stroke="#000000" y2="214.23015" x2="400.80406" y1="228.69376" x1="371.51134" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="none"/>
+       </g>
+      </g>
+     </g>
+     <g id="analogical_switch">
+      <line stroke="#ff0000" id="switch_to_handle" y2="212" x2="256.875" y1="57.00001" x1="256.875" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="none"/>
+      <g id="switch_to_output">
+       <line fill="none" stroke="#ff0000" stroke-dasharray="null" stroke-width="null" id="svg_91" stroke-linejoin="null" stroke-linecap="null" x1="137.87164" y1="139.875" x2="165.77835" y2="139.875"/>
+       <line fill="none" stroke="#ff0000" stroke-dasharray="null" stroke-width="null" id="switchi1" y2="207.78771" x2="165.875" y1="139.375" x1="165.875" stroke-linecap="null" stroke-linejoin="null"/>
+       <line fill="none" stroke="#ff0000" stroke-dasharray="null" id="switchi2" y2="207.625" x2="257.31661" y1="207.625" x1="165.25" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+      </g>
+      <rect stroke="#ff0000" id="switch" height="11.55828" width="28.39808" y="200.48889" x="242.83269" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff0000"/>
+     </g>
+    </g>
+    <g data-refinement="R2GearDoorHandle" id="svg_30">
+     <image height="45" width="60" y="6" x="225" id="ev_handle" xlink:href="img/handle_down.png"/>
+    </g>
+   </g>
+  </g>
+  <image xlink:href="img/door_closed.png" id="front_door" height="134.2" width="165" y="60.5" x="643"/>
+  <image stroke="null" xlink:href="img/gear_retracted.png" id="front_gear" height="173.50001" width="105" y="46.5" x="833"/>
+ </g>
+</svg>

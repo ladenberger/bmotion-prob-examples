@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.texttools.text_lastmodified="1422280798719" org.eventb.texttools.text_representation="machine Mch0_GearDoor sees Context0&#10;&#10;variables gear door&#10;&#10;invariants&#10;  @inv1 gear ∈ POSITION → GEAR_STATE&#10;  @inv2 door ∈ POSITION → DOOR_STATE&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 gear ≔ {front↦extended,left↦extended,right↦extended}&#10;      @act2 door ≔ {front↦closed,left↦closed,right↦closed}&#10;  end&#10;&#10;  event env_start_extending&#10;    where&#10;      @grd2 ran(gear) = {retracted}&#10;    then&#10;      @act1 gear ≔ {front↦gear_moving,left↦gear_moving,right↦gear_moving}&#10;  end&#10;&#10;  event env_extend_gear&#10;    where&#10;      @grd2 ran(gear) = {gear_moving}&#10;    then&#10;      @act1 gear ≔ {front↦extended,left↦extended,right↦extended}&#10;  end&#10;&#10;  event env_retract_gear&#10;    where&#10;      @grd2 ran(gear) = {gear_moving}&#10;    then&#10;      @act1 gear ≔ {front↦retracted,left↦retracted,right↦retracted}&#10;  end&#10;&#10;  event env_start_retracting&#10;    where&#10;      @grd2 ran(gear) = {extended}&#10;    then&#10;      @act1 gear ≔ {front↦gear_moving,left↦gear_moving,right↦gear_moving}&#10;  end&#10;&#10;  event env_start_open_door&#10;    where&#10;      @grd2 ran(door) = {closed}&#10;    then&#10;      @act1 door ≔ {front↦door_moving,left↦door_moving,right↦door_moving}&#10;  end&#10;&#10;  event env_open_door&#10;    where&#10;      @grd2 ran(door) = {door_moving}&#10;    then&#10;      @act1 door ≔ {front↦open,left↦open,right↦open}&#10;  end&#10;&#10;  event env_close_door&#10;    where&#10;      @grd2 ran(door) = {door_moving}&#10;    then&#10;      @act1 door ≔ {front↦closed,left↦closed,right↦closed}&#10;  end&#10;&#10;  event env_start_close_door&#10;    where&#10;      @grd1 ran(door) = {open}&#10;    then&#10;      @act1 door ≔ {front↦door_moving,left↦door_moving,right↦door_moving}&#10;  end&#10;end&#10;" version="5">
+<org.eventb.core.seesContext name="_neYq0KVjEeSLKdWrmraHpQ" org.eventb.core.target="Context0"/>
+<org.eventb.core.variable name="_XbQlcqVjEeSOman2KrgJXA" org.eventb.core.identifier="gear"/>
+<org.eventb.core.variable name="_XbQlc6VjEeSOman2KrgJXA" org.eventb.core.identifier="door"/>
+<org.eventb.core.invariant name="_XbQldKVjEeSOman2KrgJXA" org.eventb.core.label="inv1" org.eventb.core.predicate="gear ∈ POSITION → GEAR_STATE"/>
+<org.eventb.core.invariant name="_XbQldaVjEeSOman2KrgJXA" org.eventb.core.label="inv2" org.eventb.core.predicate="door ∈ POSITION → DOOR_STATE"/>
+<org.eventb.core.event name="_XbRMgKVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="_XbRMgaVjEeSOman2KrgJXA" org.eventb.core.assignment="gear ≔ {front↦extended,left↦extended,right↦extended}" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="_XbRMgqVjEeSOman2KrgJXA" org.eventb.core.assignment="door ≔ {front↦closed,left↦closed,right↦closed}" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbRMg6VjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_start_extending">
+<org.eventb.core.guard name="_XbRMhKVjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(gear) = {retracted}"/>
+<org.eventb.core.action name="_XbRMhaVjEeSOman2KrgJXA" org.eventb.core.assignment="gear ≔ {front↦gear_moving,left↦gear_moving,right↦gear_moving}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbRMhqVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_extend_gear">
+<org.eventb.core.guard name="_XbRMh6VjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(gear) = {gear_moving}"/>
+<org.eventb.core.action name="_XbRzkKVjEeSOman2KrgJXA" org.eventb.core.assignment="gear ≔ {front↦extended,left↦extended,right↦extended}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbRzkaVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_retract_gear">
+<org.eventb.core.guard name="_XbRzkqVjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(gear) = {gear_moving}"/>
+<org.eventb.core.action name="_XbRzk6VjEeSOman2KrgJXA" org.eventb.core.assignment="gear ≔ {front↦retracted,left↦retracted,right↦retracted}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbRzlKVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_start_retracting">
+<org.eventb.core.guard name="_XbRzlaVjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(gear) = {extended}"/>
+<org.eventb.core.action name="_XbRzlqVjEeSOman2KrgJXA" org.eventb.core.assignment="gear ≔ {front↦gear_moving,left↦gear_moving,right↦gear_moving}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbRzl6VjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_start_open_door">
+<org.eventb.core.guard name="_XbSaoKVjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(door) = {closed}"/>
+<org.eventb.core.action name="_XbSaoaVjEeSOman2KrgJXA" org.eventb.core.assignment="door ≔ {front↦door_moving,left↦door_moving,right↦door_moving}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbSaoqVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_open_door">
+<org.eventb.core.guard name="_XbSao6VjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(door) = {door_moving}"/>
+<org.eventb.core.action name="_XbSapKVjEeSOman2KrgJXA" org.eventb.core.assignment="door ≔ {front↦open,left↦open,right↦open}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbSapaVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_close_door">
+<org.eventb.core.guard name="_XbSapqVjEeSOman2KrgJXA" org.eventb.core.label="grd2" org.eventb.core.predicate="ran(door) = {door_moving}"/>
+<org.eventb.core.action name="_XbSap6VjEeSOman2KrgJXA" org.eventb.core.assignment="door ≔ {front↦closed,left↦closed,right↦closed}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_XbTBsKVjEeSOman2KrgJXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="env_start_close_door">
+<org.eventb.core.guard name="_XbTBsaVjEeSOman2KrgJXA" org.eventb.core.label="grd1" org.eventb.core.predicate="ran(door) = {open}"/>
+<org.eventb.core.action name="_XbTBsqVjEeSOman2KrgJXA" org.eventb.core.assignment="door ≔ {front↦door_moving,left↦door_moving,right↦door_moving}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

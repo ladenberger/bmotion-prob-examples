@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/act2/FIS" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="DOOR_STATE">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p2,p3,p4,p5"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p2,p3,p4,p5"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p7,p8,p9,p10"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p7,p8,p9,p10"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p11" org.eventb.core.prInfHyps="p12,p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p11"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p12,p13"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p14" org.eventb.core.prInfHyps="p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p15,p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p17">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p17" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p18">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p18" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p19">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p19" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬closed=door_moving">
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬up=down">
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬open=closed">
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}">
+<org.eventb.core.prIdent name="GEAR_STATE" org.eventb.core.type="ℙ(GEAR_STATE)"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})">
+<org.eventb.core.prIdent name="HANDLE_STATE" org.eventb.core.type="ℙ(HANDLE_STATE)"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬retracted=extended">
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬DOOR_STATE=(∅ ⦂ ℙ(DOOR_STATE))"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬ground=flight">
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="PLANE_STATE={ground,flight}">
+<org.eventb.core.prIdent name="PLANE_STATE" org.eventb.core.type="ℙ(PLANE_STATE)"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬extended=gear_moving">
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})">
+<org.eventb.core.prIdent name="PLANE_STATE" org.eventb.core.type="ℙ(PLANE_STATE)"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬⊥"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="DOOR_STATE≠(∅ ⦂ ℙ(DOOR_STATE))"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})">
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}">
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬retracted=gear_moving">
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})">
+<org.eventb.core.prIdent name="GEAR_STATE" org.eventb.core.type="ℙ(GEAR_STATE)"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="HANDLE_STATE={up,down}">
+<org.eventb.core.prIdent name="HANDLE_STATE" org.eventb.core.type="ℙ(HANDLE_STATE)"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬open=door_moving">
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL3:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/act1/FIS" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="GEAR_STATE">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p2,p3,p4,p5"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p2,p3,p4,p5"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p7,p8,p9,p10"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p7,p8,p9,p10"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p11" org.eventb.core.prInfHyps="p12,p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p11"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p12,p13"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p14" org.eventb.core.prInfHyps="p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p15,p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p17">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p17" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p18">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p18" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p19">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p19" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬closed=door_moving">
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬up=down">
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬open=closed">
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}">
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})">
+<org.eventb.core.prIdent name="HANDLE_STATE" org.eventb.core.type="ℙ(HANDLE_STATE)"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="GEAR_STATE≠(∅ ⦂ ℙ(GEAR_STATE))"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬retracted=extended">
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬GEAR_STATE=(∅ ⦂ ℙ(GEAR_STATE))"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬ground=flight">
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="PLANE_STATE={ground,flight}">
+<org.eventb.core.prIdent name="PLANE_STATE" org.eventb.core.type="ℙ(PLANE_STATE)"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬extended=gear_moving">
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})">
+<org.eventb.core.prIdent name="PLANE_STATE" org.eventb.core.type="ℙ(PLANE_STATE)"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬⊥"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})">
+<org.eventb.core.prIdent name="DOOR_STATE" org.eventb.core.type="ℙ(DOOR_STATE)"/>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}">
+<org.eventb.core.prIdent name="DOOR_STATE" org.eventb.core.type="ℙ(DOOR_STATE)"/>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬retracted=gear_moving">
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})">
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="HANDLE_STATE={up,down}">
+<org.eventb.core.prIdent name="HANDLE_STATE" org.eventb.core.type="ℙ(HANDLE_STATE)"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬open=door_moving">
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL3:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p6,p7,p8,p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p6,p7,p8,p9"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p10,p11,p12,p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p10,p11,p12,p13"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p14,p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p14,p15"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p16,p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p16,p17"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p18,p19,p20,p21"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p18,p19,p20,p21"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with GEAR_STATE={retracted,extended,gear_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p10">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p22">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p22" org.eventb.core.prHyps="p18">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p23">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="{front ↦ extended,left ↦ extended,right ↦ extended}∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="{front ↦ extended,left ↦ extended,right ↦ extended}∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ extended,left ↦ extended,right ↦ extended}∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p6,p7,p8,p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p6,p7,p8,p9"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p10,p11,p12,p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p10,p11,p12,p13"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p14,p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p14,p15"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p16,p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p16,p17"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p18,p19,p20,p21"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p18,p19,p20,p21"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with DOOR_STATE={open,closed,door_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p6">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p22">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p22" org.eventb.core.prHyps="p18">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p23">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p23" org.eventb.core.prHyps="p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="{front ↦ closed,left ↦ closed,right ↦ closed}∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ closed,left ↦ closed,right ↦ closed}∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="{front ↦ closed,left ↦ closed,right ↦ closed}∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_start_extending/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with GEAR_STATE={retracted,extended,gear_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p13">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p3,p1,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ran(gear)={retracted}"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ gear_moving,left ↦ gear_moving,right ↦ gear_moving}∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ gear_moving,left ↦ gear_moving,right ↦ gear_moving}∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ gear_moving,left ↦ gear_moving,right ↦ gear_moving}∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="gear∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="gear∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_extend_gear/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with GEAR_STATE={retracted,extended,gear_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p13">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p5,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(gear)={gear_moving}"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ extended,left ↦ extended,right ↦ extended}∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ extended,left ↦ extended,right ↦ extended}∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="gear∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ extended,left ↦ extended,right ↦ extended}∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="gear∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_retract_gear/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with GEAR_STATE={retracted,extended,gear_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p13">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p5,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(gear)={gear_moving}"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ retracted,left ↦ retracted,right ↦ retracted}∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="gear∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ retracted,left ↦ retracted,right ↦ retracted}∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ retracted,left ↦ retracted,right ↦ retracted}∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="gear∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_start_retracting/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with GEAR_STATE={retracted,extended,gear_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p13">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p6,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ gear_moving,left ↦ gear_moving,right ↦ gear_moving}∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ran(gear)={extended}"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ gear_moving,left ↦ gear_moving,right ↦ gear_moving}∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ gear_moving,left ↦ gear_moving,right ↦ gear_moving}∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="gear∈POSITION → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="gear∈{front,left,right} → {retracted,extended,gear_moving}"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_start_open_door/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with DOOR_STATE={open,closed,door_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p5,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ door_moving,left ↦ door_moving,right ↦ door_moving}∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="door∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="door∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(door)={closed}"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ door_moving,left ↦ door_moving,right ↦ door_moving}∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ door_moving,left ↦ door_moving,right ↦ door_moving}∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_open_door/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with DOOR_STATE={open,closed,door_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p5,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="door∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="door∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ open,left ↦ open,right ↦ open}∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ open,left ↦ open,right ↦ open}∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ open,left ↦ open,right ↦ open}∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(door)={door_moving}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_close_door/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with DOOR_STATE={open,closed,door_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p5,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="door∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="door∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ closed,left ↦ closed,right ↦ closed}∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(door)={door_moving}"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ closed,left ↦ closed,right ↦ closed}∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ closed,left ↦ closed,right ↦ closed}∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="env_start_close_door/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8" org.eventb.core.prSets="DOOR_STATE,GEAR_STATE,HANDLE_STATE,PLANE_STATE,POSITION">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(DOOR_STATE,{open},{closed},{door_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(GEAR_STATE,{retracted},{extended},{gear_moving}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p6" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HANDLE_STATE,{up},{down}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p3" org.eventb.core.prInfHyps="p17,p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p17,p18"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLANE_STATE,{ground},{flight}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p19,p20"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p19,p20"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(POSITION,{front},{left},{right}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p7" org.eventb.core.prInfHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prHypAction name="SELECT2" org.eventb.core.prHyps="p21,p22,p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with DOOR_STATE={open,closed,door_moving}" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p26">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p25"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="eh with POSITION={front,left,right}" org.eventb.core.prGoal="p26" org.eventb.core.prHyps="p21">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p28">
+<org.eventb.core.prHypAction name="FORWARD_INF0" org.eventb.core.prHyps="p25" org.eventb.core.prInfHyps="p27"/>
+<org.eventb.core.prHypAction name="DESELECT1" org.eventb.core.prHyps="p25"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p28" org.eventb.core.prHyps="p8,p2,p5,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p27">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.prIdent name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prIdent name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.prIdent name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.prIdent name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.prIdent name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.prIdent name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.prIdent name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬open=closed"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="GEAR_STATE={retracted,extended,gear_moving}"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬up=down"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="POSITION={front,left,right}"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬left=right"/>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="{front ↦ door_moving,left ↦ door_moving,right ↦ door_moving}∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬ground=flight"/>
+<org.eventb.core.prPred name="p27" org.eventb.core.predicate="door∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="door∈POSITION → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬extended=gear_moving"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="PLANE_STATE={ground,flight}"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="HANDLE_STATE={up,down}"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬closed=door_moving"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬retracted=extended"/>
+<org.eventb.core.prPred name="p28" org.eventb.core.predicate="{front ↦ door_moving,left ↦ door_moving,right ↦ door_moving}∈{front,left,right} → {open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="door∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬front=left"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="DOOR_STATE={open,closed,door_moving}"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ran(door)={open}"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬retracted=gear_moving"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬front=right"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬open=door_moving"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{front ↦ door_moving,left ↦ door_moving,right ↦ door_moving}∈POSITION → DOOR_STATE"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>

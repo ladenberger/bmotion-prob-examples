@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="DOOR_STATE" org.eventb.core.type="ℙ(DOOR_STATE)"/>
+<org.eventb.core.poIdentifier name="GEAR_STATE" org.eventb.core.type="ℙ(GEAR_STATE)"/>
+<org.eventb.core.poIdentifier name="HANDLE_STATE" org.eventb.core.type="ℙ(HANDLE_STATE)"/>
+<org.eventb.core.poIdentifier name="PLANE_STATE" org.eventb.core.type="ℙ(PLANE_STATE)"/>
+<org.eventb.core.poIdentifier name="POSITION" org.eventb.core.type="ℙ(POSITION)"/>
+<org.eventb.core.poIdentifier name="closed" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.poIdentifier name="door_moving" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.poIdentifier name="down" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.poIdentifier name="extended" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.poIdentifier name="flight" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.poIdentifier name="front" org.eventb.core.type="POSITION"/>
+<org.eventb.core.poIdentifier name="gear_moving" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.poIdentifier name="ground" org.eventb.core.type="PLANE_STATE"/>
+<org.eventb.core.poIdentifier name="left" org.eventb.core.type="POSITION"/>
+<org.eventb.core.poIdentifier name="open" org.eventb.core.type="DOOR_STATE"/>
+<org.eventb.core.poIdentifier name="retracted" org.eventb.core.type="GEAR_STATE"/>
+<org.eventb.core.poIdentifier name="right" org.eventb.core.type="POSITION"/>
+<org.eventb.core.poIdentifier name="up" org.eventb.core.type="HANDLE_STATE"/>
+<org.eventb.core.poPredicate name="HANDLE_STATF" org.eventb.core.predicate="partition(DOOR_STATE,{open},{closed},{door_moving})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0i1smYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="HANDLE_STATG" org.eventb.core.predicate="partition(GEAR_STATE,{retracted},{extended},{gear_moving})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0kD0GYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="HANDLE_STATH" org.eventb.core.predicate="partition(HANDLE_STATE,{up},{down})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0kD0WYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="HANDLE_STATI" org.eventb.core.predicate="partition(PLANE_STATE,{ground},{flight})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_r0kq4GYzEeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="HANDLE_STATJ" org.eventb.core.predicate="partition(POSITION,{front},{left},{right})" org.eventb.core.source="/LandingGearJournal/Context0.buc|org.eventb.core.contextFile#Context0|org.eventb.core.axiom#_nXBhkHvBEeSxCbbMjQar7w"/>
+<org.eventb.core.poIdentifier name="SWITCH_STATE" org.eventb.core.type="ℙ(SWITCH_STATE)"/>
+<org.eventb.core.poIdentifier name="VALVE_STATE" org.eventb.core.type="ℙ(VALVE_STATE)"/>
+<org.eventb.core.poIdentifier name="switch_closed" org.eventb.core.type="SWITCH_STATE"/>
+<org.eventb.core.poIdentifier name="switch_open" org.eventb.core.type="SWITCH_STATE"/>
+<org.eventb.core.poIdentifier name="valve_closed" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="valve_open" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poPredicate name="switch_closee" org.eventb.core.predicate="partition(VALVE_STATE,{valve_open},{valve_closed})" org.eventb.core.source="/LandingGearJournal/Context1.buc|org.eventb.core.contextFile#Context1|org.eventb.core.axiom#_CLwdYGY2EeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="switch_closef" org.eventb.core.predicate="partition(SWITCH_STATE,{switch_open},{switch_closed})" org.eventb.core.source="/LandingGearJournal/Context1.buc|org.eventb.core.contextFile#Context1|org.eventb.core.axiom#_CLwdYWY2EeO7UsfGCD69ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="close_door_valve" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="door" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.poIdentifier name="extend_gear_valve" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="gear" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.poIdentifier name="open_door_valve" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="retract_gear_valve" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poPredicate name="retract_gear_valvf" org.eventb.core.predicate="gear∈POSITION → GEAR_STATE" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.invariant#_XbQldKVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="retract_gear_valvg" org.eventb.core.predicate="door∈POSITION → DOOR_STATE" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.invariant#_XbQldaVjEeSOman2KrgJXA"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvf" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="door'" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+<org.eventb.core.poIdentifier name="extend_gear_valve'" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="retract_gear_valve'" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="close_door_valve'" org.eventb.core.type="VALVE_STATE"/>
+<org.eventb.core.poIdentifier name="gear'" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+<org.eventb.core.poIdentifier name="open_door_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvf" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvf" org.eventb.core.poStamp="1"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvg" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="gear'" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvg" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvg" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(gear)={retracted}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbRMg6VjEeSOman2KrgJXA|org.eventb.core.guard#_XbRMhKVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="extend_gear_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVIREGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVIREmfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="retract_gear_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVIREGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLnKIX64EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvh" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="gear'" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvh" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvh" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(gear)={gear_moving}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbRMhqVjEeSOman2KrgJXA|org.eventb.core.guard#_XbRMh6VjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="extend_gear_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVIRE2fHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVI4IWfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="retract_gear_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVIRE2fHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLnKI364EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvi" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="gear'" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvi" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvi" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(gear)={gear_moving}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbRzkaVjEeSOman2KrgJXA|org.eventb.core.guard#_XbRzkqVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="retract_gear_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVI4ImfHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVJfMGfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="extend_gear_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVI4ImfHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLnxMX64EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvj" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="gear'" org.eventb.core.type="ℙ(POSITION×GEAR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvj" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvj" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(gear)={extended}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbRzlKVjEeSOman2KrgJXA|org.eventb.core.guard#_XbRzlaVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="retract_gear_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVJfMWfHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVJfM2fHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="extend_gear_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVJfMWfHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLnxM364EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvk" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="door'" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvk" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvk" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(door)={closed}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbRzl6VjEeSOman2KrgJXA|org.eventb.core.guard#_XbSaoKVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="open_door_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVKGQGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVKGQmfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="close_door_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVKGQGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLnxNX64EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvl" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="door'" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvl" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvl" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(door)={door_moving}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbSaoqVjEeSOman2KrgJXA|org.eventb.core.guard#_XbSao6VjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="open_door_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVKGQ2fHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVKtUWfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="close_door_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVKGQ2fHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLoYQH64EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvm" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="door'" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvm" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvm" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(door)={door_moving}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbSapaVjEeSOman2KrgJXA|org.eventb.core.guard#_XbSapqVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="close_door_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVKtUmfHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVKtVGfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="open_door_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVKtUmfHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLoYQn64EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvn" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="door'" org.eventb.core.type="ℙ(POSITION×DOOR_STATE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvn" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvn" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ran(door)={open}" org.eventb.core.source="/LandingGearJournal/Mch0_GearDoor.bum|org.eventb.core.machineFile#Mch0_GearDoor|org.eventb.core.event#_XbTBsKVjEeSOman2KrgJXA|org.eventb.core.guard#_XbTBsaVjEeSOman2KrgJXA"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="close_door_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVLUYGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_fVLUYmfHEeO3ssiFDTK-qw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="open_door_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_fVLUYGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_WLoYRH64EeOk5IscBNq0oQ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvo" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="open_door_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvo" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvo" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="open_door_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_CreNUGY4EeO7UsfGCD69ng|org.eventb.core.guard#_CreNUWY4EeO7UsfGCD69ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvp" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="open_door_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvp" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvp" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="open_door_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L1aMGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L1aMWfHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvq" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="close_door_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvq" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvq" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="close_door_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L2BQWfHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L2BQmfHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvr" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="close_door_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvr" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvr" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="close_door_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L2oUGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L2oUWfHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvs" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="retract_gear_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvs" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvs" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="retract_gear_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L2oU2fHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L3PYGfHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvt" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="retract_gear_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvt" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvt" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="retract_gear_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L3PYmfHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L3PY2fHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvu" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="extend_gear_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvu" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvu" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="extend_gear_valve=valve_closed" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L32cWfHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L32cmfHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTretract_gear_valvv" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="extend_gear_valve'" org.eventb.core.type="VALVE_STATE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPretract_gear_valvv" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#EVTIDENTretract_gear_valvv" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="extend_gear_valve=valve_open" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.event#_0L4dgGfHEeO3ssiFDTK-qw|org.eventb.core.guard#_0L4dgWfHEeO3ssiFDTK-qw"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/LandingGearJournal/Ref1_Valve.bpo|org.eventb.core.poFile#Ref1_Valve|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="close_door_valve∈VALVE_STATE" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.invariant#_qplho2Y3EeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="open_door_valve∈VALVE_STATE" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.invariant#_qpmIsGY3EeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="retract_gear_valve∈VALVE_STATE" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.invariant#_qpmIsWY3EeO7UsfGCD69ng"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="extend_gear_valve∈VALVE_STATE" org.eventb.core.source="/LandingGearJournal/Ref1_Valve.bum|org.eventb.core.machineFile#Ref1_Valve|org.eventb.core.invariant#_qpmIsmY3EeO7UsfGCD69ng"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

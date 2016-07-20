@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Door" org.eventb.core.type="ℙ(Door)"/>
+<org.eventb.core.poIdentifier name="closed" org.eventb.core.type="Door"/>
+<org.eventb.core.poIdentifier name="groundf" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="open" org.eventb.core.type="Door"/>
+<org.eventb.core.poIdentifier name="topf" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/LiftEventB/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="groundf∈ℤ" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_rt0OMBzlEeangeVl85nyqw"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="topf∈ℤ" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_rt0OMRzlEeangeVl85nyqw"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="groundf=−1" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_w6WkgBzlEeangeVl85nyqw"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="topf=1" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_w6WkgRzlEeangeVl85nyqw"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="groundf&lt;topf" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_y8gpgBzlEeangeVl85nyqw"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="partition(Door,{open},{closed})" org.eventb.core.source="/LiftEventB/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_y8gpgBzlEeangeVl85nyq\|"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
