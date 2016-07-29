@@ -1,0 +1,12 @@
+{
+  "name": "phils",
+  "model": "model/phils.csp",
+  "tool": "CSPAnimation",
+  "id": "phils",
+  "name": "Five Philosophers Problem",
+  "template": "phils.html",
+  "autoOpen": [
+    "CurrentTrace",
+    "Events"
+  ]
+}

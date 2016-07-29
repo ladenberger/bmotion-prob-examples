@@ -1,0 +1,17 @@
+<svg width="500" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="652" width="502" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <image xlink:href="images/background.jpg" id="background" height="650" width="680" y="0" x="-90"/>
+  <image xlink:href="images/door_active.jpg" id="door" height="194" width="86" y="229" x="192.5"/>
+  <g id="request_buttons">
+   <image data-custom="1" x="129.5" y="88.5" width="29" height="29" id="bt_1" xlink:href="images/call_button.gif" data-value="1" class="bt"/>
+   <image data-custom="0" x="129.5" y="311.5" width="29" height="29" id="bt_0" xlink:href="images/call_button.gif" data-value="0" class="bt"/>
+   <image data-custom="-1" x="129.5" y="531.5" width="29" height="29" id="bt_-1" xlink:href="images/call_button.gif" data-value="-1" class="bt"/>
+  </g>
+ </g>
+</svg>

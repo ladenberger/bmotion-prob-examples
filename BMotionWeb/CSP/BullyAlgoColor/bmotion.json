@@ -1,0 +1,10 @@
+{
+  "model": "model/bully.csp",
+  "id": "bully",
+  "name": "Bully Algorithm",
+  "template": "bully.html",
+  "autoOpen": [
+    "CurrentTrace",
+    "Events"
+  ]
+}

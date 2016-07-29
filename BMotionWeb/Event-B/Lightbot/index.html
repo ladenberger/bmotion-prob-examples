@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BMotion Studio for ProB</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+</head>
+
+<body>
+
+  <script src="bms.api.js"></script>
+  <script src="script.js"></script>
+
+  <svg xmlns="http://www.w3.org/2000/svg" id="lightbot">
+    <g id="field">
+    </g>
+    <image id="robot" xlink:href="img/robot_r.png" height="40" width="44" />
+  </svg>
+
+  <div id="menu" style="margin-top:25px;">
+    <img src="img/bt_move.png" height="71" width="71" data-cmd="move" />
+    <img src="img/bt_toggle_light.png" height="71" width="71" data-cmd="toggle_light" />
+    <img src="img/bt_turn_left.png" height="71" width="71" data-cmd="turn_left" />
+    <img src="img/bt_turn_right.png" height="71" width="71" data-cmd="turn_right" />
+    <img src="img/bt_jump.png" height="71" width="71" data-cmd="jump" />
+    <img src="img/bt_proc1.png" height="71" width="71" data-cmd="proc1" />
+    <img src="img/bt_proc2.png" height="71" width="71" data-cmd="proc2" />
+  </div>
+
+  <div id="programs" style="margin-top:25px;">
+    <div class="panel panel-default proc" id="main_program_container">
+      <div class="panel-heading">
+        <h3 class="panel-title">MAIN <span id="main_program_size"></span></h3>
+      </div>
+      <div class="panel-body" id="main_program_content">
+      </div>
+    </div>
+
+    <div class="panel panel-default proc" id="proc1_program_container">
+      <div class="panel-heading">
+        <h3 class="panel-title">PROC1 <span id="proc1_program_size"></span></h3>
+      </div>
+      <div class="panel-body" id="proc1_program_content">
+      </div>
+    </div>
+
+    <div class="panel panel-default proc" id="proc2_program_container">
+      <div class="panel-heading">
+        <h3 class="panel-title">PROC2 <span id="proc2_program_size"></span></h3>
+      </div>
+      <div class="panel-body" id="proc2_program_content">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

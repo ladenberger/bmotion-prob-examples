@@ -1,0 +1,12 @@
+{
+    "id": "lift",
+    "name": "Simple Lift System",
+    "template": "index.html",
+    "model": "model/m2.bcm",
+    "observers": "lift.observers.json",
+    "events": "lift.events.json",
+    "autoOpen": [
+      "CurrentTrace",
+      "Events"
+    ]
+}

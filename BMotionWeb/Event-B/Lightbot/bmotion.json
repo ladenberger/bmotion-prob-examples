@@ -1,0 +1,10 @@
+{
+    "model": "model/Mch3_Commands.bcm",
+    "id": "lightbot",
+    "name": "Lightbot Visualization",
+    "autoOpen": [
+        "CurrentTrace",
+        "Events"
+    ],
+    "template": "index.html"
+}

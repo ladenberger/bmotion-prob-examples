@@ -1,0 +1,24 @@
+<svg width="220" height="340" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <title>background</title>
+    <rect x="-1" y="-1" width="222" height="342" id="canvas_background" fill="none"/>
+  </g>
+
+  <g>
+    <title>Layer 1</title>
+    <g id="lift_system">
+      <g id="lift">
+        <rect fill="white" stroke="black" height="330" width="100" y="5" x="50" id="svg_1"/>
+        <rect id="door" fill="gray" stroke="black" height="80" width="70" y="245" x="65"/>
+        <text fill="black" y="58" x="165" id="svg_2">Floor 1</text>
+        <text fill="black" y="182" x="165" id="svg_3">Floor 0</text>
+        <text fill="black" y="290" x="165" id="svg_4">Floor -1</text>
+      </g>
+      <g id="request_buttons">
+        <ellipse id="bt_1" data-floor="1" ry="11" rx="11" cy="54" cx="22" fill="gray"/>
+        <ellipse id="bt_0" data-floor="0" ry="11" rx="11" cy="177" cx="22" fill="gray"/>
+        <ellipse id="bt_-1" data-floor="-1" ry="11" rx="11" cy="285" cx="22" fill="gray"/>
+      </g>
+    </g>
+  </g>
+</svg>
