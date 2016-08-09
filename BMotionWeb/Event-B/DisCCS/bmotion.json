@@ -1,0 +1,14 @@
+{
+  "id": "ccs",
+  "name": "Cruise Control Device",
+  "template": "ccs.html",
+  "model": "model/m1.bcm",
+  "modelOptions": {
+    "MAX_OPERATIONS": 200
+  },
+  "autoOpen": [
+    "UserInteractions",
+    "Events",
+    "StateInspector"
+  ]
+}

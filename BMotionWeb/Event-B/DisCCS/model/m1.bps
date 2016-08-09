@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="USER_SwitchON/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="USER_SwitchOFF/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="USER_SetTaget/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="USER_SetTaget/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="USER_Adapt_Speed/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CCS_Adapt_Speed_Up/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CCS_Adapt_Speed_Down/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="33" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CAR_Adapt_Speed/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CAR_BrakeOn/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="CAR_BrakeOff/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

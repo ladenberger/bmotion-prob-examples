@@ -15,6 +15,25 @@ bms.observe("formula", {
         door.attr("y", "250");
         break
     }
+
+  }
+});
+
+bms.observe("method", {
+  selector: "#door",
+  name: "testMethod",
+  args: ["foo", "bar"],
+  callback: function(origin, data) {
+    console.log(origin, data);
+  }
+});
+
+bms.handler("method", {
+  selector: "#door",
+  name: "random",
+  args: [10],
+  callback: function(origin, data) {
+    console.log(origin, data);
   }
 });
 

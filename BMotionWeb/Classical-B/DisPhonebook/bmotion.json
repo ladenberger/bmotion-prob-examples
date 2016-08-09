@@ -1,0 +1,11 @@
+{
+  "id": "phonebook",
+  "name": "Phonebook Software User Interface",
+  "template": "phonebook.html",
+  "model": "model/phonebook.mch",
+  "autoOpen": [
+    "UserInteractions",
+    "Events",
+    "StateInspector"
+  ]
+}

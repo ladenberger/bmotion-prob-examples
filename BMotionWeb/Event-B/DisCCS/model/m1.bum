@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.texttools.text_lastmodified="1467793325419" org.eventb.texttools.text_representation="machine m1 sees c1&#10;&#10;variables ccs_status ccs_target car_speed car_braking&#10;&#10;invariants&#10;  @inv1 ccs_status ∈ STATUS&#10;  @inv2 ccs_target ∈ 0 ‥ maxspeed&#10;  @inv4 car_speed ∈ 0 ‥  maxspeed&#10;  @inv5 car_braking ∈ BOOL&#10;  @inv6 car_braking = TRUE ⇒ ccs_status ≠ cruise&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 ccs_status ≔ off&#10;      @act2 ccs_target ≔ 0&#10;      @act4 car_speed ≔ 0&#10;      @act5 car_braking ≔ FALSE&#10;  end&#10;&#10;  event USER_SwitchON&#10;    where&#10;      @grd1 ccs_status = off&#10;    then&#10;      @act1 ccs_status ≔ standby&#10;  end&#10;&#10;  event USER_SwitchOFF&#10;    where&#10;      @grd1 ccs_status ≠ off&#10;    then&#10;      @act1 ccs_status ≔ off&#10;  end&#10;&#10;  event USER_SetTaget&#10;  &#9;where&#10;  &#9;  @grd1 ccs_status ≠ off&#10;  &#9;  @grd2 car_braking = FALSE&#10;  &#9;then&#10;  &#9;  @act1 ccs_status ≔ cruise&#10;  &#9;  @act2 ccs_target ≔ car_speed&#10;  end&#10;&#10;  event USER_Adapt_Speed&#10;    any s&#10;  &#9;where&#10;  &#9;  @grd1 s ∈ −maxspeed ‥  maxspeed&#10;  &#9;  @grd2 ccs_status = cruise&#10;  &#9;  @grd3 ccs_target + s ≤ maxspeed&#10;  &#9;  @grd4 ccs_target + s ≥ 0&#10;  &#9;then&#10;  &#9;  @act1 ccs_target ≔ ccs_target + s&#10;  end&#10;&#10;  event CCS_Adapt_Speed_Up&#10;    any s&#10;    where&#10;      @grd1 s ∈ 1 ‥ maxspeed&#10;      @grd2 ccs_status = cruise&#10;      @grd3 car_speed + s ≤ ccs_target&#10;      @grd4 car_speed + s ≥ 0&#10;      @grd5 car_braking = FALSE&#10;      @grd6 ccs_target &gt; car_speed&#10;    then&#10;      @act1 car_speed ≔ car_speed + s&#10;  end&#10;&#10;  event CCS_Adapt_Speed_Down&#10;    any s&#10;    where&#10;      @grd1 s ∈ −maxspeed ‥ 0&#10;      @grd2 ccs_status = cruise&#10;      @grd3 car_speed + s ≥ ccs_target&#10;      @grd4 car_speed + s ≥ 0&#10;      @grd5 car_braking = FALSE&#10;      @grd6 ccs_target &lt; car_speed&#10;    then&#10;      @act1 car_speed ≔ car_speed + s&#10;  end&#10;&#10;  event CAR_Adapt_Speed&#10;    any s&#10;    where&#10;      @grd1 s ∈ −maxspeed ‥  maxspeed&#10;      @grd2 car_speed + s ≥ 0&#10;      @grd3 car_speed + s ≤ maxspeed&#10;      @grd4 car_braking = FALSE&#10;    then&#10;      @act1 car_speed ≔ car_speed + s&#10;  end&#10;&#10;  event CAR_BrakeOn&#10;    where&#10;      @grd1 car_braking = FALSE&#10;    then&#10;      @act1 car_braking ≔ TRUE&#10;      @act2 ccs_status ≔ standby&#10;  end&#10;&#10;  event CAR_BrakeOff&#10;    where&#10;      @grd1 car_braking = TRUE&#10;    then&#10;      @act1 car_braking ≔ FALSE&#10;  end&#10;&#10;end&#10;" version="5">
+<org.eventb.core.seesContext name="internal_seesContext1" org.eventb.core.target="c1"/>
+<org.eventb.core.event name="internal_evt1" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="internal_act1" org.eventb.core.assignment="ccs_status ≔ off" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="internal_act2" org.eventb.core.assignment="ccs_target ≔ 0" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="internal_act4" org.eventb.core.assignment="car_speed ≔ 0" org.eventb.core.label="act4"/>
+<org.eventb.core.action name="internal_act5" org.eventb.core.assignment="car_braking ≔ FALSE" org.eventb.core.label="act5"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="internal_evt2" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="USER_SwitchON">
+<org.eventb.core.action name="internal_act1" org.eventb.core.assignment="ccs_status ≔ standby" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="internal_grd1" org.eventb.core.label="grd1" org.eventb.core.predicate="ccs_status = off"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="internal_evt3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="USER_SwitchOFF">
+<org.eventb.core.action name="internal_act1" org.eventb.core.assignment="ccs_status ≔ off" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="internal_grd1" org.eventb.core.label="grd1" org.eventb.core.predicate="ccs_status ≠ off"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="internal_evt4" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="USER_SetTaget">
+<org.eventb.core.action name="element0" org.eventb.core.assignment="ccs_status ≔ cruise" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="internal_grd1" org.eventb.core.label="grd1" org.eventb.core.predicate="ccs_status ≠ off"/>
+<org.eventb.core.guard name="_AvMqQNofEeWWxpaw0yLPhA" org.eventb.core.label="grd2" org.eventb.core.predicate="car_braking = FALSE"/>
+<org.eventb.core.action name="internal_element1" org.eventb.core.assignment="ccs_target ≔ car_speed" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="internal_evt7" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="USER_Adapt_Speed">
+<org.eventb.core.action name="_JVj4kNoeEeWWxpaw0yLPhA" org.eventb.core.assignment="ccs_target ≔ ccs_target + s" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="_lW-U4doeEeWWxpaw0yLPhA" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ −maxspeed ‥  maxspeed"/>
+<org.eventb.core.guard name="_lW-U4NoeEeWWxpaw0yLPhA" org.eventb.core.label="grd2" org.eventb.core.predicate="ccs_status = cruise"/>
+<org.eventb.core.parameter name="internal_var1" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="_AvPGgNofEeWWxpaw0yLPhA" org.eventb.core.label="grd3" org.eventb.core.predicate="ccs_target + s ≤ maxspeed"/>
+<org.eventb.core.guard name="internal_element1" org.eventb.core.label="grd4" org.eventb.core.predicate="ccs_target + s ≥ 0"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="internal_inv1I" org.eventb.core.label="inv1" org.eventb.core.predicate="ccs_status ∈ STATUS"/>
+<org.eventb.core.invariant name="internal_inv2I" org.eventb.core.label="inv2" org.eventb.core.predicate="ccs_target ∈ 0 ‥ maxspeed"/>
+<org.eventb.core.invariant name="internal_inv4I" org.eventb.core.label="inv4" org.eventb.core.predicate="car_speed ∈ 0 ‥  maxspeed"/>
+<org.eventb.core.invariant name="internal_inv5I" org.eventb.core.label="inv5" org.eventb.core.predicate="car_braking ∈ BOOL"/>
+<org.eventb.core.invariant name="internal_inv6I" org.eventb.core.label="inv6" org.eventb.core.predicate="car_braking = TRUE ⇒ ccs_status ≠ cruise"/>
+<org.eventb.core.variable name="internal_var1" org.eventb.core.identifier="ccs_status"/>
+<org.eventb.core.variable name="internal_var2" org.eventb.core.identifier="ccs_target"/>
+<org.eventb.core.variable name="internal_var4" org.eventb.core.identifier="car_speed"/>
+<org.eventb.core.variable name="internal_var5" org.eventb.core.identifier="car_braking"/>
+<org.eventb.core.event name="_JVltwNoeEeWWxpaw0yLPhA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="CCS_Adapt_Speed_Up">
+<org.eventb.core.parameter name="_DxgvQNogEeWWxpaw0yLPhA" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="_DxgvQ9ogEeWWxpaw0yLPhA" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ 1 ‥ maxspeed"/>
+<org.eventb.core.guard name="_RZKk0NotEeWRf9DBh5U1pA" org.eventb.core.label="grd2" org.eventb.core.predicate="ccs_status = cruise"/>
+<org.eventb.core.guard name="_JVltwdoeEeWWxpaw0yLPhA" org.eventb.core.label="grd3" org.eventb.core.predicate="car_speed + s ≤ ccs_target"/>
+<org.eventb.core.guard name="_Yk82EdotEeWRf9DBh5U1pA" org.eventb.core.label="grd4" org.eventb.core.predicate="car_speed + s ≥ 0"/>
+<org.eventb.core.guard name="_Qs1AENopEeWWxpaw0yLPhA" org.eventb.core.label="grd5" org.eventb.core.predicate="car_braking = FALSE"/>
+<org.eventb.core.action name="internal_act1" org.eventb.core.assignment="car_speed ≔ car_speed + s" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="_JNR0EOBlEeW2TeBqhvVE6A" org.eventb.core.label="grd6" org.eventb.core.predicate="ccs_target &gt; car_speed"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_cTapsNoeEeWWxpaw0yLPhA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="CCS_Adapt_Speed_Down">
+<org.eventb.core.guard name="_JNSbIOBlEeW2TeBqhvVE6A" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ −maxspeed ‥ 0"/>
+<org.eventb.core.guard name="_JNSbIeBlEeW2TeBqhvVE6A" org.eventb.core.label="grd2" org.eventb.core.predicate="ccs_status = cruise"/>
+<org.eventb.core.guard name="_DxgvQtogEeWWxpaw0yLPhA" org.eventb.core.label="grd3" org.eventb.core.predicate="car_speed + s ≥ ccs_target"/>
+<org.eventb.core.guard name="_GS3RYOBlEeW2TeBqhvVE6A" org.eventb.core.label="grd4" org.eventb.core.predicate="car_speed + s ≥ 0"/>
+<org.eventb.core.action name="_jESEENofEeWWxpaw0yLPhA" org.eventb.core.assignment="car_speed ≔ car_speed + s" org.eventb.core.label="act1"/>
+<org.eventb.core.parameter name="_RZJ9wNotEeWRf9DBh5U1pA" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="_FKy2YNogEeWWxpaw0yLPhA" org.eventb.core.label="grd5" org.eventb.core.predicate="car_braking = FALSE"/>
+<org.eventb.core.guard name="_RZKk09otEeWRf9DBh5U1pA" org.eventb.core.label="grd6" org.eventb.core.predicate="ccs_target &lt; car_speed"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_DxgvQdogEeWWxpaw0yLPhA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="CAR_Adapt_Speed">
+<org.eventb.core.action name="_cTapsdoeEeWWxpaw0yLPhA" org.eventb.core.assignment="car_speed ≔ car_speed + s" org.eventb.core.label="act1"/>
+<org.eventb.core.parameter name="_JNSbIuBlEeW2TeBqhvVE6A" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="_RZKk0dotEeWRf9DBh5U1pA" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ −maxspeed ‥  maxspeed"/>
+<org.eventb.core.guard name="_JNSbI-BlEeW2TeBqhvVE6A" org.eventb.core.label="grd2" org.eventb.core.predicate="car_speed + s ≥ 0"/>
+<org.eventb.core.guard name="_JNSbJOBlEeW2TeBqhvVE6A" org.eventb.core.label="grd3" org.eventb.core.predicate="car_speed + s ≤ maxspeed"/>
+<org.eventb.core.guard name="_XwWeoUNPEeaD-pagWPhjjg" org.eventb.core.label="grd4" org.eventb.core.predicate="car_braking = FALSE"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_RZKk0totEeWRf9DBh5U1pA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="CAR_BrakeOn">
+<org.eventb.core.action name="_RZKk1NotEeWRf9DBh5U1pA" org.eventb.core.assignment="car_braking ≔ TRUE" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="_JNSbJeBlEeW2TeBqhvVE6A" org.eventb.core.label="grd1" org.eventb.core.predicate="car_braking = FALSE"/>
+<org.eventb.core.action name="_JNTCMuBlEeW2TeBqhvVE6A" org.eventb.core.assignment="ccs_status ≔ standby" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_JNTCMOBlEeW2TeBqhvVE6A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="CAR_BrakeOff">
+<org.eventb.core.guard name="_XwY64ENPEeaD-pagWPhjjg" org.eventb.core.label="grd1" org.eventb.core.predicate="car_braking = TRUE"/>
+<org.eventb.core.action name="_DxgvRNogEeWWxpaw0yLPhA" org.eventb.core.assignment="car_braking ≔ FALSE" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

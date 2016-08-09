@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Phonebook Software User Interface</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+</head>
+
+<body>
+
+  <script src="bms.api.js"></script>
+  <script src="phonebook.js"></script>
+
+  <div data-bms-svg="phonebook.svg"></div>
+  <table class="table" style="width:500px" ng-controller="pCtrl">
+    <tr>
+      <th>Name</th>
+      <th>Number</th>
+      <th>Active</th>
+    </tr>
+    <tr ng-repeat="el in db">
+      <td>
+        {{el[0]}}
+      </td>
+      <td>
+        {{el[1]}}
+      </td>
+      <td>
+        <span id="toggle({{el[0]}})" execute-event name="toggle" predicate='name="{{el[0]}}"'>{{isActive(el[0])}}</span>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

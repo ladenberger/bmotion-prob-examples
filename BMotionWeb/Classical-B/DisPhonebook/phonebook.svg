@@ -1,0 +1,43 @@
+<svg width="530" height="251" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_15">
+   <rect fill="none" id="canvas_background" height="253" width="532" y="-1" x="-1"/>
+  </g>
+  <g id="svg_18">
+   <rect stroke="black" fill="#f4f4f4" x="15.99998" y="10.5" width="500" height="232.00002" id="svg_28" rx="5"/>
+   <rect fill="#e5e5e5" x="30" y="63.5" width="225.00001" height="165" id="svg_5" rx="5" stroke="black"/>
+   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_1" y="134.5" x="56.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Name:</text>
+   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_2" y="170.5" x="53.8125" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000000" fill="#000000">Phone:</text>
+   <g data-bms-widget="iinput" data-placeholder="Enter name ..." data-btype="STRING" id="name">
+    <rect id="svg_6" x="105" y="120.5" width="125" height="25" fill="white" stroke="black"/>
+    <text id="svg_7" x="107" y="138.5" fill="lightgray">Enter name ...</text>
+   </g>
+   <g data-bms-widget="iinput" data-placeholder="Enter number ..." data-btype="INTEGER" id="nr">
+    <rect id="svg_8" x="105" y="156.5" width="125" height="25" fill="white" stroke="black"/>
+    <text id="svg_9" x="107" y="174.5" fill="lightgray">Enter number ...</text>
+   </g>
+   <g id="bt_add" data-text="Add contact" data-bms-widget="ibutton">
+    <rect stroke="black" fill="#ededed" height="25" width="126" y="191.5" x="105" id="svg_3"/>
+    <text fill="black" y="209.5" x="134" id="svg_4">Add contact</text>
+   </g>
+   <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_11" y="100" x="71.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="black" fill="#000000">Add Contact</text>
+   <rect stroke="black" fill="#e5e5e5" x="269" y="64.5" width="235.00001" height="165" id="svg_10" rx="5"/>
+   <text stroke="black" font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="100" x="292.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Search Contacts</text>
+   <g data-bms-widget="iinput" data-placeholder="Find by name ..." data-btype="STRING" id="nnsearch">
+    <rect id="svg_13" x="300" y="120.5" width="180" height="25" fill="white" stroke="black"/>
+    <text id="svg_14" x="302" y="138.5" fill="lightgray">Find by name ...</text>
+   </g>
+   <g id="bt_search" data-text="Search" data-bms-widget="ibutton">
+    <rect stroke="black" fill="#ededed" height="25" width="180" y="191.5" x="300" id="svg_16"/>
+    <text fill="black" y="209.5" x="370" id="svg_17">Search</text>
+   </g>
+   <g id="lock" data-checked="false" data-bms-widget="icheckbox">
+    <rect stroke="black" fill="lightgray" height="12" width="12" ry="1" rx="1" y="33" x="484" id="svg_25"/>
+   </g>
+   <text fill="#000000" stroke="black" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="391.70128" y="43.50661" id="svg_26" font-size="12" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">lock phonebook</text>
+   <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_29" y="46" x="37.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="black" fill="#000000">Phonebook Application</text>
+  </g>
+ </g>
+</svg>

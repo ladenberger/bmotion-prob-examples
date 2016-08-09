@@ -1,0 +1,61 @@
+<svg width="800.0000000000001" height="662" xmlns="http://www.w3.org/2000/svg" id="ccs" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_5">
+   <rect fill="none" id="canvas_background" height="664" width="802" y="-1" x="-1"/>
+  </g>
+  <g id="svg_6">
+   <g id="svg_4">
+    <image x="-0.5" width="800" height="662" id="svg_1" xlink:href="ccs.png" y="-0.33291"/>
+    <rect stroke="#84b3ff" fill="#eaeaea" stroke-dasharray="5,5" fill-opacity="0.5" x="446.50193" y="208.50055" width="41.00028" height="82.49711" id="btOnOff" data-bms-widget="iarea"/>
+    <rect data-bms-widget="iarea" id="brakePedal" height="59" width="59" y="461.5" x="388" fill-opacity="0.5" stroke-dasharray="5,5" stroke="#84b3ff" fill="#eaeaea"/>
+    <rect stroke="#84b3ff" data-bms-widget="iarea" id="acceleratePedal" height="186" width="77" y="457.5" x="453" fill-opacity="0.5" stroke-dasharray="5,5" fill="#eaeaea"/>
+    <rect stroke="#84b3ff" fill="#eaeaea" stroke-dasharray="5,5" fill-opacity="0.5" x="490.00262" y="208.5011" width="48.49794" height="83.49573" id="btSet" data-bms-widget="iarea"/>
+    <rect stroke="#84b3ff" fill="#eaeaea" stroke-dasharray="5,5" stroke-opacity="null" fill-opacity="0.5" x="541.26421" y="211.16495" width="38.9989" height="40.49849" id="btSpeedUp" data-bms-widget="iarea"/>
+    <rect stroke="#84b3ff" fill="#eaeaea" stroke-dasharray="5,5" stroke-opacity="null" fill-opacity="0.5" x="543.02675" y="253.95383" width="40.18202" height="39.44015" id="btSpeedDown" data-bms-widget="iarea"/>
+    <g data-bms-widget="iinput" data-placeholder="Enter speed ..." data-btype="INT" id="car_speed">
+     <rect id="svg_2" x="354.5" y="563.5" width="104" height="25" fill="white" stroke="black"/>
+     <text id="svg_3" x="356.5" y="581.5" fill="lightgray">Enter speed ...</text>
+    </g>
+    <g id="svg_22">
+     <rect fill="white" x="41.5" y="443.5" width="156" height="160" id="svg_19" rx="5" stroke="black"/>
+     <g data-bms-widget="iinput" data-placeholder="CCS Speed ..." id="ccs_speed" data-btype="INT">
+      <rect id="svg_8" x="57" y="490.5" width="125" height="25" fill="white" stroke="black"/>
+      <text id="svg_14" x="59" y="508.5" fill="lightgray">CCS Speed ...</text>
+     </g>
+     <g data-bms-widget="ibutton" data-text="CCS Speed Down" id="btCCSSpeedDown">
+      <rect id="svg_15" x="57" y="560.5" width="125" height="25" fill="#ededed" stroke="black"/>
+      <text id="svg_16" x="67" y="578.5" fill="black">CCS Speed Down</text>
+     </g>
+     <g data-bms-widget="ibutton" data-text="CCS Speed Up" id="btCCSSpeedUp">
+      <rect id="svg_17" x="57" y="525.5" width="125" height="25" fill="#ededed" stroke="black"/>
+      <text id="svg_18" x="76" y="543.5" fill="black">CCS Speed Up</text>
+     </g>
+     <text fill="#000000" stroke="black" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="68.5" y="471.5" id="svg_20" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-weight="bold">CCS Controller</text>
+    </g>
+    <g id="svg_25">
+     <rect fill="white" stroke="black" stroke-opacity="null" fill-opacity="null" x="584.5" y="443.5" width="191" height="160" id="svg_24" rx="5"/>
+     <g id="svg_23">
+      <text font-weight="normal" fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="601.40016" y="492" id="svg_9" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-style="italic">CCS Status:</text>
+      <text font-weight="normal" fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="607.60328" y="557" id="svg_10" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-style="italic">Car Speed:</text>
+      <text font-weight="normal" fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="600.6189" y="525" id="svg_11" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-style="italic">CCS Target:</text>
+      <text font-weight="normal" fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="600.6189" y="587" id="svg_12" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-style="italic">Car Braking:</text>
+      <text fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="689.51563" y="492" id="label_ccs_status" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">CCS Status</text>
+      <text fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="689.51563" y="525" id="label_ccs_target" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">CCS Target</text>
+      <text fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="689.51563" y="557" id="label_car_speed" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Car Speed</text>
+      <text fill="#000000" stroke="#84b3ff" stroke-width="0" stroke-opacity="null" x="689.51563" y="587" id="label_car_breaking" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Car Braking</text>
+     </g>
+     <text fill="#000000" stroke="black" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="637.5" y="466.5" id="svg_26" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-weight="bold">CCS Values</text>
+    </g>
+    <g id="speedometer">
+     <ellipse stroke="black" ry="50.26056" rx="50.26056" id="svg_13" cy="122.74971" cx="308.19711" fill-opacity="null" stroke-opacity="null" fill="white"/>
+     <text fill="#000000" stroke-width="0" stroke-opacity="null" x="273.20434" y="109.57307" id="tacho_speed" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-weight="bold" transform="matrix(1,0,0,0.9459013938903809,0,7.219628043472767) " stroke="#84b3ff">speed</text>
+     <text fill="#000000" stroke-width="0" stroke-opacity="null" x="290.48878" y="151.80413" id="tacho_target" font-size="12" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" font-weight="bold" transform="matrix(1,0,0,0.9459013938903809,0,7.219628043472767) " stroke="#84b3ff">speed</text>
+     <path fill="none" stroke-width="null" d="m258.33719,127.35696c70.03088,-10.0619 101.2446,2.51548 100.84445,2.20107" id="svg_21" transform="rotate(178.6538543701172 308.7613220214843,126.5059356689453) " stroke="#000000"/>
+     <image stroke="null" xlink:href="icon_default.png" id="ccs_icon" height="10" width="18" y="141.83676" x="272.51123"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
