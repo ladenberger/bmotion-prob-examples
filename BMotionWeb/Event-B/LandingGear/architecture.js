@@ -57,43 +57,54 @@
 // -----------------------------------
 // Observe cylinders
 // -----------------------------------
+bms.observe('formula', {
+  selector: "#door_cylinder",
+  formulas: ["door"],
+  refinement: "R1GearDoor",
+  trigger: function(origin, r) {
+    var val = "translate(0,0)";
+    switch (r[0]) {
+      case "closed":
+        val = "translate(0,0)";
+        break;
+      case "open":
+        val = "translate(90,0)";
+        break;
+      case "door_moving":
+        val = "translate(45,0)";
+        break;
+    }
+    origin.find("#door_cylinder_forcer").attr("transform", val);
+  }
+});
+
+bms.observe('formula', {
+  selector: "#gear_cylinder",
+  formulas: ["gear"],
+  refinement: "R0Gear",
+  trigger: function(origin, r) {
+    var val = "translate(0,0)";
+    switch (r[0]) {
+      case "extended":
+        val = "translate(90,0)";
+        break;
+      case "retracted":
+        val = "translate(0,0)";
+        break;
+      case "gear_moving":
+        val = "translate(45,0)";
+        break;
+    }
+    origin.find("#gear_cylinder_forcer").attr("transform", val);
+  }
+});
+
 ["front", "left", "right"].forEach(function(v) {
-
-  /*bms.observe('formula', {
-   selector: "#" + v + "_gear_cylinder_l",
-   formulas: ["(gears(" + v + ") = gear_moving & valve_extend_gear = valve_open) or (gears(" + v + ") = extended & valve_extend_gear = valve_open) or (gears(" + v + ") = retracted & valve_retract_gear = valve_open)"],
-   trigger: function (origin, r) {
-   origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-   }
-   });
-
-   bms.observe('formula', {
-   selector: "#" + v + "_gear_cylinder_r",
-   formulas: ["(gears(" + v + ") = gear_moving & valve_extend_gear = valve_open) or (gears(" + v + ") = extended & valve_extend_gear = valve_open) or (gears(" + v + ") = retracted & valve_retract_gear = valve_open)"],
-   trigger: function (origin, r) {
-   origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-   }
-   });
-
-   bms.observe('formula', {
-   selector: "#" + v + "_door_cylinder_l",
-   formulas: ["(doors(" + v + ") = door_moving & valve_open_door = valve_open) or (doors(" + v + ") = open & valve_open_door = valve_open) or (doors(" + v + ") = closed & valve_close_door = valve_open)"],
-   trigger: function (origin, r) {
-   origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-   }
-   });
-
-   bms.observe('formula', {
-   selector: "#" + v + "_door_cylinder_r",
-   formulas: ["(doors(" + v + ") = door_moving & valve_close_door = valve_open) or (doors(" + v + ") = open & valve_open_door = valve_open) or (doors(" + v + ") = closed & valve_close_door = valve_open)"],
-   trigger: function (origin, r) {
-   origin.attr("fill", r[0] === "TRUE" ? "#88d2f7" : "#cccccc");
-   }
-   });*/
 
   bms.observe('formula', {
     selector: "#" + v + "_door_cylinder",
     formulas: ["doors(" + v + ")"],
+    refinement: "R3GearsDoorsHandle",
     trigger: function(origin, r) {
       var val = "translate(0,0)";
       switch (r[0]) {
@@ -114,6 +125,7 @@
   bms.observe('formula', {
     selector: "#" + v + "_gear_cylinder",
     formulas: ["gears(" + v + ")"],
+    refinement: "R3GearsDoorsHandle",
     trigger: function(origin, r) {
       var val = "translate(0,0)";
       switch (r[0]) {
@@ -133,6 +145,7 @@
 
   bms.executeEvent({
     selector: "#" + v + "_door_cylinder",
+    refinement: "R3GearsDoorsHandle",
     events: [{
       name: "env_start_open_door",
       predicate: "gr=" + v
@@ -156,6 +169,7 @@
 
   bms.executeEvent({
     selector: "#" + v + "_gear_cylinder",
+    refinement: "R3GearsDoorsHandle",
     events: [{
       name: "env_start_retracting_first",
       predicate: "gr=" + v
@@ -489,14 +503,27 @@ bms.executeEvent({
 });
 
 bms.observe("refinement", {
-  selector: "g[data-refinement]",
+  selector: ".refinementGroup",
   refinement: function(origin) {
-    return origin.attr("data-refinement");
+    return origin.attr("data-custom");
   },
   enable: function(origin) {
     origin.css("visibility", "visible");
   },
   disable: function(origin) {
     origin.css("visibility", "hidden");
+  }
+});
+
+bms.observe("refinement", {
+  selector: "#cylinders",
+  refinement: "R3GearsDoorsHandle",
+  enable: function(origin) {
+    origin.find("#gears_doors_refined").css("visibility", "visible");
+    origin.find("#gear_door_abstract").css("visibility", "hidden");
+  },
+  disable: function(origin) {
+    origin.find("#gears_doors_refined").css("visibility", "hidden");
+    origin.find("#gear_door_abstract").css("visibility", "visible");
   }
 });

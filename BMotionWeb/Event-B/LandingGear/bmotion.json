@@ -1,5 +1,5 @@
 {
-  "model": "model/R7GearsDoorsHandleValvesControllerSwitchLights.bcm",
+  "model": "model/R8Vis_VisualisationRefinement.bcm",
   "id": "architecture",
   "name": "ABZ 2014 Case Study: Landing Gear System (Hydraulic Architecture)",
   "template": "architecture.html",
