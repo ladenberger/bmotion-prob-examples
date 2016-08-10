@@ -1,47 +1,47 @@
-<svg width="527" height="450" xmlns="http://www.w3.org/2000/svg" id="landinggear" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="392" height="285" xmlns="http://www.w3.org/2000/svg" id="landinggear" xmlns:xlink="http://www.w3.org/1999/xlink">
  <metadata id="metadata3467">image/svg+xml</metadata>
 
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="529" height="452" id="canvas_background" fill="none"/>
+  <rect fill="none" id="canvas_background" height="287" width="394" y="-1" x="-1"/>
  </g>
  <g>
   <title>Layer 1</title>
   <g id="physical">
-   <g id="gears_doors_refined">
+   <g id="gear_door_refined">
     <g id="front_door">
-     <image x="11" y="38.5" width="156" height="132.00001" id="sadad" xlink:href="img/door_closed.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="52" y="27.5" id="svg_4" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Front Door</text>
+     <image xlink:href="img/door_closed.png" id="sadad" height="95" width="156" y="28.5" x="0"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_4" y="17.5" x="41" stroke-width="0" stroke="#000" fill="#000000">Front Door</text>
     </g>
     <g id="right_door">
-     <image x="178" y="38.5" width="156" height="132.00001" id="fa2" xlink:href="img/door_closed.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="219" y="27.5" id="svg_5" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Right Door</text>
+     <image xlink:href="img/door_closed.png" id="fa2" height="94.76924" width="112" y="29.5" x="148"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_5" y="17.5" x="169" stroke-width="0" stroke="#000" fill="#000000">Right Door</text>
     </g>
     <g id="left_door">
-     <image x="366" y="38.5" width="156" height="132.00001" id="afsaf" xlink:href="img/door_closed.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="408" y="27.5" id="svg_6" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Left Door</text>
+     <image xlink:href="img/door_closed.png" id="afsaf" height="95" width="156" y="28.5" x="247"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_6" y="17.5" x="297" stroke-width="0" stroke="#000" fill="#000000">Left Door</text>
     </g>
     <g id="front_gear">
-     <image x="12" y="219.5" width="131" height="216.4619" id="safasf" xlink:href="img/gear_retracted.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="43" y="204.5" id="svg_12" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Front Gear</text>
+     <image xlink:href="img/gear_retracted.png" id="safasf" height="112" width="131" y="160.5" x="6"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_12" y="145.5" x="37" stroke-width="0" stroke="#000" fill="#000000">Front Gear</text>
     </g>
     <g id="right_gear">
-     <image x="193" y="219.5" width="131" height="216.4619" id="asfaf" xlink:href="img/gear_retracted.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="227" y="204.5" id="svg_13" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Right Gear</text>
+     <image xlink:href="img/gear_retracted.png" id="asfaf" height="112" width="131" y="160.5" x="138"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_13" y="145.5" x="172" stroke-width="0" stroke="#000" fill="#000000">Right Gear</text>
     </g>
     <g id="left_gear">
-     <image x="380" y="219.5" width="131" height="216.4619" id="asfasf1" xlink:href="img/gear_retracted.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="412" y="204.5" id="svg_14" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Left Gear</text>
+     <image xlink:href="img/gear_retracted.png" id="asfasf1" height="112" width="131" y="160.5" x="269"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_14" y="145.5" x="301" stroke-width="0" stroke="#000" fill="#000000">Left Gear</text>
     </g>
    </g>
    <g id="gear_door_abstract">
     <g id="door">
-     <image x="11" y="38.5" width="156" height="132.00001" id="sadad" xlink:href="img/door_closed.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="52" y="27.5" id="svg_4" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Door</text>
+     <image xlink:href="img/door_closed.png" id="sadad" height="95" width="156" y="28.5" x="-1"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_4" y="17.5" x="43" stroke-width="0" stroke="#000" fill="#000000">Door</text>
     </g>
     <g id="gear">
-     <image x="12" y="219.5" width="131" height="216.4619" id="safasf" xlink:href="img/gear_retracted.png"/>
-     <text fill="#000000" stroke="#000" stroke-width="0" x="43" y="204.5" id="svg_12" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Gear</text>
+     <image xlink:href="img/gear_retracted.png" id="safasf" height="122.27619" width="74" y="157.5" x="32"/>
+     <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_12" y="145.5" x="38" stroke-width="0" stroke="#000" fill="#000000">Gear</text>
     </g>
    </g>
   </g>

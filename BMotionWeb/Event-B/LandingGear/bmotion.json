@@ -3,6 +3,7 @@
   "id": "architecture",
   "name": "ABZ 2014 Case Study: Landing Gear System (Hydraulic Architecture)",
   "template": "architecture.html",
+  "groovy": "script.groovy",
   "autoOpen": [
     "CurrentTrace",
     "Events"

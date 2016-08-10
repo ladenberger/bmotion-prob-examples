@@ -516,14 +516,28 @@ bms.observe("refinement", {
 });
 
 bms.observe("refinement", {
-  selector: "#cylinders",
+  selector: "#gear_door_refined",
   refinement: "R3GearsDoorsHandle",
   enable: function(origin) {
-    origin.find("#gears_doors_refined").css("visibility", "visible");
-    origin.find("#gear_door_abstract").css("visibility", "hidden");
+    origin.css("visibility", "visible");
   },
   disable: function(origin) {
-    origin.find("#gears_doors_refined").css("visibility", "hidden");
-    origin.find("#gear_door_abstract").css("visibility", "visible");
+    origin.css("visibility", "hidden");
   }
+});
+
+bms.observe("refinement", {
+  selector: "#gear_door_abstract",
+  refinement: "R3GearsDoorsHandle",
+  enable: function(origin) {
+    origin.css("visibility", "hidden");
+  },
+  disable: function(origin) {
+    origin.css("visibility", "visible");
+  }
+});
+
+bms.handler("method", {
+  selector: "#replayButton",
+  name: "replay"
 });
