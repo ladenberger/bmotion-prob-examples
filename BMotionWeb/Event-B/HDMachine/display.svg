@@ -1,232 +1,232 @@
 <svg width="534.28619" height="441.25876" xmlns="http://www.w3.org/2000/svg">
- <metadata id="metadata153">image/svg+xml</metadata>
 
+ <metadata id="metadata153">image/svg+xmlimage/svg+xmlimage/svg+xml</metadata>
  <g id="g4">
   <title>background</title>
-  <rect fill="#ffffff" x="-1" y="-1" width="536.28619" height="443.25876" id="canvas_background"/>
+  <rect id="canvas_background" height="443.25876" width="536.28619" y="-1" x="-1" fill="#ffffff"/>
  </g>
  <g id="g9">
   <title>Layer 1</title>
   <g id="bt_setRinsingParameters">
-   <rect fill="#dddddd" stroke-width="0" x="73.27078" y="415.69066" width="146.80935" height="22.21182" id="svg_72" stroke="#000000" rx="5"/>
-   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="81.98112" y="427.68872" id="svg_75" font-size="12" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Set Rinsing Parameters</text>
+   <rect rx="5" id="svg_72" height="22.21182" width="146.80936" y="415.69064" x="73.27078" stroke-width="0" stroke="#000000" fill="#dddddd"/>
+   <text xml:space="preserve" text-anchor="left" font-size="12px" id="svg_75" y="427.68869" x="81.98112" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000000" fill="#000000" font-family="Helvetica, Arial, sans-serif">Set Rinsing Parameters</text>
   </g>
   <g id="bt_therapy">
-   <rect fill="#dddddd" stroke-width="0" x="223.90984" y="415.69065" width="146.80935" height="22.21182" id="svg_87" stroke="#000000" rx="5"/>
-   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="273.5909" y="427.69907" id="svg_86" font-size="12" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Therapy</text>
+   <rect fill="#dddddd" stroke="#000000" stroke-width="0" rx="5" id="svg_87" height="22.21182" width="146.80936" y="415.69064" x="225.10554"/>
+   <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_86" y="427.69907" x="274.78661" fill-opacity="null" stroke-opacity="null">Therapy</text>
   </g>
-  <g stroke="null" id="display">
-   <rect fill="none" stroke-width="10.298" id="svg_1" height="432.34622" width="524.87731" y="5.149" x="5.149" stroke="#bbbbbb"/>
-   <rect fill="#bbbbbb" stroke-width="8.92083" id="svg_2" height="422.0362" width="56.07917" y="9.95963" x="10.96042" stroke="#bbbbbb"/>
-   <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="300.99854" y="261.99953" id="svg_3" font-size="24px" text-anchor="left" xml:space="preserve"/>
-   <g stroke="null" id="bt_power">
-    <path fill="#077700" stroke="null" d="m57.152,53.3251c0,-11.7591 -9.56689,-21.326 -21.326,-21.326c-11.75911,0 -21.326,9.56689 -21.326,21.326c0,11.75826 9.56689,21.326 21.326,21.326c11.75997,0 21.326,-9.56603 21.326,-21.326zm-19.23171,-0.03264c0,1.11844 -0.90627,2.02299 -2.02299,2.02299c-1.11758,0 -2.02385,-0.90627 -2.02385,-2.02299l0,-10.52556c0,-1.11758 0.90627,-2.02384 2.02385,-2.02384c1.11758,0 2.02299,0.90541 2.02299,2.02384l0,10.52556zm11.67664,0.06786c0,7.59286 -6.1772,13.7692 -13.77092,13.7692c-7.59373,0 -13.77093,-6.17634 -13.77093,-13.7692c0,-3.6809 1.4337,-7.14103 4.03825,-9.74128c0.39515,-0.39515 0.91227,-0.59187 1.43026,-0.59187c0.51799,0 1.03683,0.19758 1.43198,0.59358c0.7903,0.79116 0.78944,2.07196 -0.0017,2.86225c-1.83744,1.83659 -2.85022,4.27877 -2.85022,6.87731c0,5.36028 4.36124,9.7198 9.72237,9.7198c5.36113,0 9.72152,-4.35952 9.72152,-9.7198c0,-2.59681 -1.01022,-5.03815 -2.84593,-6.87473c-0.79029,-0.79116 -0.78944,-2.07196 0.00086,-2.86311c0.79115,-0.79116 2.07195,-0.78944 2.86311,0.00086c2.59853,2.60111 4.03137,6.05952 4.03137,9.73698l0,0.00001l-0.00002,0z" id="sfaf"/>
-    <ellipse fill="none" stroke="#666666" fill-opacity="null" cx="35.72469" cy="53.27839" id="sgdsgd" rx="25.73862" ry="25.9885"/>
+  <g id="display" stroke="null">
+   <rect fill="none" stroke="#bbbbbb" stroke-width="10.298" x="5.149" y="5.149" width="524.87731" height="432.34622" id="svg_1"/>
+   <rect fill="#bbbbbb" stroke="#bbbbbb" stroke-width="8.92083" x="10.96042" y="9.95963" width="56.07917" height="422.0362" id="svg_2"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="24px" id="svg_3" y="261.99953" x="300.99854"/>
+   <g id="bt_power" stroke="null">
+    <path fill="#077700" id="sfaf" d="m57.152,53.3251c0,-11.7591 -9.56689,-21.326 -21.326,-21.326c-11.75911,0 -21.326,9.56689 -21.326,21.326c0,11.75826 9.56689,21.326 21.326,21.326c11.75997,0 21.326,-9.56603 21.326,-21.326zm-19.23171,-0.03264c0,1.11844 -0.90627,2.02299 -2.02299,2.02299c-1.11758,0 -2.02385,-0.90627 -2.02385,-2.02299l0,-10.52556c0,-1.11758 0.90627,-2.02384 2.02385,-2.02384c1.11758,0 2.02299,0.90541 2.02299,2.02384l0,10.52556zm11.67664,0.06786c0,7.59286 -6.1772,13.7692 -13.77092,13.7692c-7.59373,0 -13.77093,-6.17634 -13.77093,-13.7692c0,-3.6809 1.4337,-7.14103 4.03825,-9.74128c0.39515,-0.39515 0.91227,-0.59187 1.43026,-0.59187c0.51799,0 1.03683,0.19758 1.43198,0.59358c0.7903,0.79116 0.78944,2.07196 -0.0017,2.86225c-1.83744,1.83659 -2.85022,4.27877 -2.85022,6.87731c0,5.36028 4.36124,9.7198 9.72237,9.7198c5.36113,0 9.72152,-4.35952 9.72152,-9.7198c0,-2.59681 -1.01022,-5.03815 -2.84593,-6.87473c-0.79029,-0.79116 -0.78944,-2.07196 0.00086,-2.86311c0.79115,-0.79116 2.07195,-0.78944 2.86311,0.00086c2.59853,2.60111 4.03137,6.05952 4.03137,9.73698l0,0.00001l-0.00002,0z" stroke="null"/>
+    <ellipse fill="none" stroke="#666666" ry="25.9885" rx="25.73862" id="sgdsgd" cy="53.27839" cx="35.72469" fill-opacity="null"/>
    </g>
-   <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#bbbbbb" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="20px" id="svg_43" y="380.9991" x="251" fill-opacity="null" stroke-opacity="null"/>
-   <g stroke="null" id="CF_TESTING_SIGNAL">
-    <g stroke="null" id="svg_45">
-     <circle fill="none" stroke="#666666" stroke-width="1.5" r="16.5" cx="35.18664" cy="412.7878" id="svg_4"/>
-     <circle fill="#666666" stroke="#999999" stroke-width="0" r="12" id="signal_CF_TESTING_SIGNAL" cy="412.7878" cx="35.18664"/>
+   <text fill="#0000bf" stroke="#bbbbbb" stroke-width="0" font-family="Helvetica, Arial, sans-serif" stroke-opacity="null" fill-opacity="null" x="251" y="380.9991" id="svg_43" font-size="20px" text-anchor="left" xml:space="preserve"/>
+   <g id="CF_TESTING_SIGNAL" stroke="null">
+    <g id="svg_45" stroke="null">
+     <circle fill="none" stroke="#666666" stroke-width="1.5" id="svg_4" cy="412.7878" cx="35.18664" r="16.5"/>
+     <circle fill="#666666" stroke="#999999" stroke-width="0" cx="35.18664" cy="412.7878" id="signal_CF_TESTING_SIGNAL" r="12"/>
     </g>
    </g>
    <g id="parameters_display">
-    <g stroke="null" id="svg_13">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" x="119.64192" y="58.95829" width="160" height="90" id="svg_5" rx="5"/>
-     <g stroke="null" id="UFRinsingVolume">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="145.13741" y="133.87607" id="UFRinsingVolume_val" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">UFRinsingVolume</text>
-      <g stroke="null" id="svg_31">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="153.08391" y="108.93286" id="svg_10" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="132.14524" y="93.94285" id="svg_15" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">UF-Volume</text>
+    <g id="svg_13" stroke="null">
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" rx="5" id="svg_5" height="90" width="160" y="58.95829" x="119.64192"/>
+     <g id="UFRinsingVolume" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="UFRinsingVolume_val" y="133.87607" x="145.13741">UFRinsingVolume</text>
+      <g id="svg_31" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_10" y="108.93286" x="153.08391" fill-opacity="null" stroke-opacity="null">mL</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_15" y="93.94285" x="132.14524" fill-opacity="null" stroke-opacity="null">UF-Volume</text>
       </g>
      </g>
-     <g stroke="null" id="UFRinsingRate">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="228.62795" y="133.87703" id="UFRinsingRate_val" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">UFRinsingRate</text>
-      <g stroke="null" id="svg_33">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="220.90079" y="93.94285" id="svg_9" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">UF-Rate</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="234.3632" y="108.93427" id="svg_18" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL/h</text>
-      </g>
-     </g>
-    </g>
-    <g stroke="null" id="svg_28">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" x="286.64191" y="58.95829" width="165.99936" height="90" id="svg_21" rx="5"/>
-     <g stroke="null" id="DFFlow">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" font-weight="bold" x="318.1374" y="136.94241" id="DFFlow_val" font-size="20px" text-anchor="left" xml:space="preserve">DFFlow</text>
-      <g stroke="null" id="svg_36">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="305.58439" y="93.76229" id="svg_14" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">DF-Flow</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="312.73524" y="111.94242" id="svg_35" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL/min</text>
-      </g>
-     </g>
-     <g stroke="null" id="bloodFlow">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" font-weight="bold" x="394.63642" y="136.94241" id="bloodFlow_val" font-size="20px" text-anchor="left" xml:space="preserve">bloodFlow</text>
-      <g stroke="null" id="svg_39">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="369.66843" y="93.77026" id="svg_19" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Blood-Flow</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="386.73557" y="111.77055" id="svg_38" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL/min</text>
+     <g id="UFRinsingRate" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="UFRinsingRate_val" y="133.87703" x="228.62795">UFRinsingRate</text>
+      <g id="svg_33" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_9" y="93.94285" x="220.90079" fill-opacity="null" stroke-opacity="null">UF-Rate</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_18" y="108.93427" x="234.3632" fill-opacity="null" stroke-opacity="null">mL/h</text>
       </g>
      </g>
     </g>
-    <g stroke="null" id="svg_29">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" x="120.64972" y="155.4583" width="332.98996" height="90" id="svg_22" rx="5"/>
-     <g stroke="null" id="fillingBPVolume">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="201.13697" y="233.3754" id="fillingBPVolume_val" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">fillingBPVolume</text>
-      <g stroke="null" id="svg_25">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="180.94868" y="191.93929" id="svg_12" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">BP-Volume</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="201.57838" y="208.43149" id="svg_23" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="193.42676" y="176.46735" id="svg_6" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Filling</text>
+    <g id="svg_28" stroke="null">
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" rx="5" id="svg_21" height="90" width="165.99936" y="58.95829" x="286.64191"/>
+     <g id="DFFlow" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="20px" id="DFFlow_val" y="136.94241" x="318.1374" font-weight="bold">DFFlow</text>
+      <g id="svg_36" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_14" y="93.76229" x="305.58439" fill-opacity="null" stroke-opacity="null">DF-Flow</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_35" y="111.94242" x="312.73524" fill-opacity="null" stroke-opacity="null">mL/min</text>
       </g>
      </g>
-     <g stroke="null" id="fillingBPRate">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="277.13697" y="233.37056" id="fillingBPRate_val" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">fillingBPRate</text>
-      <g stroke="null" id="svg_26">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="266.38625" y="191.93147" id="svg_11" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">BP-Rate</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="273.86237" y="208.43007" id="svg_24" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL/min</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="270.29533" y="176.46645" id="svg_7" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Filling</text>
-      </g>
-     </g>
-     <g stroke="null" id="rinsingBPRate">
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" font-weight="bold" x="352.26966" y="233.38033" id="rinsingBPRate_val" font-size="20px" text-anchor="left" xml:space="preserve">rinsingBPRate</text>
-      <g stroke="null" id="svg_27">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="339.25831" y="191.9306" id="svg_16" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">BP-Rate</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="339.59251" y="176.46645" id="svg_17" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Rinsing</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="346.73441" y="208.44131" id="svg_20" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mL/min</text>
+     <g id="bloodFlow" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="20px" id="bloodFlow_val" y="136.94241" x="394.63642" font-weight="bold">bloodFlow</text>
+      <g id="svg_39" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_19" y="93.77026" x="369.66843" fill-opacity="null" stroke-opacity="null">Blood-Flow</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_38" y="111.77055" x="386.73557" fill-opacity="null" stroke-opacity="null">mL/min</text>
       </g>
      </g>
     </g>
-    <g stroke="null" id="m912">
-     <g stroke="null" id="AP_display">
-      <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" x="119.64193" y="251.68993" width="105" height="140" id="sdadsa" rx="5"/>
-      <g stroke="null" id="svg_40">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="144.94573" y="284.17094" id="svg_32" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Pressure</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="156.57543" y="300.66313" id="svg_34" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mmHg</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="134.42382" y="268.69899" id="svg_37" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Arterial-Entry</text>
+    <g id="svg_29" stroke="null">
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" rx="5" id="svg_22" height="90" width="332.98996" y="155.4583" x="120.64972"/>
+     <g id="fillingBPVolume" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="fillingBPVolume_val" y="233.3754" x="183.0262">fillingBPVolume</text>
+      <g id="svg_25" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_12" y="191.93929" x="180.94868" fill-opacity="null" stroke-opacity="null">BP-Volume</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_23" y="208.43149" x="201.57838" fill-opacity="null" stroke-opacity="null">mL</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_6" y="176.46735" x="193.42676" fill-opacity="null" stroke-opacity="null">Filling</text>
       </g>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="163.13492" y="323.6237" id="AP_value" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">AP_pressure</text>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="123.38428" y="339.69786" id="AP_limit_high" font-size="10px" text-anchor="left" xml:space="preserve">%limit_high%</text>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="123.38428" y="387.19594" id="AP_limit_low" font-size="10px" text-anchor="left" xml:space="preserve">%limit_low%</text>
-      <line fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray="5, 5" stroke-linecap="null" stroke-linejoin="null" id="AP_line" y2="385.1985" x2="224.77808" y1="385.1985" x1="120.63373"/>
      </g>
-     <g stroke="null" id="VP_display">
-      <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" x="235.15197" y="251.6899" width="105" height="140" id="svg_66" rx="5"/>
-      <g stroke="null" id="svg_70">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="260.45579" y="284.67091" id="svg_67" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Pressure</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="272.08549" y="301.1631" id="svg_68" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mmHg</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="249.93388" y="269.19896" id="svg_69" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Venous-Flow</text>
+     <g id="fillingBPRate" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="fillingBPRate_val" y="233.37056" x="277.13697">fillingBPRate</text>
+      <g id="svg_26" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_11" y="191.93147" x="266.38625" fill-opacity="null" stroke-opacity="null">BP-Rate</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_24" y="208.43007" x="273.86237" fill-opacity="null" stroke-opacity="null">mL/min</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_7" y="176.46645" x="270.29533" fill-opacity="null" stroke-opacity="null">Filling</text>
       </g>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="278.64497" y="324.12367" id="VP_value" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">VP_pressure</text>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="238.89432" y="340.19783" id="VP_limit_high" font-size="10px" text-anchor="left" xml:space="preserve">%limit_high%</text>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="238.89432" y="388.0092" id="VP_limit_low" font-size="10px" text-anchor="left" xml:space="preserve">%limit_low%</text>
-      <line fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray="5, 5" stroke-linecap="null" stroke-linejoin="null" id="VP_line" y2="386.0092" x2="340.28815" y1="386.0092" x1="236.14377"/>
      </g>
-     <g stroke="null" id="BEP_display">
-      <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" x="349.16016" y="251.6899" width="105" height="140" id="svg_76" rx="5"/>
-      <g stroke="null" id="svg_80">
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="374.46397" y="284.67091" id="svg_77" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Pressure</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="386.09367" y="301.1631" id="svg_78" font-size="10px" text-anchor="left" xml:space="preserve" font-weight="normal" font-style="normal">mmHg</text>
-       <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#dddddd" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="366.44224" y="269.69899" id="svg_79" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold" font-style="normal">Blood Entry</text>
+     <g id="rinsingBPRate" stroke="null">
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="20px" id="rinsingBPRate_val" y="233.38033" x="352.26966" font-weight="bold">rinsingBPRate</text>
+      <g id="svg_27" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_16" y="191.9306" x="339.25831" fill-opacity="null" stroke-opacity="null">BP-Rate</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_17" y="176.46645" x="339.59251" fill-opacity="null" stroke-opacity="null">Rinsing</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_20" y="208.44131" x="346.73441" fill-opacity="null" stroke-opacity="null">mL/min</text>
       </g>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#0000bf" stroke="#000000" stroke-width="0" x="392.65314" y="324.12367" id="BEP_value" font-size="20px" text-anchor="left" xml:space="preserve" font-weight="bold">BEP_pressure</text>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="352.9025" y="340.19783" id="BEP_limit_high" font-size="10px" text-anchor="left" xml:space="preserve">%limit_high%</text>
-      <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="352.9025" y="388.0092" id="BEP_limit_low" font-size="10px" text-anchor="left" xml:space="preserve">%limit_low%</text>
-      <line fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray="5, 5" stroke-linecap="null" stroke-linejoin="null" id="BEP_line" y2="386.0092" x2="454.29633" y1="386.0092" x1="350.15195"/>
+     </g>
+    </g>
+    <g id="m912" stroke="null">
+     <g id="AP_display" stroke="null">
+      <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" rx="5" id="sdadsa" height="140" width="105" y="251.68993" x="119.64193"/>
+      <g id="svg_40" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_32" y="284.17094" x="144.94573" fill-opacity="null" stroke-opacity="null">Pressure</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_34" y="300.66313" x="156.57543" fill-opacity="null" stroke-opacity="null">mmHg</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_37" y="268.69899" x="134.42382" fill-opacity="null" stroke-opacity="null">Arterial-Entry</text>
+      </g>
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="AP_value" y="323.6237" x="163.13492">AP_pressure</text>
+      <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="10px" id="AP_limit_high" y="339.69786" x="123.38428">%limit_high%</text>
+      <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="10px" id="AP_limit_low" y="387.19594" x="123.38428">%limit_low%</text>
+      <line fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray="5, 5" x1="120.63373" y1="385.1985" x2="224.77808" y2="385.1985" id="AP_line" stroke-linejoin="null" stroke-linecap="null"/>
+     </g>
+     <g id="VP_display" stroke="null">
+      <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" rx="5" id="svg_66" height="140" width="105" y="251.6899" x="235.15197"/>
+      <g id="svg_70" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_67" y="284.67091" x="260.45579" fill-opacity="null" stroke-opacity="null">Pressure</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_68" y="301.1631" x="272.08549" fill-opacity="null" stroke-opacity="null">mmHg</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_69" y="269.19896" x="249.93388" fill-opacity="null" stroke-opacity="null">Venous-Flow</text>
+      </g>
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="VP_value" y="324.12367" x="278.64497">VP_pressure</text>
+      <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="10px" id="VP_limit_high" y="340.19783" x="238.89432">%limit_high%</text>
+      <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="10px" id="VP_limit_low" y="388.0092" x="238.89432">%limit_low%</text>
+      <line fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray="5, 5" x1="236.14377" y1="386.0092" x2="340.28815" y2="386.0092" id="VP_line" stroke-linejoin="null" stroke-linecap="null"/>
+     </g>
+     <g id="BEP_display" stroke="null">
+      <rect fill="#f7f7f7" stroke="#999999" stroke-width="2" rx="5" id="svg_76" height="140" width="105" y="251.6899" x="349.16016"/>
+      <g id="svg_80" stroke="null">
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_77" y="284.67091" x="374.46397" fill-opacity="null" stroke-opacity="null">Pressure</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="left" font-size="10px" id="svg_78" y="301.1631" x="386.09367" fill-opacity="null" stroke-opacity="null">mmHg</text>
+       <text fill="#000000" stroke="#dddddd" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_79" y="269.69899" x="366.44224" fill-opacity="null" stroke-opacity="null">Blood Entry</text>
+      </g>
+      <text fill="#0000bf" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="20px" id="BEP_value" y="324.12367" x="392.65314">BEP_pressure</text>
+      <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="10px" id="BEP_limit_high" y="340.19783" x="352.9025">%limit_high%</text>
+      <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="10px" id="BEP_limit_low" y="388.0092" x="352.9025">%limit_low%</text>
+      <line fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray="5, 5" x1="350.15195" y1="386.0092" x2="454.29633" y2="386.0092" id="BEP_line" stroke-linejoin="null" stroke-linecap="null"/>
      </g>
     </g>
    </g>
    <g id="set_rinsing_parameters">
     <g id="g4423">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.70842" rx="4.92246" id="svg_58-9" height="57.09281" width="215" y="121.86986" x="85.28255"/>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59-4" y="139.72606" x="96.95263" stroke-opacity="null">Set UF-Rate</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60-47" y="138.74991" x="168.84121">Range: 0..3000</text>
-     <g id="input_UFRate" data-btype="INTEGER" data-placeholder="UF-Rate" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" height="25" width="116" y="147.49897" x="96.74764" id="svg_42"/>
-      <text fill="#d3d3d3" y="165.49897" x="98.74764" id="svg_44">UF-Rate</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.70842" x="79.28255" y="165.86986" width="215" height="57.09281" id="svg_58-9" rx="4.92246"/>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" stroke-opacity="null" x="90.95263" y="183.72606" id="svg_59-4" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set UF-Rate</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" x="162.84121" y="182.74991" id="svg_60-47" font-size="12px" text-anchor="left" xml:space="preserve">Range: 0..3000</text>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="UF-Rate" data-btype="INTEGER" id="input_UFRate">
+      <rect fill="#ffffff" stroke="#000000" id="svg_42" x="90.74764" y="191.49897" width="116" height="25"/>
+      <text fill="#d3d3d3" id="svg_44" x="92.74764" y="209.49897">UF-Rate</text>
      </g>
-     <g id="bt_setUFRate" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" height="25" width="75" y="147.49896" x="219.04818" id="svg_52"/>
-      <text fill="#000000" y="165.49896" x="247.04818" id="svg_53">OK</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setUFRate">
+      <rect fill="#ededed" stroke="#000000" id="svg_52" x="213.04818" y="191.49896" width="75" height="25"/>
+      <text fill="#000000" id="svg_53" x="241.04818" y="209.49896">OK</text>
      </g>
     </g>
     <g id="g4455">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69684" x="85.27677" y="183.42191" width="215" height="55.239" id="svg_58-9-7" rx="4.92269"/>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" stroke-opacity="null" x="94.62085" y="200.81754" id="svg_59-4-9" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set DF-Flow</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="166.97577" y="199.84141" id="svg_60-47-2" font-size="12px" text-anchor="left" xml:space="preserve">Range: 50..300</text>
-     <g id="input_DFFlow" data-btype="INTEGER" data-placeholder="DF-Flow" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" id="svg_47" height="25" width="116" y="207.52086" x="94.88226"/>
-      <text fill="#d3d3d3" id="svg_48" y="225.52086" x="96.88226">DF-Flow</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69684" rx="4.92269" id="svg_58-9-7" height="55.239" width="215" y="227.42191" x="79.27677"/>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59-4-9" y="244.81754" x="88.62085" stroke-opacity="null">Set DF-Flow</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60-47-2" y="243.84141" x="160.97577">Range: 50..300</text>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="DF-Flow" data-btype="INTEGER" id="input_DFFlow">
+      <rect fill="#ffffff" stroke="#000000" x="88.88226" y="251.52086" width="116" height="25" id="svg_47"/>
+      <text fill="#d3d3d3" x="90.88226" y="269.52086" id="svg_48">DF-Flow</text>
      </g>
-     <g id="bt_setDFFlow" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" id="svg_50" height="25" width="75" y="207.52086" x="217.1828"/>
-      <text fill="#000000" id="svg_51" y="225.52086" x="245.1828">OK</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setDFFlow">
+      <rect fill="#ededed" stroke="#000000" x="211.1828" y="251.52086" width="75" height="25" id="svg_50"/>
+      <text fill="#000000" x="239.1828" y="269.52086" id="svg_51">OK</text>
      </g>
     </g>
     <g id="g4487">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69684" rx="4.92269" id="svg_58-9-7-8" height="55.239" width="215" y="246.61199" x="85.27676"/>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59-4-9-7" y="264.47396" x="97.41891" stroke-opacity="null">Set Blood-Flow</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60-47-2-2" y="263.49783" x="187.96146">Range: 50..600</text>
-     <g id="input_BloodFlow" data-btype="INTEGER" data-placeholder="Blood-Flow" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" id="svg_54" height="25" width="116" y="271.93293" x="97.68033"/>
-      <text fill="#d3d3d3" id="svg_55" y="289.93293" x="99.68033">Blood-Flow</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69684" x="79.27676" y="290.61199" width="215" height="55.239" id="svg_58-9-7-8" rx="4.92269"/>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" stroke-opacity="null" x="91.41891" y="308.47396" id="svg_59-4-9-7" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set Blood-Flow</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" x="181.96146" y="307.49783" id="svg_60-47-2-2" font-size="12px" text-anchor="left" xml:space="preserve">Range: 50..600</text>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="Blood-Flow" data-btype="INTEGER" id="input_BloodFlow">
+      <rect fill="#ffffff" stroke="#000000" x="91.68033" y="315.93293" width="116" height="25" id="svg_54"/>
+      <text fill="#d3d3d3" x="93.68033" y="333.93293" id="svg_55">Blood-Flow</text>
      </g>
-     <g id="bt_setBloodFlow" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" id="svg_61" height="25" width="75" y="271.93293" x="219.98087"/>
-      <text fill="#000000" id="svg_64" y="289.93293" x="247.98087">OK</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setBloodFlow">
+      <rect fill="#ededed" stroke="#000000" x="213.98087" y="315.93293" width="75" height="25" id="svg_61"/>
+      <text fill="#000000" x="241.98087" y="333.93293" id="svg_64">OK</text>
      </g>
     </g>
     <g id="g4540">
-     <rect stroke="#999999" fill="#f7f7f7" stroke-width="0.69975" rx="4.92264" id="svg_58-7" height="55.70244" width="215" y="57.04323" x="305.80469"/>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59-5" y="74.90376" x="316.98632" stroke-opacity="null">Set Fill. BP-Volume</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60-4" y="74.42043" x="431.17037">Range: 0..6000</text>
-     <g id="bt_setFillingBPVolume" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" id="svg_56" height="25" width="75" y="81.52852" x="437.70925"/>
-      <text fill="#000000" id="svg_57" y="99.52852" x="465.70925">OK</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69975" x="299.80469" y="101.04323" width="215" height="55.70244" id="svg_58-7" rx="4.92264"/>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" stroke-opacity="null" x="310.98632" y="118.90376" id="svg_59-5" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set Fill. BP-Volume</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" x="425.17037" y="118.42043" id="svg_60-4" font-size="12px" text-anchor="left" xml:space="preserve">Range: 0..6000</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setFillingBPVolume">
+      <rect fill="#ededed" stroke="#000000" x="431.70925" y="125.52852" width="75" height="25" id="svg_56"/>
+      <text fill="#000000" x="459.70925" y="143.52852" id="svg_57">OK</text>
      </g>
-     <g id="input_FillingBPVolume" data-btype="INTEGER" data-placeholder="Filling BP-Rate" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" id="svg_65" height="25" width="116" y="81.52855" x="315.40871"/>
-      <text fill="#d3d3d3" id="svg_71" y="99.52855" x="317.40871">Filling BP-Volume</text>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="Filling BP-Rate" data-btype="INTEGER" id="input_FillingBPVolume">
+      <rect fill="#ffffff" stroke="#000000" x="309.40871" y="125.52855" width="116" height="25" id="svg_65"/>
+      <text fill="#d3d3d3" x="311.40871" y="143.52855" id="svg_71">Filling BP-Volume</text>
      </g>
     </g>
     <g id="g4551">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69975" rx="4.92264" id="svg_58-7-3" height="55.70244" width="215" y="121.86552" x="305.80472"/>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59-5-3" y="139.72605" x="317.47919" stroke-opacity="null">Set Filling BP-Rate</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60-4-7" y="138.74992" x="428.54083">Range: 50..600</text>
-     <g id="bt_setFillingBPRate" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" id="svg_62" height="25" width="75" y="145.13394" x="438.64197"/>
-      <text fill="#000000" id="svg_63" y="163.13394" x="466.64197">OK</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69975" x="299.80472" y="165.86552" width="215" height="55.70244" id="svg_58-7-3" rx="4.92264"/>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" stroke-opacity="null" x="311.47919" y="183.72605" id="svg_59-5-3" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set Filling BP-Rate</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" x="422.54083" y="182.74992" id="svg_60-4-7" font-size="12px" text-anchor="left" xml:space="preserve">Range: 50..600</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setFillingBPRate">
+      <rect fill="#ededed" stroke="#000000" x="432.64197" y="189.13394" width="75" height="25" id="svg_62"/>
+      <text fill="#000000" x="460.64197" y="207.13394" id="svg_63">OK</text>
      </g>
-     <g id="input_FillingBPRate" data-btype="INTEGER" data-placeholder="Filling BP-Rate" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" id="svg_73" height="25" width="116" y="145.13394" x="316.34143"/>
-      <text fill="#d3d3d3" id="svg_74" y="163.13394" x="318.34143">Filling BP-Rate</text>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="Filling BP-Rate" data-btype="INTEGER" id="input_FillingBPRate">
+      <rect fill="#ffffff" stroke="#000000" x="310.34143" y="189.13394" width="116" height="25" id="svg_73"/>
+      <text fill="#d3d3d3" x="312.34143" y="207.13394" id="svg_74">Filling BP-Rate</text>
      </g>
     </g>
     <g id="g4586">
-     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69975" x="305.8047" y="183.42338" width="215" height="55.70244" id="svg_58-7-3-3" rx="4.92264"/>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" stroke-opacity="null" x="317.47917" y="201.28392" id="svg_59-5-3-5" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set Rins. BP-Rate</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="425.96121" y="200.30778" id="svg_60-4-7-2" font-size="12px" text-anchor="left" xml:space="preserve">Range: 50..300</text>
-     <g id="input_RinsingBPRate" data-btype="INTEGER" data-placeholder="Rinsing BP-Rate" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" id="svg_81" height="25" width="116" y="208.20318" x="314.00965"/>
-      <text fill="#d3d3d3" id="svg_82" y="226.20318" x="316.00965">Rinsing BP-Rate</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69975" rx="4.92264" id="svg_58-7-3-3" height="55.70244" width="215" y="227.42338" x="299.8047"/>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59-5-3-5" y="245.28392" x="311.47917" stroke-opacity="null">Set Rins. BP-Rate</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60-4-7-2" y="244.30778" x="419.96121">Range: 50..300</text>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="Rinsing BP-Rate" data-btype="INTEGER" id="input_RinsingBPRate">
+      <rect fill="#ffffff" stroke="#000000" x="308.00965" y="252.20318" width="116" height="25" id="svg_81"/>
+      <text fill="#d3d3d3" x="310.00965" y="270.20318" id="svg_82">Rinsing BP-Rate</text>
      </g>
-     <g id="bt_setRinsingBPRate" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" id="svg_84" height="25" width="75" y="208.20315" x="436.31019"/>
-      <text fill="#000000" id="svg_85" y="226.20315" x="464.31019">OK</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setRinsingBPRate">
+      <rect fill="#ededed" stroke="#000000" x="430.31019" y="252.20315" width="75" height="25" id="svg_84"/>
+      <text fill="#000000" x="458.31019" y="270.20315" id="svg_85">OK</text>
      </g>
     </g>
-    <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69684" rx="4.92269" id="svg_58-9-7-8-1" height="55.239" width="215" y="246.612" x="306.15312"/>
+    <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69684" x="300.15312" y="290.612" width="215" height="55.239" id="svg_58-9-7-8-1" rx="4.92269"/>
     <g id="g4349">
-     <rect stroke="#999999" fill="#f7f7f7" stroke-width="0.69975" x="83.41283" y="57.04322" width="215" height="55.70244" id="svg_58" rx="4.92264"/>
-     <g id="input_UFVolume" data-btype="INTEGER" data-placeholder="UF-Volume" data-bms-widget="iinput" class="parameter_input">
-      <rect fill="#ffffff" stroke="#000000" height="25" width="116" y="81.77036" x="94.24379" id="svg_30"/>
-      <text fill="#d3d3d3" y="99.77036" x="96.24379" id="svg_41">UF-Volume</text>
+     <rect fill="#f7f7f7" stroke="#999999" stroke-width="0.69975" rx="4.92264" id="svg_58" height="55.70244" width="215" y="101.04322" x="77.41283"/>
+     <g class="parameter_input" data-bms-widget="iinput" data-placeholder="UF-Volume" data-btype="INTEGER" id="input_UFVolume">
+      <rect fill="#ffffff" stroke="#000000" id="svg_30" x="88.24379" y="125.77036" width="116" height="25"/>
+      <text fill="#d3d3d3" id="svg_41" x="90.24379" y="143.77036">UF-Volume</text>
      </g>
-     <g id="bt_setUFVolume" data-text="OK" data-bms-widget="ibutton" class="parameter_input">
-      <rect fill="#ededed" stroke="#000000" height="25" width="75" y="81.77036" x="216.54433" id="svg_46"/>
-      <text fill="#000000" y="99.77036" x="245.54433" id="svg_49">OK</text>
+     <g class="parameter_input" data-bms-widget="ibutton" data-text="OK" id="bt_setUFVolume">
+      <rect fill="#ededed" stroke="#000000" id="svg_46" x="210.54433" y="125.77036" width="75" height="25"/>
+      <text fill="#000000" id="svg_49" x="239.54433" y="143.77036">OK</text>
      </g>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" stroke-opacity="null" x="95.08727" y="74.90374" id="svg_59" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Set UF-Volume</text>
-     <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="185.62966" y="73.92762" id="svg_60" font-size="12px" text-anchor="left" xml:space="preserve">Range: 0..2950</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" font-weight="bold" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_59" y="118.90374" x="89.08727" stroke-opacity="null">Set UF-Volume</text>
+     <text fill="#000000" stroke="#000000" stroke-width="0" font-family="Helvetica, Arial, sans-serif" xml:space="preserve" text-anchor="left" font-size="12px" id="svg_60" y="117.92762" x="179.62966">Range: 0..2950</text>
     </g>
    </g>
   </g>
-  <rect stroke="#000000" fill="#dddddd" stroke-width="0" x="71.03398" y="10.39913" width="454.14636" height="37" id="svg_8"/>
-  <text font-family="Helvetica, Arial, sans-serif" fill="#007f00" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="20px" id="label_phase" y="35.6283" x="228.30386">%%PHASE%%</text>
+  <rect id="svg_8" height="37" width="454.14636" y="10.39913" x="71.03398" stroke-width="0" fill="#dddddd" stroke="#000000"/>
+  <text font-weight="bold" x="228.30386" y="35.6283" id="label_phase" font-size="20px" text-anchor="left" xml:space="preserve" stroke-width="0" stroke="#000000" fill="#007f00" font-family="Helvetica, Arial, sans-serif">%%PHASE%%</text>
  </g>
 </svg>

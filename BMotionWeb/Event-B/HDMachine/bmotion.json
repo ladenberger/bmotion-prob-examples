@@ -21,5 +21,11 @@
     "height": 525,
     "observers": "json/display.observers.json",
     "events": "json/display.events.json"
+  }, {
+    "id": "simulation",
+    "name": "Hemodialysis Machine Case Study (Simulation)",
+    "template": "simulation.html",
+    "width": 675,
+    "height": 250
   }]
 }
