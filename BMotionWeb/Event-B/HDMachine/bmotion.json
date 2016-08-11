@@ -1,5 +1,4 @@
 {
-  "model": "model/m915.bcm",
   "id": "hd",
   "name": "Hemodialysis Machine Case Study (HD Machine)",
   "template": "hd.html",
@@ -7,14 +6,19 @@
     "CurrentTrace",
     "Events"
   ],
+  "model": "model/m916.bcm",
+  "modelOptions": {
+    "TIME_OUT": 10000,
+    "MAX_OPERATIONS": 200
+  },
   "observers": "json/hd.observers.json",
   "events": "json/hd.events.json",
   "views": [{
     "id": "display",
     "name": "Hemodialysis Machine Case Study (Display)",
     "template": "display.html",
-    "width": 550,
-    "height": 500,
+    "width": 575,
+    "height": 525,
     "observers": "json/display.observers.json",
     "events": "json/display.events.json"
   }]

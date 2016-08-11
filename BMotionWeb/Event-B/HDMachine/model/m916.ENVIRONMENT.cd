@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagrams="http://soton.ac.uk/models/eventb/classdiagrams/2015" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_e_U18LU1EeWWaap7Ws_2Vg" type="Classdiagrams" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_hb9QcLU1EeWWaap7Ws_2Vg" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hcATwLU1EeWWaap7Ws_2Vg" type="5007"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hcBh4LU1EeWWaap7Ws_2Vg" type="7006">
+      <children xmi:type="notation:Node" xmi:id="_YH-HILU2EeWWaap7Ws_2Vg" type="3022">
+        <element xmi:type="classdiagrams:ClassAttribute" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::ClassAttribute::m916.ENVIRONMENT.SIGNAL.signal_status"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YH-HIbU2EeWWaap7Ws_2Vg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hcBh4bU1EeWWaap7Ws_2Vg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hcBh4rU1EeWWaap7Ws_2Vg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hcCI8LU1EeWWaap7Ws_2Vg" type="7007">
+      <children xmi:type="notation:Node" xmi:id="_11WV8LhrEeWeLteVXSdMfg" type="3023">
+        <element xmi:type="classdiagrams:ClassMethod" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::ClassMethod::m916.ENVIRONMENT.SIGNAL._11W9ALhrEeWeLteVXSdMfg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_11WV8bhrEeWeLteVXSdMfg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_4OfXkLhrEeWeLteVXSdMfg" type="3023">
+        <element xmi:type="classdiagrams:ClassMethod" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::ClassMethod::m916.ENVIRONMENT.SIGNAL._4OfXkrhrEeWeLteVXSdMfg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4OfXkbhrEeWeLteVXSdMfg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_6kN40LhrEeWeLteVXSdMfg" type="3023">
+        <element xmi:type="classdiagrams:ClassMethod" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::ClassMethod::m916.ENVIRONMENT.SIGNAL._6kN40rhrEeWeLteVXSdMfg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6kN40bhrEeWeLteVXSdMfg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WNT9sLkaEeW2TOhOfFhbNg" type="3023">
+        <element xmi:type="classdiagrams:ClassMethod" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::ClassMethod::m916.ENVIRONMENT.SIGNAL._WNUkwLkaEeW2TOhOfFhbNg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WNT9sbkaEeW2TOhOfFhbNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_XK3LELkaEeW2TOhOfFhbNg" type="3023">
+        <element xmi:type="classdiagrams:ClassMethod" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::ClassMethod::m916.ENVIRONMENT.SIGNAL._XK3LErkaEeW2TOhOfFhbNg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XK3LEbkaEeW2TOhOfFhbNg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hcCI8bU1EeWWaap7Ws_2Vg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hcCI8rU1EeWWaap7Ws_2Vg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hcCI87U1EeWWaap7Ws_2Vg" type="7008">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hcCI9LU1EeWWaap7Ws_2Vg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hcCI9bU1EeWWaap7Ws_2Vg"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_hb9QcbU1EeWWaap7Ws_2Vg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hb9QcrU1EeWWaap7Ws_2Vg" fontName=".Helvetica Neue DeskInterface"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_hb9Qc7U1EeWWaap7Ws_2Vg"/>
+    <element xmi:type="classdiagrams:Class" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::Class::m916.ENVIRONMENT.SIGNAL"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hb9QdLU1EeWWaap7Ws_2Vg" x="51" y="24"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_e_U18bU1EeWWaap7Ws_2Vg"/>
+  <element xmi:type="classdiagrams:Classdiagram" href="m916.bum#http://soton.ac.uk/models/eventb/classdiagrams/2015::Classdiagram::m916.ENVIRONMENT"/>
+</notation:Diagram>

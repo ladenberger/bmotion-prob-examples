@@ -195,4 +195,6 @@
 <org.eventb.core.prPred name="p0" org.eventb.core.predicate="BLOOD_FLOW_RANGE≠(∅ ⦂ ℙ(ℤ))"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
 </org.eventb.core.prProof>
+<org.eventb.core.prProof name="User_SetsRinsingParameters/UFRinsingVolume_TYPE/INV"/>
+<org.eventb.core.prProof name="User_SetsRinsingParameters/act7/FIS"/>
 </org.eventb.core.prFile>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase;org.animb.valuation.valBase">
 <org.eventb.core.scAxiom name="'" org.eventb.core.label="FILLING_BP_RATE_RANGE_type" org.eventb.core.predicate="FILLING_BP_RATE_RANGE=50 ‥ 600" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
 <org.eventb.core.scAxiom name="(" org.eventb.core.label="FILLING_BP_RATE_RANGE_non_empty" org.eventb.core.predicate="FILLING_BP_RATE_RANGE≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#7" org.eventb.core.theorem="true"/>
 <org.eventb.core.scAxiom name=")" org.eventb.core.label="FILL_BP_VOLUME_RANGE_type" org.eventb.core.predicate="FILLING_BP_VOLUME_RANGE=0 ‥ 6000" org.eventb.core.source="/HDMachine/c8-rinsing_parameters.buc|org.eventb.core.contextFile#c8-rinsing_parameters|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>

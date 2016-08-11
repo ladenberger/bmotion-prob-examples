@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob2.rodin.units.mchBase">
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob2.rodin.units.mchBase;de.prob.units.mchBase">
 <org.eventb.core.scRefinesMachine name="'" org.eventb.core.scTarget="/HDMachine/m7.bcm" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.refinesMachine#'"/>
 <org.eventb.core.scSeesContext name="(" org.eventb.core.scTarget="/HDMachine/m8_implicitContext.bcc" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.seesContext#_fOHZoLYWEeWZYZ7CLrnHEQ"/>
 <org.eventb.core.scSeesContext name=")" org.eventb.core.scTarget="/HDMachine/c6-CFTestingSignal.bcc" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.seesContext#_uXHVwLUpEeWNr7Z28XyZAf"/>
@@ -435,6 +435,7 @@
 <org.eventb.core.scAction name="+" org.eventb.core.assignment="DFFlow :∈ DF_FLOW_RANGE" org.eventb.core.label="act4" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBh|org.eventb.core.action#+"/>
 <org.eventb.core.scAction name="," org.eventb.core.assignment="UFRinsingRate :∈ UF_RINSING_RATE_RANGE" org.eventb.core.label="act5" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBh|org.eventb.core.action#,"/>
 <org.eventb.core.scAction name="-" org.eventb.core.assignment="bloodFlow :∈ BLOOD_FLOW_RANGE" org.eventb.core.label="act6" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBh|org.eventb.core.action#-"/>
+<org.eventb.core.scAction name="." org.eventb.core.assignment="UFRinsingVolume :∈ UF_RINSING_VOLUME_RANGE" org.eventb.core.label="act7" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBh|org.eventb.core.action#."/>
 </org.eventb.core.scEvent>
 <org.eventb.core.scEvent name="HD_2_CS_CFTestingFinishe~" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="CS_TopLevel_SignalToRED" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_8jV38LhrEeWeLteVXSdMfg">
 <org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/HDMachine/m7.bcm|org.eventb.core.scMachineFile#m7|org.eventb.core.scEvent#HD_2_CS_CFTestingFinishe}" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_8jV38LhrEeWeLteVXSdMfg|org.eventb.core.refinesEvent#_8jWfALhrEeWeLteVXSdMfg"/>

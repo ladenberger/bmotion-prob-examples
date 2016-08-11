@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poFile org.eventb.core.poStamp="2">
 <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="CS_TopLevel_STATES" org.eventb.core.type="ℙ(CS_TopLevel_STATES)"/>
 <org.eventb.core.poIdentifier name="HDSystem_STATES" org.eventb.core.type="ℙ(HDSystem_STATES)"/>
@@ -460,15 +460,16 @@
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="CS_TopLevel=STANDBY" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB@|org.eventb.core.guard#'"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="connected_concentrate≠CONCENTRATE_NONE" org.eventb.core.source="/HDMachine/m7.bum|org.eventb.core.machineFile#m7|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZB@|org.eventb.core.guard#)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv_implicitContey6" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv.bpo|org.eventb.core.poFile#m910_incorrect_inv|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv_implicitContey6" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv.bpo|org.eventb.core.poFile#m910_incorrect_inv|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="2">
 <org.eventb.core.poIdentifier name="UFRinsingRate'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="UFRinsingVolume'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="fillingBPRate'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="fillingBPVolume'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="rinsingBPRate'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="DFFlow'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="bloodFlow'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv_implicitContey6" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv.bpo|org.eventb.core.poFile#m910_incorrect_inv|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv_implicitContey6" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="EVTALLHYPm910_incorrect_inv_implicitContey6" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv.bpo|org.eventb.core.poFile#m910_incorrect_inv|org.eventb.core.poPredicateSet#EVTIDENTm910_incorrect_inv_implicitContey6" org.eventb.core.poStamp="2">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="PREPARATION_sm=RP_SETTING" org.eventb.core.source="/HDMachine/m8.bum|org.eventb.core.machineFile#m8|org.eventb.core.event#_uXHVwLUpEeWNr7Z28XyZBh|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
 <org.eventb.core.poPredicateSet name="EVTIDENTm910_incorrect_inv_implicitContey7" org.eventb.core.parentSet="/HDMachine/m910_incorrect_inv.bpo|org.eventb.core.poFile#m910_incorrect_inv|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">

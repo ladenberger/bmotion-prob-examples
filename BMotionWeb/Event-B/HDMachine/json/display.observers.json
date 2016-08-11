@@ -152,24 +152,6 @@
                 "refinement": "m912",
                 "translate": true
             }
-        },
-        {
-            "type": "refinement",
-            "data": {
-                "refinement": "m912",
-                "selector": "#m912",
-                "enable": "origin.attr(\"visibility\",\"visible\");",
-                "disable": "origin.attr(\"visibility\",\"hidden\");"
-            }
-        },
-        {
-            "type": "refinement",
-            "data": {
-                "refinement": "m6",
-                "selector": "#CF_TESTING_SIGNAL",
-                "enable": "origin.attr(\"visibility\",\"visible\");",
-                "disable": "origin.attr(\"visibility\",\"hidden\");"
-            }
         }
     ]
 }
