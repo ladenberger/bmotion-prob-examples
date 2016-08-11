@@ -227,6 +227,6 @@
    </g>
   </g>
   <rect stroke="#000000" fill="#dddddd" stroke-width="0" x="71.03398" y="10.39913" width="454.14636" height="37" id="svg_8"/>
-  <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="20px" id="label_phase" y="35.6283" x="228.30386">%%PHASE%%</text>
+  <text font-family="Helvetica, Arial, sans-serif" fill="#007f00" stroke="#000000" stroke-width="0" xml:space="preserve" text-anchor="left" font-size="20px" id="label_phase" y="35.6283" x="228.30386">%%PHASE%%</text>
  </g>
 </svg>

@@ -97,7 +97,7 @@ bms.handler("executeEvent", {
   }]
 });
 
-bms.init(function() {
+bms.onLoadSvg("display", function() {
   $("#set_rinsing_parameters,.parameter_input").css("visibility", "hidden");
   $("#bt_therapy")
     .css('cursor', 'pointer')
