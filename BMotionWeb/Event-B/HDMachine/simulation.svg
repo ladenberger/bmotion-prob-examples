@@ -1,9 +1,9 @@
-<svg width="648.28619" height="155.25876" xmlns="http://www.w3.org/2000/svg">
+<svg width="648.28619" height="122.25876" xmlns="http://www.w3.org/2000/svg">
  <metadata id="metadata153">image/svg+xmlimage/svg+xmlimage/svg+xmlimage/svg+xml</metadata>
 
  <g id="g5">
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="157.25876" width="650.28619" y="-1" x="-1"/>
+  <rect fill="none" id="canvas_background" height="124.25876" width="650.28619" y="-1" x="-1"/>
  </g>
  <g id="g10">
   <title>Layer 1</title>
@@ -15,13 +15,8 @@
    <rect fill="#ffffff" stroke="#000000" height="25" width="75" y="44.92515" x="144.08114" id="svg_3"/>
    <text fill="#d3d3d3" y="62.92515" x="146.08114" id="svg_4">AP</text>
   </g>
-  <g id="input_BEP" data-btype="INTEGER" data-placeholder="BEP" data-bms-widget="iinput">
-   <rect fill="#ffffff" stroke="#000000" height="25" width="75" y="118.12939" x="144.08114" id="svg_5"/>
-   <text fill="#d3d3d3" y="136.12939" x="146.08114" id="svg_6">BEP</text>
-  </g>
   <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="42.5162" y="61.92516" id="svg_7" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Aterial pressure:</text>
   <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="36.72713" y="95.57502" id="svg_7-1" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Venous pressure:</text>
-  <text font-family="Helvetica, Arial, sans-serif" fill="#000000" stroke="#000000" stroke-width="0" x="12.56308" y="132.45671" id="svg_7-9" font-size="12px" text-anchor="left" xml:space="preserve" font-weight="bold">Blood entry pressure:</text>
   <g id="input_lowAP" data-btype="INTEGER" data-placeholder="low" data-bms-widget="iinput">
    <rect fill="#ffffff" stroke="#000000" height="25" width="75" y="44.92515" x="294.98962" id="svg_3-6"/>
    <text fill="#d3d3d3" y="62.92515" x="296.98962" id="svg_4-4">low</text>
@@ -38,17 +33,7 @@
    <rect fill="#ffffff" stroke="#000000" height="25" width="75" y="81.92515" x="385.1651" id="svg_3-6-3"/>
    <text fill="#d3d3d3" y="99.92515" x="387.1651" id="svg_4-4-4">high</text>
   </g>
-  <g id="input_lowBEP" data-btype="INTEGER" data-placeholder="low" data-bms-widget="iinput">
-   <rect fill="#ffffff" stroke="#000000" height="25" width="75" y="118.12939" x="294.98963" id="svg_3-6-38"/>
-   <text fill="#d3d3d3" y="136.12939" x="296.98963" id="svg_4-4-5">low</text>
-  </g>
-  <g id="input_highBEP" data-btype="INTEGER" data-placeholder="high" data-bms-widget="iinput">
-   <rect fill="#ffffff" stroke="#000000" height="25" width="75" y="118.1294" x="385.16511" id="svg_3-6-5"/>
-   <text fill="#d3d3d3" y="136.1294" x="387.16511" id="svg_4-4-59">high</text>
-  </g>
-  <text font-style="normal" font-weight="normal" font-size="40px" font-family="sans-serif" fill="#000000" stroke-width="1px" id="text4286" y="26.60167" x="10.47282" xml:space="preserve">
-   <tspan font-size="17.5px" y="26.60167" x="10.47282" id="tspan4288">Simulate Values and windows:</tspan>
-  </text>
+  <text font-style="normal" font-weight="bold" font-size="14" font-family="sans-serif" fill="#000000" stroke-width="1px" id="text4286" y="26.60167" x="10.47282" xml:space="preserve">Simulate values and windows:</text>
   <g id="bt_setAP" data-text="OK" data-bms-widget="ibutton">
    <rect stroke="black" fill="#ededed" height="25" width="50" y="44.92516" x="232.1431" id="svg_8"/>
    <text fill="black" y="62.92516" x="248.1431" id="svg_11">OK</text>
@@ -56,10 +41,6 @@
   <g id="bt_setVP" data-text="OK" data-bms-widget="ibutton">
    <rect id="svg_9" stroke="black" fill="#ededed" height="25" width="50" y="81.92516" x="232.1431"/>
    <text id="svg_10" fill="black" y="99.92516" x="248.1431">OK</text>
-  </g>
-  <g id="bt_setBEP" data-text="OK" data-bms-widget="ibutton">
-   <rect id="svg_12" stroke="black" fill="#ededed" height="25" width="50" y="118.12939" x="232.1431"/>
-   <text id="svg_13" fill="black" y="136.12939" x="248.1431">OK</text>
   </g>
   <g id="bt_setAPWindow" data-text="OK" data-bms-widget="ibutton">
    <rect stroke="black" fill="#ededed" height="25" width="50" y="44.92516" x="472.1431" id="svg_14"/>
@@ -69,21 +50,13 @@
    <rect id="svg_16" stroke="black" fill="#ededed" height="25" width="50" y="81.92516" x="472.14313"/>
    <text id="svg_17" fill="black" y="99.92516" x="488.14313">OK</text>
   </g>
-  <g id="bt_setBEPWindow" data-text="OK" data-bms-widget="ibutton">
-   <rect id="svg_19" stroke="black" fill="#ededed" height="25" width="50" y="117.92517" x="472.14313"/>
-   <text id="svg_20" fill="black" y="135.92517" x="488.14313">OK</text>
+  <g id="bt_deactivateAPWindow" data-text="Deactivate" data-bms-widget="ibutton">
+   <rect stroke="black" fill="#ededed" height="25" width="100" y="44.92516" x="532.6431" id="svg_18"/>
+   <text fill="black" y="62.92516" x="552.6431" id="svg_23">Deactivate</text>
   </g>
-  <g height="25" width="100" id="bt_deactivateAPWindow" data-text="Deactivate" data-bms-widget="ibutton">
-   <rect stroke="black" fill="#ededed" height="25" width="100" y="44.92516" x="532.6431"/>
-   <text fill="black" y="62.92516" x="552.6431">Deactivate</text>
-  </g>
-  <g height="25" width="100" id="bt_deactivateVPWindow" data-text="Deactivate" data-bms-widget="ibutton">
+  <g id="bt_deactivateVPWindow" data-text="Deactivate" data-bms-widget="ibutton">
    <rect id="svg_21" stroke="black" fill="#ededed" height="25" width="100" y="81.92516" x="532.6431"/>
    <text id="svg_22" fill="black" y="99.92516" x="552.6431">Deactivate</text>
-  </g>
-  <g height="25" width="100" id="bt_deactivateBEPWindow" data-text="Deactivate" data-bms-widget="ibutton">
-   <rect id="svg_24" stroke="black" fill="#ededed" height="25" width="100" y="117.92516" x="532.6431"/>
-   <text id="svg_25" fill="black" y="135.92516" x="552.6431">Deactivate</text>
   </g>
  </g>
 </svg>

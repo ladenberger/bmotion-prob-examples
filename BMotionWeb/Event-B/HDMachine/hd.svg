@@ -69,7 +69,7 @@
   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_31" y="579.5" x="11.5" stroke-width="0" stroke="#000" fill="#000000">Figure CC BY 3.0 YassineMrabet (https://commons.wikimedia.org/wiki/File:Hemodialysis-en.svg)</text>
   <path fill="#d7e3f4" fill-rule="evenodd" stroke="#000000" stroke-width="1.14566" stroke-miterlimit="4" stroke-dashoffset="0" id="rect5313" d="m298.58484,363.74701c-1.78162,0 -3.21591,1.43433 -3.21591,3.21594l0,9.45862c0,1.78165 1.4343,3.21594 3.21591,3.21594c1.78165,0 3.21594,-1.4343 3.21594,-3.21594l0,-9.45862c0,-1.78162 -1.4343,-3.21594 -3.21594,-3.21594z"/>
   <path fill="#d7e3f4" fill-rule="evenodd" stroke="#000000" stroke-width="1.14566" stroke-miterlimit="4" stroke-dashoffset="0" id="path5316" d="m294.87207,371.69226c0,2.04947 1.66333,3.7128 3.71277,3.7128c2.04947,0 3.71283,-1.66333 3.71283,-3.7128c0,-2.04947 -1.66336,-3.7128 -3.71283,-3.7128c-2.04944,0 -3.71277,1.66333 -3.71277,3.7128z"/>
-  <g id="blood_pump">
+  <g data-custom="m913" id="blood_pump" class="refinementGroup">
    <g id="g7728">
     <path fill="#b3b3b3" fill-rule="evenodd" stroke="#000000" stroke-miterlimit="4" stroke-dashoffset="0" d="m337.56815,448.43082c0,-12.52856 -10.16812,-22.69666 -22.69666,-22.69666c-12.52856,0 -22.69666,10.16809 -22.69666,22.69666c0,12.52856 10.16809,22.69666 22.69666,22.69666c12.52853,0 22.69666,-10.16809 22.69666,-22.69666z" id="path4266"/>
    </g>
@@ -101,7 +101,7 @@
    <rect fill="#ffffff" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="connected_aterially" width="12.75" height="2.5" x="382.82236" y="472.95103" transform="matrix(0.9501723,-0.3117252,0.3117252,0.9501723,0,0) "/>
    <rect fill="#ffffff" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" transform="matrix(0.9601837,0.2793696,-0.2793696,0.9601837,0,0) " y="145.4391" x="578.51882" height="2.5" width="12.75" id="connected_venously"/>
   </g>
-  <g id="m912">
+  <g class="refinementGroup" data-custom="m912" id="svg_5">
    <g id="VP_display">
     <path fill="#fe5555" fill-rule="evenodd" stroke="#000000" stroke-width="0.6" stroke-miterlimit="4" stroke-dashoffset="0" id="path10648" d="m358.06131,94.98798l0,22.23631l2.14023,0l0,-22.23631l-2.14023,0z"/>
     <g fill="#d7e3f4" stroke-width="1.12137" stroke-miterlimit="4" id="g4307">
@@ -168,29 +168,8 @@
     </g>
     <line stroke="#000000" stroke-linecap="null" stroke-linejoin="round" id="svg_11" y2="392.48455" x2="391.49056" y1="332.48905" x1="398.48718" fill-opacity="null" stroke-opacity="null" stroke-width="null" fill="none"/>
    </g>
-   <g id="BEP_display">
-    <line stroke="#000000" fill="none" x1="115.00035" y1="309.50013" x2="261" y2="336.5" id="svg_16" stroke-linejoin="round" stroke-linecap="null"/>
-    <g stroke-width="0.52371" stroke-miterlimit="4" id="g10603">
-     <path fill="#d7e3f4" fill-rule="evenodd" stroke="#000000" stroke-width="0.87286" stroke-miterlimit="4" stroke-dashoffset="0" d="m262.69266,336.37711c0,7.25867 5.99268,13.1424 13.37653,13.1424c6.44223,0 11.80734,-4.48584 13.07553,-10.45041l13.19257,0c1.16675,0 2.10684,-1.19388 2.10684,-2.69199c0,-1.49814 -0.94009,-2.70877 -2.10684,-2.70877l-13.19257,0c-1.26819,-5.96457 -6.6333,-10.45041 -13.07553,-10.45041c-7.38385,0 -13.37653,5.90048 -13.37653,13.15918z" id="path10492"/>
-     <path fill="#ffffff" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" stroke-dashoffset="0" d="m286.60815,336.1662c0,5.8078 -4.71356,10.52133 -10.52136,10.52133c-5.80774,0 -10.52133,-4.71353 -10.52133,-10.52133c0,-5.8078 4.71359,-10.52136 10.52133,-10.52136c5.8078,0 10.52136,4.71356 10.52136,10.52136z" id="path10496"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m268.69632,328.77567l14.78101,14.78107" id="path10498"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m265.63501,336.1662l20.90356,0" id="path10500"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m276.08679,325.71442l0,20.90353" id="path10502"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m280.08655,326.51001l-7.99948,19.31238" id="path10504"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m283.47733,328.77567l-14.78101,14.78107" id="path10506"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m272.08707,326.51001l7.99948,19.31238" id="path10508"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m285.74298,340.16592l-19.31235,-7.99945" id="path10510"/>
-     <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" d="m266.43063,340.16592l19.31235,-7.99945" id="path10512"/>
-     <path fill="#f9f9f9" fill-rule="evenodd" stroke="#000000" stroke-width="0.52371" stroke-miterlimit="4" stroke-dashoffset="0" d="m284.59885,336.1662c0,4.69867 -3.81339,8.51205 -8.51205,8.51205c-4.69867,0 -8.51205,-3.81339 -8.51205,-8.51205c0,-4.69867 3.81354,-8.51205 8.51205,-8.51205c4.69867,0 8.51205,3.81339 8.51205,8.51205z" id="path10514"/>
-     <path fill="none" fill-rule="evenodd" stroke="#214478" stroke-width="0.52371" stroke-miterlimit="4" d="m275.81931,336.48889l-4.60944,-5.46704" id="path10516"/>
-     <path fill="#214478" fill-rule="evenodd" stroke-width="0.52371" stroke-miterlimit="4" stroke-dashoffset="0" d="m276.82477,336.5267c0,0.4812 -0.3905,0.87167 -0.8717,0.87167c-0.4812,0 -0.87173,-0.39047 -0.87173,-0.87167c0,-0.4812 0.39053,-0.87173 0.87173,-0.87173c0.4812,0 0.8717,0.39053 0.8717,0.87173z" id="path10518"/>
-    </g>
-    <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_5" y="295.5" x="28.00006" stroke-width="0" stroke="#000" fill="#000000">Blood entry pressure</text>
-    <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_6" y="313.5" x="55.00006" stroke-width="0" stroke="#000" fill="#000000">monitor</text>
-    <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="12" id="BEP_value" y="333.50001" x="56.00008" stroke-width="0" stroke="#000" fill="#0000ff" font-weight="bold">%BEP_value%</text>
-   </g>
   </g>
-  <g id="m915">
+  <g data-custom="m915" class="refinementGroup" id="svg_6">
    <g id="saline_solution">
     <path fill="#ffffff" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="rect3654" d="m217.13463,215.63072l5.23073,0c1.30751,0 2.36014,1.05263 2.36014,2.36012l0,14.51833c0,1.3075 -1.05263,2.36011 -2.36014,2.36011l-5.23073,0c-1.30751,0 -2.36011,-1.05261 -2.36011,-2.36011l0,-14.51833c0,-1.30751 1.0526,-2.36012 2.36011,-2.36012z"/>
     <path fill="#ffffff" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="rect3658" d="m215.25,223.00002l9,0c0.9695,0 1.75,0.7805 1.75,1.75c0,0.96948 -0.7805,1.75 -1.75,1.75l-9,0c-0.9695,0 -1.75,-0.78052 -1.75,-1.75c0,-0.9695 0.7805,-1.75 1.75,-1.75z"/>

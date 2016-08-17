@@ -28,14 +28,14 @@ bms.observe("method", {
   }
 });
 
-bms.handler("method", {
+/*bms.handler("method", {
   selector: "#door",
   name: "random",
   args: [10],
   callback: function(origin, data) {
     console.log(origin, data);
   }
-});
+});*/
 
 /*bms.observe("predicate", {
   selector: "#door",

@@ -11,21 +11,17 @@
     "TIME_OUT": 10000,
     "MAX_OPERATIONS": 200
   },
-  "observers": "json/hd.observers.json",
-  "events": "json/hd.events.json",
   "views": [{
     "id": "display",
     "name": "Hemodialysis Machine Case Study (Display)",
     "template": "display.html",
-    "width": 575,
-    "height": 525,
-    "observers": "json/display.observers.json",
-    "events": "json/display.events.json"
+    "width": 700,
+    "height": 525
   }, {
     "id": "simulation",
     "name": "Hemodialysis Machine Case Study (Simulation)",
     "template": "simulation.html",
     "width": 675,
-    "height": 250
+    "height": 200
   }]
 }

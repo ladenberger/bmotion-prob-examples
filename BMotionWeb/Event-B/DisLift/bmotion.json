@@ -4,8 +4,6 @@
     "template": "index.html",
     "model": "model/m2.bcm",
     "groovy": "script.groovy",
-    "observers": "lift.observers.json",
-    "events": "lift.events.json",
     "autoOpen": [
       "CurrentTrace",
       "Events"

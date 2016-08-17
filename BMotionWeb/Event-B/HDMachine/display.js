@@ -13,18 +13,26 @@ bms.observe("formula", {
 });
 
 bms.observe("formula", {
+  selector: "#CS_TopLevel_Alarm",
+  formulas: ["CS_TopLevel_Alarm"],
+  translate: true,
+  trigger: function(origin, values) {
+    origin.find("#signal_CS_TopLevel_Alarm").attr("fill", values[0] ? "red" : "#ffc9c9");
+  }
+});
+
+bms.handler("executeEvent", {
+  selector: "#CS_TopLevel_Alarm",
+  events: [{
+    name: "CS_TopLevel_RaisesAlarm"
+  }]
+});
+
+bms.observe("formula", {
   selector: "#bt_power",
   formulas: ["CS_TopLevel"],
   trigger: function(origin, values) {
     origin.find("path").attr("fill", values[0] === "STANDBY" ? "#840000" : "#077700");
-  }
-});
-
-bms.observe("formula", {
-  selector: "#fillingBPRate",
-  formulas: ["fillingBPRate"],
-  trigger: function(origin, values) {
-    origin.find("#fillingBPRate_val").text(values[0]);
   }
 });
 
@@ -89,15 +97,16 @@ bms.observe("formula", {
   bms.observe("formula", {
     selector: "#" + it + "_display",
     formulas: ["pressure(" + it + ")", "limit_high(" + it + ")", "limit_low(" + it + ")"],
+    refinement: "m911",
     trigger: function(origin, values) {
       origin.find("#" + it + "_value").text(values[0]);
       origin.find("#" + it + "_limit_high").text(values[1]);
       origin.find("#" + it + "_limit_low").text(values[2]);
       var range = values[1] - values[2];
       if (range > 0) {
-        var offset = values[2] < 0 ? values[2] * -1 : 0;
-        var einheit = range < 50 ? 50 / range : range / 50;
-        origin.find("#" + it + "_line").attr("transform", "translate(0,-" + einheit * (values[0] + offset) + ")");
+        var unity = 50 / range;
+        var offset = values[2] < 0 ? (values[2] * unity) * -1 : 0;
+        origin.find("#" + it + "_line").attr("transform", "translate(0,-" + ((unity * values[0]) + offset) + ")");
       }
     }
   });
@@ -119,7 +128,7 @@ bms.observe("formula", {
     if (values[0] === "RP_SETTING") {
       origin.prop("disabled", false);
       $("#set_rinsing_parameters,.parameter_input").css("visibility", "visible");
-      $("#parameters_display").css("visibility", "hidden");
+      $("#side_params").css("visibility", "hidden");
     } else {
       origin.prop("disabled", true);
     }
@@ -203,18 +212,39 @@ bms.handler("executeEvent", {
   }]
 });
 
+bms.handler("executeEvent", {
+  selector: "#bt_power",
+  events: [{
+    name: "User_PressesOn"
+  }, {
+    name: "User_PressesOff"
+  }]
+});
+
+bms.handler("executeEvent", {
+  selector: "#CF_TESTING_SIGNAL",
+  events: [{
+    name: "CS_TopLevel_CFTestingSignal2Green"
+  }, {
+    name: "CS_TopLevel_CFTestingSignal2Red"
+  }]
+});
+
 bms.onLoadSvg("display", function() {
+
   $("#set_rinsing_parameters,.parameter_input").css("visibility", "hidden");
-  $("#bt_therapy")
-    .css('cursor', 'pointer')
-    .click(function() {
-      $("#set_rinsing_parameters,.parameter_input").css("visibility", "hidden");
-      $("#parameters_display").css("visibility", "visible");
-    });
+
   $("#bt_setRinsingParameters")
     .css('cursor', 'pointer')
     .click(function() {
       $("#set_rinsing_parameters,.parameter_input").css("visibility", "visible");
-      $("#parameters_display").css("visibility", "hidden");
+      $("#side_params").css("visibility", "hidden");
     });
+  $("#bt_therapy")
+    .css('cursor', 'pointer')
+    .click(function() {
+      $("#set_rinsing_parameters,.parameter_input").css("visibility", "hidden");
+      $("#side_params").css("visibility", "visible");
+    });
+
 });
