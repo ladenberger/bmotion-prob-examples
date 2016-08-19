@@ -19,6 +19,15 @@ bms.observe("formula", {
   }
 });
 
+
+bms.callMethod({
+  name: "testMethod",
+  args: ["foo", "bar"],
+  callback: function(data) {
+    console.log(data);
+  }
+});
+
 bms.observe("method", {
   selector: "#door",
   name: "testMethod",
@@ -28,14 +37,14 @@ bms.observe("method", {
   }
 });
 
-/*bms.handler("method", {
+bms.handler("method", {
   selector: "#door",
   name: "random",
   args: [10],
   callback: function(origin, data) {
     console.log(origin, data);
   }
-});*/
+});
 
 /*bms.observe("predicate", {
   selector: "#door",

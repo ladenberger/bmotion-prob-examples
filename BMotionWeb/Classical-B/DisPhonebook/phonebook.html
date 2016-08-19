@@ -12,7 +12,7 @@
   <script src="phonebook.js"></script>
 
   <div data-bms-svg="phonebook.svg"></div>
-  <table class="table" style="width:500px" ng-controller="pCtrl">
+  <table class="table" style="width:500px" ng-controller="phonebookController">
     <tr>
       <th>Name</th>
       <th>Number</th>
@@ -25,8 +25,8 @@
       <td>
         {{el[1]}}
       </td>
-      <td>
-        <span id="toggle({{el[0]}})" execute-event name="toggle" predicate='name="{{el[0]}}"'>{{isActive(el[0])}}</span>
+      <td execute-event name="toggle" predicate='name="{{el[0]}}"'>
+        {{isActive(el[0])}}
       </td>
     </tr>
   </table>

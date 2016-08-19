@@ -1,5 +1,5 @@
 var module = angular.module('phonebook', [])
-  .controller("pCtrl", function($scope) {
+  .controller("phonebookController", function($scope) {
 
     bms.observe("formula", {
       formulas: ["db", "active"],
@@ -14,6 +14,21 @@ var module = angular.module('phonebook', [])
       return $scope.active.indexOf(name) > -1;
     };
 
+  })
+  .directive('executeEvent', function() {
+    'use strict';
+    return {
+      replace: false,
+      link: function($scope, $element, attr) {
+
+        bms.handler("executeEvent", {
+          element: $element,
+          name: attr['name'],
+          predicate: attr['predicate']
+        });
+
+      }
+    }
   });
 
 bms.observe("formula", {
