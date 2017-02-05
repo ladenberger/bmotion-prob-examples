@@ -45,7 +45,7 @@
                     "door"
                 ],
                 "selector": "#door",
-                "trigger": "if(values[0]===\"open\") {\n\torigin.attr(\"fill\", \"white\");\n} else if(values[0]===\"closed\") {\n\torigin.attr(\"fill\", \"gray\");\n}"
+                "trigger": "if(values[0]===\"open\") {\n\torigin.attr(\"xlink:href\", \"images/door_open.jpg\");\n} else if(values[0]===\"closed\") {\n\torigin.attr(\"xlink:href\", \"images/door_active.jpg\");\n}"
             }
         }
     ]
