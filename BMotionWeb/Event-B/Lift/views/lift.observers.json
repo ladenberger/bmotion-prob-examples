@@ -1,37 +1,3 @@
 {
-    "observers": [
-        {
-            "type": "formula",
-            "data": {
-                "formulas": [
-                    "move"
-                ],
-                "cause": "AnimationChanged",
-                "trigger": "origin.text('Moving: ' + values[0]);",
-                "selector": "#txt_direction"
-            }
-        },
-        {
-            "type": "formula",
-            "data": {
-                "formulas": [
-                    "floor"
-                ],
-                "cause": "AnimationChanged",
-                "trigger": "var lift = origin.find(\"#door\")\nswitch (values[0]) {\n  case \"0\":\n    lift.attr(\"y\", \"250\");\n    break;\n  case \"1\":\n    lift.attr(\"y\", \"145\");\n    break;\n  case \"2\":\n    lift.attr(\"y\", \"30\");\n    break;\n}",
-                "selector": "#lift"
-            }
-        },
-        {
-            "type": "formula",
-            "data": {
-                "formulas": [
-                    "door"
-                ],
-                "cause": "AnimationChanged",
-                "trigger": "if (values[0] === \"open\") {\n  return {\"fill\": \"white\"};\n} else {\n  return {\"fill\": \"lightgray\"};\n}",
-                "selector": "#door"
-            }
-        }
-    ]
+    "observers": []
 }

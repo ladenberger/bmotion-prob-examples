@@ -1,28 +1,3 @@
 {
-    "events": [
-        {
-            "type": "executeEvent",
-            "data": {
-                "events": [
-                    {
-                        "name": "close_door",
-                        "predicate": "",
-                        "predicateJs": true
-                    },
-                    {
-                        "name": "open_door",
-                        "predicate": ""
-                    },
-                    {
-                        "name": "move_serve",
-                        "predicate": ""
-                    }
-                ],
-                "tooltip": true,
-                "selector": "#door",
-                "refinement": "m3",
-                "refinementJs": true
-            }
-        }
-    ]
+    "events": []
 }
